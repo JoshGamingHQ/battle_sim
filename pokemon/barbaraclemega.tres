@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://bp5pr26e0saf6"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_0510x"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_6rveo"]
+
+[resource]
+script = ExtResource("2_6rveo")
+species_name = "Barbaracle-Mega"
+species_id = 689
+types = Array[String](["rock", "fighting"])
+base_stats = {
+"atk": 140.0,
+"def": 130.0,
+"hp": 72.0,
+"spa": 64.0,
+"spd": 106.0,
+"spe": 88.0
+}
+abilities = {
+"0": "Tough Claws"
+}
+height = 2.2
+weight = 100.0
+color = "Brown"

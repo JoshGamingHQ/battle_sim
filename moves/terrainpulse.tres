@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cg1c4o5wois05"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_27h84"]
+
+[resource]
+script = ExtResource("1_27h84")
+move_id = "terrainpulse"
+move_name = "Terrain Pulse"
+num = 805
+type = "normal"
+power = 50
+accuracy = 100
+pp = 10
+category = "special"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"pulse": 1.0
+}

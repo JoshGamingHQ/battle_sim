@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://cl1d5f8bj8owc"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_sqbq4"]
+[ext_resource type="Resource" uid="uid://cqqk2p4pbtyrg" path="res://moves/bide.tres" id="2_3xhk7"]
+[ext_resource type="Resource" uid="uid://cq6lu5bcpf50i" path="res://moves/bugbite.tres" id="3_k8ikc"]
+[ext_resource type="Resource" uid="uid://denu3qeqkhurh" path="res://moves/endeavor.tres" id="4_kqrk7"]
+[ext_resource type="Resource" uid="uid://b5th3yk6ps5di" path="res://moves/growl.tres" id="5_wnc2d"]
+[ext_resource type="Resource" uid="uid://b3vu0ix30m1kr" path="res://moves/lunge.tres" id="6_50x0x"]
+[ext_resource type="Resource" uid="uid://p25tfa3r3ph2" path="res://moves/mudslap.tres" id="7_ddcts"]
+[ext_resource type="Resource" uid="uid://d3om5qq6wie7m" path="res://moves/skittersmack.tres" id="8_6desf"]
+[ext_resource type="Resource" uid="uid://dlqeb5mptbr5w" path="res://moves/snore.tres" id="9_bao88"]
+[ext_resource type="Resource" uid="uid://ce0ic1pk4kia6" path="res://moves/stringshot.tres" id="10_gl3yj"]
+[ext_resource type="Resource" uid="uid://dmbjrtucacjy5" path="res://moves/strugglebug.tres" id="11_7tmvo"]
+[ext_resource type="Resource" uid="uid://bxvr0l21tsqsc" path="res://moves/tackle.tres" id="12_6b373"]
+[ext_resource type="Resource" uid="uid://dpesbhmjgjt1" path="res://moves/uproar.tres" id="13_i14cr"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="14_lh41t"]
+
+[resource]
+script = ExtResource("14_lh41t")
+species_name = "Kricketot"
+species_id = 401
+types = Array[String](["bug"])
+base_stats = {
+"atk": 25.0,
+"def": 41.0,
+"hp": 37.0,
+"spa": 25.0,
+"spd": 41.0,
+"spe": 25.0
+}
+moves = Array[ExtResource("1_sqbq4")]([ExtResource("2_3xhk7"), ExtResource("3_k8ikc"), ExtResource("4_kqrk7"), ExtResource("5_wnc2d"), ExtResource("6_50x0x"), ExtResource("7_ddcts"), ExtResource("8_6desf"), ExtResource("9_bao88"), ExtResource("10_gl3yj"), ExtResource("11_7tmvo"), ExtResource("12_6b373"), ExtResource("13_i14cr")])
+abilities = {
+"0": "Shed Skin",
+"H": "Run Away"
+}
+height = 0.3
+weight = 2.2
+color = "Red"
+evolutions = Array[String](["Kricketune"])

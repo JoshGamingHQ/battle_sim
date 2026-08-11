@@ -1,0 +1,38 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://bmv4qy8fi8uja"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_8acf6"]
+[ext_resource type="Resource" uid="uid://sd3qd8pjne8b" path="res://moves/astonish.tres" id="2_jwbgt"]
+[ext_resource type="Resource" uid="uid://b5qtv3x1348kd" path="res://moves/attract.tres" id="3_lgnk8"]
+[ext_resource type="Resource" uid="uid://d3sm3g735akb7" path="res://moves/defensecurl.tres" id="4_rdrtl"]
+[ext_resource type="Resource" uid="uid://020ewkkq21uv" path="res://moves/dracometeor.tres" id="5_5vhpj"]
+[ext_resource type="Resource" uid="uid://dsawhagdf8s2e" path="res://moves/grassyglide.tres" id="6_67hej"]
+[ext_resource type="Resource" uid="uid://8iamd0ftk4rb" path="res://moves/pounce.tres" id="7_x8k0e"]
+[ext_resource type="Resource" uid="uid://c4ejd260ic45p" path="res://moves/recycle.tres" id="8_mcwqg"]
+[ext_resource type="Resource" uid="uid://e3ca4rirp6w8" path="res://moves/rollout.tres" id="9_43exd"]
+[ext_resource type="Resource" uid="uid://bieexo7wtmtk2" path="res://moves/suckerpunch.tres" id="10_p8lat"]
+[ext_resource type="Resource" uid="uid://b6rj1je4y7sls" path="res://moves/withdraw.tres" id="11_pjera"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="12_bt41p"]
+
+[resource]
+script = ExtResource("12_bt41p")
+species_name = "Applin"
+species_id = 840
+types = Array[String](["grass", "dragon"])
+base_stats = {
+"atk": 40.0,
+"def": 80.0,
+"hp": 40.0,
+"spa": 40.0,
+"spd": 40.0,
+"spe": 20.0
+}
+moves = Array[ExtResource("1_8acf6")]([ExtResource("2_jwbgt"), ExtResource("3_lgnk8"), ExtResource("4_rdrtl"), ExtResource("5_5vhpj"), ExtResource("6_67hej"), ExtResource("7_x8k0e"), ExtResource("8_mcwqg"), ExtResource("9_43exd"), ExtResource("10_p8lat"), ExtResource("11_pjera")])
+abilities = {
+"0": "Ripen",
+"1": "Gluttony",
+"H": "Bulletproof"
+}
+height = 0.2
+weight = 0.5
+color = "Green"
+evolutions = Array[String](["Flapple", "Appletun", "Dipplin"])

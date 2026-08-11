@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://b2wdgmtlkak8v"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ud5b0"]
+[ext_resource type="Resource" uid="uid://b6ks80842rs22" path="res://moves/meteormash.tres" id="2_sk6ix"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="3_t4unh"]
+
+[resource]
+script = ExtResource("3_t4unh")
+species_name = "Pikachu-Rock-Star"
+species_id = 25
+types = Array[String](["electric"])
+base_stats = {
+"atk": 55.0,
+"def": 40.0,
+"hp": 35.0,
+"spa": 50.0,
+"spd": 50.0,
+"spe": 90.0
+}
+moves = Array[ExtResource("1_ud5b0")]([ExtResource("2_sk6ix")])
+abilities = {
+"0": "Lightning Rod"
+}
+height = 0.4
+weight = 6.0
+color = "Yellow"

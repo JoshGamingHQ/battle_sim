@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://70k0jx5s226x"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_a5eb4"]
+
+[resource]
+script = ExtResource("1_a5eb4")
+move_id = "magicaltorque"
+move_name = "Magical Torque"
+num = 900
+type = "fairy"
+power = 100
+accuracy = 100
+pp = 10
+category = "physical"
+target = "normal"
+flags = {
+"failcopycat": 1.0,
+"failencore": 1.0,
+"failinstruct": 1.0,
+"failmefirst": 1.0,
+"failmimic": 1.0,
+"noassist": 1.0,
+"nosketch": 1.0,
+"nosleeptalk": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 30.0,
+"volatileStatus": "confusion"
+}

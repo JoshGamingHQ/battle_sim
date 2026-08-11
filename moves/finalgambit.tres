@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://c2aisu3p3ux30"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_eo71j"]
+
+[resource]
+script = ExtResource("1_eo71j")
+move_id = "finalgambit"
+move_name = "Final Gambit"
+num = 515
+type = "fighting"
+accuracy = 100
+pp = 5
+category = "special"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"noparentalbond": 1.0,
+"protect": 1.0
+}

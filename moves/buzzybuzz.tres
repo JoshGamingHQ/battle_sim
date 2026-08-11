@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cfdncibx7qqvo"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_vrrn0"]
+
+[resource]
+script = ExtResource("1_vrrn0")
+move_id = "buzzybuzz"
+move_name = "Buzzy Buzz"
+num = 734
+type = "electric"
+power = 60
+accuracy = 100
+pp = 20
+category = "special"
+target = "normal"
+flags = {
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 100.0,
+"status": "par"
+}

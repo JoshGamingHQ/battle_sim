@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://djnvncai2doe6"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_128ue"]
+
+[resource]
+script = ExtResource("1_128ue")
+move_id = "razorleaf"
+move_name = "Razor Leaf"
+num = 75
+type = "grass"
+power = 55
+accuracy = 95
+pp = 25
+category = "physical"
+target = "allAdjacentFoes"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"slicing": 1.0
+}

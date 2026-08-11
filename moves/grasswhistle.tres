@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dm4361j7q841r"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_g4373"]
+
+[resource]
+script = ExtResource("1_g4373")
+move_id = "grasswhistle"
+move_name = "Grass Whistle"
+num = 320
+type = "grass"
+accuracy = 55
+pp = 15
+category = "status"
+target = "normal"
+flags = {
+"bypasssub": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"reflectable": 1.0,
+"sound": 1.0
+}
+status = "slp"

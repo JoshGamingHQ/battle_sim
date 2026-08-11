@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://fdu1mldybqh4"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_cfm40"]
+
+[resource]
+script = ExtResource("1_cfm40")
+move_id = "sleeppowder"
+move_name = "Sleep Powder"
+num = 79
+type = "grass"
+accuracy = 75
+pp = 15
+category = "status"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"powder": 1.0,
+"protect": 1.0,
+"reflectable": 1.0
+}
+status = "slp"

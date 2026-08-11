@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cg3347r75iccq"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_d682u"]
+
+[resource]
+script = ExtResource("1_d682u")
+move_id = "watershuriken"
+move_name = "Water Shuriken"
+num = 594
+type = "water"
+power = 15
+accuracy = 100
+pp = 20
+category = "special"
+priority = 1
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

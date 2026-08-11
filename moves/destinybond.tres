@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cc6t7ieiebg0k"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_afmle"]
+
+[resource]
+script = ExtResource("1_afmle")
+move_id = "destinybond"
+move_name = "Destiny Bond"
+num = 194
+type = "ghost"
+accuracy = -1
+pp = 5
+category = "status"
+target = "self"
+flags = {
+"bypasssub": 1.0,
+"failcopycat": 1.0,
+"noassist": 1.0
+}

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dnjsdxodhicy0"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_2gpft"]
+
+[resource]
+script = ExtResource("1_2gpft")
+move_id = "orderup"
+move_name = "Order Up"
+num = 856
+type = "dragon"
+power = 80
+accuracy = 100
+pp = 10
+category = "physical"
+target = "normal"
+flags = {
+"protect": 1.0
+}

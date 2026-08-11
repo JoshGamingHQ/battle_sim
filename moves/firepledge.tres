@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://b2n30h7k6frwx"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ywmgi"]
+
+[resource]
+script = ExtResource("1_ywmgi")
+move_id = "firepledge"
+move_name = "Fire Pledge"
+num = 519
+type = "fire"
+power = 80
+accuracy = 100
+pp = 10
+category = "special"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"nonsky": 1.0,
+"pledgecombo": 1.0,
+"protect": 1.0
+}

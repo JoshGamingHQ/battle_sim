@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dgc7p1mjmnxq5"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_o6lrw"]
+
+[resource]
+script = ExtResource("1_o6lrw")
+move_id = "worryseed"
+move_name = "Worry Seed"
+num = 388
+type = "grass"
+accuracy = 100
+pp = 10
+category = "status"
+target = "normal"
+flags = {
+"allyanim": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"reflectable": 1.0
+}

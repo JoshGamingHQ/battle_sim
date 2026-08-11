@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://pbfg1w1s1gjc"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_5mard"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_ne1hn"]
+
+[resource]
+script = ExtResource("2_ne1hn")
+species_name = "Meloetta-Pirouette"
+species_id = 648
+types = Array[String](["normal", "fighting"])
+base_stats = {
+"atk": 128.0,
+"def": 90.0,
+"hp": 100.0,
+"spa": 77.0,
+"spd": 77.0,
+"spe": 128.0
+}
+abilities = {
+"0": "Serene Grace"
+}
+height = 0.6
+weight = 6.5
+color = "White"

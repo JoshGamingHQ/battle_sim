@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://ncwd47w8nni4"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_8o5gi"]
+
+[resource]
+script = ExtResource("1_8o5gi")
+move_id = "gmaxwindrage"
+move_name = "G-Max Wind Rage"
+num = 1000
+type = "flying"
+power = 10
+accuracy = -1
+pp = 10
+category = "physical"
+target = "adjacentFoe"

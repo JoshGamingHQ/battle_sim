@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://8n7otqmnaxb2"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_5bw4d"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_bx1t3"]
+
+[resource]
+script = ExtResource("2_bx1t3")
+species_name = "Groudon-Primal"
+species_id = 383
+types = Array[String](["ground", "fire"])
+base_stats = {
+"atk": 180.0,
+"def": 160.0,
+"hp": 100.0,
+"spa": 150.0,
+"spd": 90.0,
+"spe": 90.0
+}
+abilities = {
+"0": "Desolate Land"
+}
+height = 5.0
+weight = 999.7
+color = "Red"

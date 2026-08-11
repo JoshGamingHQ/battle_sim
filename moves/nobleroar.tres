@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://c0taostmm8c07"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_w6743"]
+
+[resource]
+script = ExtResource("1_w6743")
+move_id = "nobleroar"
+move_name = "Noble Roar"
+num = 568
+type = "normal"
+accuracy = 100
+pp = 30
+category = "status"
+target = "normal"
+flags = {
+"bypasssub": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"reflectable": 1.0,
+"sound": 1.0
+}
+boosts = {
+"atk": -1.0,
+"spa": -1.0
+}

@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dhpjsgwpn16t2"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_8u7rt"]
+
+[resource]
+script = ExtResource("1_8u7rt")
+move_id = "freezingglare"
+move_name = "Freezing Glare"
+num = 821
+type = "psychic"
+power = 90
+accuracy = 100
+pp = 10
+category = "special"
+target = "normal"
+flags = {
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 10.0,
+"status": "frz"
+}

@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://ciyv2hiwgwala"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_0ti22"]
+
+[resource]
+script = ExtResource("1_0ti22")
+move_id = "beakblast"
+move_name = "Beak Blast"
+num = 690
+type = "flying"
+power = 100
+accuracy = 100
+pp = 15
+category = "physical"
+priority = -3
+target = "normal"
+flags = {
+"bullet": 1.0,
+"failcopycat": 1.0,
+"failinstruct": 1.0,
+"failmefirst": 1.0,
+"noassist": 1.0,
+"nosleeptalk": 1.0,
+"protect": 1.0
+}

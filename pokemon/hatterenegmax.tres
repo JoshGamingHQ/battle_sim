@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://c7mqlv1n3v86j"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_u7dro"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_hk1y3"]
+
+[resource]
+script = ExtResource("2_hk1y3")
+species_name = "Hatterene-Gmax"
+species_id = 858
+types = Array[String](["psychic", "fairy"])
+base_stats = {
+"atk": 90.0,
+"def": 95.0,
+"hp": 57.0,
+"spa": 136.0,
+"spd": 103.0,
+"spe": 29.0
+}
+abilities = {
+"0": "Healer",
+"1": "Anticipation",
+"H": "Magic Bounce"
+}
+height = 26.0
+color = "Pink"

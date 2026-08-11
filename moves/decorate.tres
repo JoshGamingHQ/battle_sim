@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://6gwp64nqdhrh"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_0qccg"]
+
+[resource]
+script = ExtResource("1_0qccg")
+move_id = "decorate"
+move_name = "Decorate"
+num = 777
+type = "fairy"
+accuracy = -1
+pp = 15
+category = "status"
+target = "normal"
+flags = {
+"allyanim": 1.0
+}
+boosts = {
+"atk": 2.0,
+"spa": 2.0
+}

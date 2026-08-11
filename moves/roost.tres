@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://ff58gktnro06"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_e6xpt"]
+
+[resource]
+script = ExtResource("1_e6xpt")
+move_id = "roost"
+move_name = "Roost"
+num = 355
+type = "flying"
+accuracy = -1
+pp = 5
+category = "status"
+target = "self"
+flags = {
+"heal": 1.0,
+"metronome": 1.0,
+"snatch": 1.0
+}

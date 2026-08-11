@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://chrxnqth3aw7y"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_0rnme"]
+
+[resource]
+script = ExtResource("1_0rnme")
+move_id = "magnetrise"
+move_name = "Magnet Rise"
+num = 393
+type = "electric"
+accuracy = -1
+pp = 10
+category = "status"
+target = "self"
+flags = {
+"gravity": 1.0,
+"metronome": 1.0,
+"snatch": 1.0
+}

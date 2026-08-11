@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://c65yoa0u6tphr"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ptn3d"]
+
+[resource]
+script = ExtResource("1_ptn3d")
+move_id = "stompingtantrum"
+move_name = "Stomping Tantrum"
+num = 707
+type = "ground"
+power = 75
+accuracy = 100
+pp = 10
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

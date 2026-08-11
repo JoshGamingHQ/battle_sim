@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://djh05fm83pq51"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_lfq6v"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_nslfu"]
+
+[resource]
+script = ExtResource("2_nslfu")
+species_name = "Oricorio-Sensu"
+species_id = 741
+types = Array[String](["ghost", "flying"])
+base_stats = {
+"atk": 70.0,
+"def": 70.0,
+"hp": 75.0,
+"spa": 98.0,
+"spd": 70.0,
+"spe": 93.0
+}
+abilities = {
+"0": "Dancer"
+}
+height = 0.6
+weight = 3.4
+color = "Purple"

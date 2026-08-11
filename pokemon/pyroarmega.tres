@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://btxqjoo14tpsf"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ypmrr"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_c7385"]
+
+[resource]
+script = ExtResource("2_c7385")
+species_name = "Pyroar-Mega"
+species_id = 668
+types = Array[String](["fire", "normal"])
+base_stats = {
+"atk": 88.0,
+"def": 92.0,
+"hp": 86.0,
+"spa": 129.0,
+"spd": 86.0,
+"spe": 126.0
+}
+abilities = {
+"0": "Fire Mane"
+}
+height = 1.5
+weight = 93.3
+color = "Brown"

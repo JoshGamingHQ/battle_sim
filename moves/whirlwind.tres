@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cjnevav3o6ymy"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_6bdky"]
+
+[resource]
+script = ExtResource("1_6bdky")
+move_id = "whirlwind"
+move_name = "Whirlwind"
+num = 18
+type = "normal"
+accuracy = -1
+pp = 20
+category = "status"
+priority = -6
+target = "normal"
+flags = {
+"allyanim": 1.0,
+"bypasssub": 1.0,
+"failcopycat": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"noassist": 1.0,
+"reflectable": 1.0,
+"wind": 1.0
+}

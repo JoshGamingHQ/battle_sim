@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://coc3g008iruah"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_g3agf"]
+
+[resource]
+script = ExtResource("1_g3agf")
+move_id = "lastrespects"
+move_name = "Last Respects"
+num = 854
+type = "ghost"
+power = 50
+accuracy = 100
+pp = 10
+category = "physical"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dck5li4s1vyde"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_qses3"]
+
+[resource]
+script = ExtResource("1_qses3")
+move_id = "allyswitch"
+move_name = "Ally Switch"
+num = 502
+type = "psychic"
+accuracy = -1
+pp = 15
+category = "status"
+priority = 2
+target = "self"
+flags = {
+"metronome": 1.0
+}

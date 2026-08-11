@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dtaf7so2xn8t8"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_386xi"]
+
+[resource]
+script = ExtResource("1_386xi")
+move_id = "guardsplit"
+move_name = "Guard Split"
+num = 470
+type = "psychic"
+accuracy = -1
+pp = 10
+category = "status"
+target = "normal"
+flags = {
+"allyanim": 1.0,
+"metronome": 1.0,
+"protect": 1.0
+}

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://d2lhggpdtjahr"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_gy30r"]
+
+[resource]
+script = ExtResource("1_gy30r")
+move_id = "firespin"
+move_name = "Fire Spin"
+num = 83
+type = "fire"
+power = 35
+accuracy = 85
+pp = 15
+category = "special"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

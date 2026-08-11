@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cwyn3kbxmmbet"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_cbe0v"]
+
+[resource]
+script = ExtResource("1_cbe0v")
+move_id = "anchorshot"
+move_name = "Anchor Shot"
+num = 677
+type = "steel"
+power = 80
+accuracy = 100
+pp = 20
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 100.0
+}

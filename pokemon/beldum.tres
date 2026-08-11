@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://wu14av38tko"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_p6kwu"]
+[ext_resource type="Resource" uid="uid://cmy6rldrij8pw" path="res://moves/headbutt.tres" id="2_c5pbp"]
+[ext_resource type="Resource" uid="uid://6csnknacw17w" path="res://moves/holdback.tres" id="3_r6ero"]
+[ext_resource type="Resource" uid="uid://ecx0t3y6hydc" path="res://moves/irondefense.tres" id="4_c1ydi"]
+[ext_resource type="Resource" uid="uid://bjqm32x0o3kpe" path="res://moves/ironhead.tres" id="5_ldpex"]
+[ext_resource type="Resource" uid="uid://cerrokee8bxub" path="res://moves/steelbeam.tres" id="6_gd238"]
+[ext_resource type="Resource" uid="uid://bxvr0l21tsqsc" path="res://moves/tackle.tres" id="7_5i57s"]
+[ext_resource type="Resource" uid="uid://cdstkuv0wdvei" path="res://moves/takedown.tres" id="8_l0h6k"]
+[ext_resource type="Resource" uid="uid://cu8yujxqxsbs5" path="res://moves/zenheadbutt.tres" id="9_wjuev"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="10_352mv"]
+
+[resource]
+script = ExtResource("10_352mv")
+species_name = "Beldum"
+species_id = 374
+types = Array[String](["steel", "psychic"])
+base_stats = {
+"atk": 55.0,
+"def": 80.0,
+"hp": 40.0,
+"spa": 35.0,
+"spd": 60.0,
+"spe": 30.0
+}
+moves = Array[ExtResource("1_p6kwu")]([ExtResource("2_c5pbp"), ExtResource("3_r6ero"), ExtResource("4_c1ydi"), ExtResource("5_ldpex"), ExtResource("6_gd238"), ExtResource("7_5i57s"), ExtResource("8_l0h6k"), ExtResource("9_wjuev")])
+abilities = {
+"0": "Clear Body",
+"H": "Light Metal"
+}
+height = 0.6
+weight = 95.2
+color = "Blue"
+evolutions = Array[String](["Metang"])

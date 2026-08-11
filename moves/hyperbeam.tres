@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://1v5hxd2ikt4s"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_fopwa"]
+
+[resource]
+script = ExtResource("1_fopwa")
+move_id = "hyperbeam"
+move_name = "Hyper Beam"
+num = 63
+type = "normal"
+power = 150
+accuracy = 90
+pp = 5
+category = "special"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"recharge": 1.0
+}

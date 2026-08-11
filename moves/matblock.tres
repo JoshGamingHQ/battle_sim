@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://b2xrj2h4l0vph"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_l000g"]
+
+[resource]
+script = ExtResource("1_l000g")
+move_id = "matblock"
+move_name = "Mat Block"
+num = 561
+type = "fighting"
+accuracy = -1
+pp = 10
+category = "status"
+target = "allySide"
+flags = {
+"failcopycat": 1.0,
+"noassist": 1.0,
+"nonsky": 1.0,
+"snatch": 1.0
+}

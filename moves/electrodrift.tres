@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cn7hfc1mrp5ms"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_nbl5p"]
+
+[resource]
+script = ExtResource("1_nbl5p")
+move_id = "electrodrift"
+move_name = "Electro Drift"
+num = 879
+type = "electric"
+power = 100
+accuracy = 100
+pp = 5
+category = "special"
+target = "normal"
+flags = {
+"contact": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

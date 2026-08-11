@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://uc6s3bigjsrs"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_7quo7"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_7yuo8"]
+
+[resource]
+script = ExtResource("2_7yuo8")
+species_name = "Orbeetle-Gmax"
+species_id = 826
+types = Array[String](["bug", "psychic"])
+base_stats = {
+"atk": 45.0,
+"def": 110.0,
+"hp": 60.0,
+"spa": 80.0,
+"spd": 120.0,
+"spe": 90.0
+}
+abilities = {
+"0": "Swarm",
+"1": "Frisk",
+"H": "Telepathy"
+}
+height = 14.0
+color = "Red"

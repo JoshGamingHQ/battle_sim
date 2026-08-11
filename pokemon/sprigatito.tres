@@ -1,0 +1,72 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://b0tr7bpfkwars"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_eqmbf"]
+[ext_resource type="Resource" uid="uid://bpvoboomjyplq" path="res://moves/acrobatics.tres" id="2_a2t05"]
+[ext_resource type="Resource" uid="uid://dk2fhncy1vnde" path="res://moves/agility.tres" id="3_8jgsx"]
+[ext_resource type="Resource" uid="uid://dck5li4s1vyde" path="res://moves/allyswitch.tres" id="4_gh7ax"]
+[ext_resource type="Resource" uid="uid://dg8kc2nxs6l6x" path="res://moves/bite.tres" id="5_o0gn7"]
+[ext_resource type="Resource" uid="uid://lrym82bjsqs7" path="res://moves/bulletseed.tres" id="6_cfkku"]
+[ext_resource type="Resource" uid="uid://blwyw6ktaygew" path="res://moves/charm.tres" id="7_gktqh"]
+[ext_resource type="Resource" uid="uid://dhygv2n46apo" path="res://moves/copycat.tres" id="8_ce83r"]
+[ext_resource type="Resource" uid="uid://c0f0uat5hpyhp" path="res://moves/disarmingvoice.tres" id="9_fhmki"]
+[ext_resource type="Resource" uid="uid://dixsoo2ylaus6" path="res://moves/endure.tres" id="10_ch6sa"]
+[ext_resource type="Resource" uid="uid://i87xhkvjpvjd" path="res://moves/energyball.tres" id="11_7us2g"]
+[ext_resource type="Resource" uid="uid://beg0sk32xdo2y" path="res://moves/facade.tres" id="12_erhy1"]
+[ext_resource type="Resource" uid="uid://cp1kkf8o2cdv1" path="res://moves/faketears.tres" id="13_8tmm5"]
+[ext_resource type="Resource" uid="uid://cu33shij5j2re" path="res://moves/gigadrain.tres" id="14_t8clx"]
+[ext_resource type="Resource" uid="uid://edc6ld7483oo" path="res://moves/grassknot.tres" id="15_eaa58"]
+[ext_resource type="Resource" uid="uid://cddajm5t5lysf" path="res://moves/grasspledge.tres" id="16_p77so"]
+[ext_resource type="Resource" uid="uid://dsawhagdf8s2e" path="res://moves/grassyglide.tres" id="17_1dihu"]
+[ext_resource type="Resource" uid="uid://cbmty44rpf0jg" path="res://moves/grassyterrain.tres" id="18_ddqla"]
+[ext_resource type="Resource" uid="uid://ds3le6dwwbuym" path="res://moves/helpinghand.tres" id="19_kicvg"]
+[ext_resource type="Resource" uid="uid://c3dmeq1g1idyi" path="res://moves/honeclaws.tres" id="20_0xpnp"]
+[ext_resource type="Resource" uid="uid://duofhkv07eh0g" path="res://moves/leafage.tres" id="21_3q87u"]
+[ext_resource type="Resource" uid="uid://dcc686iqvm4jl" path="res://moves/leafstorm.tres" id="22_iibbp"]
+[ext_resource type="Resource" uid="uid://c6eccg4khkfol" path="res://moves/leechseed.tres" id="23_n2p70"]
+[ext_resource type="Resource" uid="uid://daipqnx08r51o" path="res://moves/magicalleaf.tres" id="24_t4fu8"]
+[ext_resource type="Resource" uid="uid://p25tfa3r3ph2" path="res://moves/mudslap.tres" id="25_rvwxs"]
+[ext_resource type="Resource" uid="uid://byngkcucfkob3" path="res://moves/nastyplot.tres" id="26_bxn1m"]
+[ext_resource type="Resource" uid="uid://cp33p8t4sd6vt" path="res://moves/petalblizzard.tres" id="27_gl0id"]
+[ext_resource type="Resource" uid="uid://do8w0n0fhbrd4" path="res://moves/playrough.tres" id="28_ksrtr"]
+[ext_resource type="Resource" uid="uid://cqgprgodgioss" path="res://moves/protect.tres" id="29_6ff7f"]
+[ext_resource type="Resource" uid="uid://dmtcqr8gsusjv" path="res://moves/quickattack.tres" id="30_4twpp"]
+[ext_resource type="Resource" uid="uid://bb5miq678bml6" path="res://moves/rest.tres" id="31_3n6tx"]
+[ext_resource type="Resource" uid="uid://bkjchdpslkxtf" path="res://moves/scratch.tres" id="32_8ewi7"]
+[ext_resource type="Resource" uid="uid://djwn73ji07240" path="res://moves/seedbomb.tres" id="33_n883h"]
+[ext_resource type="Resource" uid="uid://dkjfw8b36ewgq" path="res://moves/shadowclaw.tres" id="34_a8rqs"]
+[ext_resource type="Resource" uid="uid://gbcpgpir050y" path="res://moves/slash.tres" id="35_n0nck"]
+[ext_resource type="Resource" uid="uid://dm0v1ccg3yuy3" path="res://moves/sleeptalk.tres" id="36_swy7k"]
+[ext_resource type="Resource" uid="uid://pdm2twbgitav" path="res://moves/solarbeam.tres" id="37_g1pkn"]
+[ext_resource type="Resource" uid="uid://bgooxmy526mdf" path="res://moves/substitute.tres" id="38_qfoqo"]
+[ext_resource type="Resource" uid="uid://bieexo7wtmtk2" path="res://moves/suckerpunch.tres" id="39_0n7mr"]
+[ext_resource type="Resource" uid="uid://blxkqtlq076np" path="res://moves/swift.tres" id="40_6pq7m"]
+[ext_resource type="Resource" uid="uid://ch8vkda0skth1" path="res://moves/tailwhip.tres" id="41_l4nkd"]
+[ext_resource type="Resource" uid="uid://cdstkuv0wdvei" path="res://moves/takedown.tres" id="42_ld3rb"]
+[ext_resource type="Resource" uid="uid://bwd02m60dlfhm" path="res://moves/taunt.tres" id="43_7qcgt"]
+[ext_resource type="Resource" uid="uid://cbays7gls4ebj" path="res://moves/trailblaze.tres" id="44_p3beg"]
+[ext_resource type="Resource" uid="uid://bv6qlygc8knmb" path="res://moves/uturn.tres" id="45_f8x0i"]
+[ext_resource type="Resource" uid="uid://dgc7p1mjmnxq5" path="res://moves/worryseed.tres" id="46_fquss"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="47_ddgry"]
+
+[resource]
+script = ExtResource("47_ddgry")
+species_name = "Sprigatito"
+species_id = 906
+types = Array[String](["grass"])
+base_stats = {
+"atk": 61.0,
+"def": 54.0,
+"hp": 40.0,
+"spa": 45.0,
+"spd": 45.0,
+"spe": 65.0
+}
+moves = Array[ExtResource("1_eqmbf")]([ExtResource("2_a2t05"), ExtResource("3_8jgsx"), ExtResource("4_gh7ax"), ExtResource("5_o0gn7"), ExtResource("6_cfkku"), ExtResource("7_gktqh"), ExtResource("8_ce83r"), ExtResource("9_fhmki"), ExtResource("10_ch6sa"), ExtResource("11_7us2g"), ExtResource("12_erhy1"), ExtResource("13_8tmm5"), ExtResource("14_t8clx"), ExtResource("15_eaa58"), ExtResource("16_p77so"), ExtResource("17_1dihu"), ExtResource("18_ddqla"), ExtResource("19_kicvg"), ExtResource("20_0xpnp"), ExtResource("21_3q87u"), ExtResource("22_iibbp"), ExtResource("23_n2p70"), ExtResource("24_t4fu8"), ExtResource("25_rvwxs"), ExtResource("26_bxn1m"), ExtResource("27_gl0id"), ExtResource("28_ksrtr"), ExtResource("29_6ff7f"), ExtResource("30_4twpp"), ExtResource("31_3n6tx"), ExtResource("32_8ewi7"), ExtResource("33_n883h"), ExtResource("34_a8rqs"), ExtResource("35_n0nck"), ExtResource("36_swy7k"), ExtResource("37_g1pkn"), ExtResource("38_qfoqo"), ExtResource("39_0n7mr"), ExtResource("40_6pq7m"), ExtResource("41_l4nkd"), ExtResource("42_ld3rb"), ExtResource("43_7qcgt"), ExtResource("44_p3beg"), ExtResource("45_f8x0i"), ExtResource("46_fquss")])
+abilities = {
+"0": "Overgrow",
+"H": "Protean"
+}
+height = 0.4
+weight = 4.1
+color = "Green"
+evolutions = Array[String](["Floragato"])

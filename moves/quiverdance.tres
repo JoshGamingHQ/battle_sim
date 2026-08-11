@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://blxg58ctiuyt6"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_pek1x"]
+
+[resource]
+script = ExtResource("1_pek1x")
+move_id = "quiverdance"
+move_name = "Quiver Dance"
+num = 483
+type = "bug"
+accuracy = -1
+pp = 20
+category = "status"
+target = "self"
+flags = {
+"dance": 1.0,
+"metronome": 1.0,
+"snatch": 1.0
+}
+boosts = {
+"spa": 1.0,
+"spd": 1.0,
+"spe": 1.0
+}

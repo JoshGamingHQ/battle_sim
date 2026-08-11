@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://daipqnx08r51o"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_mtkdv"]
+
+[resource]
+script = ExtResource("1_mtkdv")
+move_id = "magicalleaf"
+move_name = "Magical Leaf"
+num = 345
+type = "grass"
+power = 60
+accuracy = -1
+pp = 20
+category = "special"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

@@ -1,0 +1,53 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://y5r1b0x7f65o"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_u0n7g"]
+[ext_resource type="Resource" uid="uid://sd3qd8pjne8b" path="res://moves/astonish.tres" id="2_fpvsb"]
+[ext_resource type="Resource" uid="uid://b5qtv3x1348kd" path="res://moves/attract.tres" id="3_p0hyy"]
+[ext_resource type="Resource" uid="uid://bf3k7y4xg1bb2" path="res://moves/batonpass.tres" id="4_njnlx"]
+[ext_resource type="Resource" uid="uid://dg8kc2nxs6l6x" path="res://moves/bite.tres" id="5_oqisd"]
+[ext_resource type="Resource" uid="uid://bnjwr7400c6b6" path="res://moves/confuseray.tres" id="6_jiob8"]
+[ext_resource type="Resource" uid="uid://djdfijecjv87x" path="res://moves/curse.tres" id="7_jvtoh"]
+[ext_resource type="Resource" uid="uid://buq0mxa1nup7w" path="res://moves/disable.tres" id="8_g0wui"]
+[ext_resource type="Resource" uid="uid://mr7n6gvwu6np" path="res://moves/doubleteam.tres" id="9_3f2a1"]
+[ext_resource type="Resource" uid="uid://020ewkkq21uv" path="res://moves/dracometeor.tres" id="10_8wjv6"]
+[ext_resource type="Resource" uid="uid://cfs46lujfx71" path="res://moves/dragontail.tres" id="11_1mift"]
+[ext_resource type="Resource" uid="uid://dixsoo2ylaus6" path="res://moves/endure.tres" id="12_gk0bt"]
+[ext_resource type="Resource" uid="uid://beg0sk32xdo2y" path="res://moves/facade.tres" id="13_o6nlx"]
+[ext_resource type="Resource" uid="uid://dcj6i2m0o20kb" path="res://moves/grudge.tres" id="14_quc8s"]
+[ext_resource type="Resource" uid="uid://ds3le6dwwbuym" path="res://moves/helpinghand.tres" id="15_xwon0"]
+[ext_resource type="Resource" uid="uid://tc7dcrnex1q0" path="res://moves/infestation.tres" id="16_7wpnb"]
+[ext_resource type="Resource" uid="uid://cqgprgodgioss" path="res://moves/protect.tres" id="17_21b25"]
+[ext_resource type="Resource" uid="uid://dmtcqr8gsusjv" path="res://moves/quickattack.tres" id="18_53mk4"]
+[ext_resource type="Resource" uid="uid://bb5miq678bml6" path="res://moves/rest.tres" id="19_t0d3s"]
+[ext_resource type="Resource" uid="uid://clo5n36yutt3y" path="res://moves/round.tres" id="20_42h8t"]
+[ext_resource type="Resource" uid="uid://dm0v1ccg3yuy3" path="res://moves/sleeptalk.tres" id="21_02jwu"]
+[ext_resource type="Resource" uid="uid://dlqeb5mptbr5w" path="res://moves/snore.tres" id="22_rex8g"]
+[ext_resource type="Resource" uid="uid://bgooxmy526mdf" path="res://moves/substitute.tres" id="23_6is6j"]
+[ext_resource type="Resource" uid="uid://bieexo7wtmtk2" path="res://moves/suckerpunch.tres" id="24_avho6"]
+[ext_resource type="Resource" uid="uid://blxkqtlq076np" path="res://moves/swift.tres" id="25_ok5o2"]
+[ext_resource type="Resource" uid="uid://bgwo38yygtkpx" path="res://moves/thunderwave.tres" id="26_m445q"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="27_103e8"]
+
+[resource]
+script = ExtResource("27_103e8")
+species_name = "Dreepy"
+species_id = 885
+types = Array[String](["dragon", "ghost"])
+base_stats = {
+"atk": 60.0,
+"def": 30.0,
+"hp": 28.0,
+"spa": 40.0,
+"spd": 30.0,
+"spe": 82.0
+}
+moves = Array[ExtResource("1_u0n7g")]([ExtResource("2_fpvsb"), ExtResource("3_p0hyy"), ExtResource("4_njnlx"), ExtResource("5_oqisd"), ExtResource("6_jiob8"), ExtResource("7_jvtoh"), ExtResource("8_g0wui"), ExtResource("9_3f2a1"), ExtResource("10_8wjv6"), ExtResource("11_1mift"), ExtResource("12_gk0bt"), ExtResource("13_o6nlx"), ExtResource("14_quc8s"), ExtResource("15_xwon0"), ExtResource("16_7wpnb"), ExtResource("17_21b25"), ExtResource("18_53mk4"), ExtResource("19_t0d3s"), ExtResource("20_42h8t"), ExtResource("21_02jwu"), ExtResource("22_rex8g"), ExtResource("23_6is6j"), ExtResource("24_avho6"), ExtResource("25_ok5o2"), ExtResource("26_m445q")])
+abilities = {
+"0": "Clear Body",
+"1": "Infiltrator",
+"H": "Cursed Body"
+}
+height = 0.5
+weight = 2.0
+color = "Green"
+evolutions = Array[String](["Drakloak"])

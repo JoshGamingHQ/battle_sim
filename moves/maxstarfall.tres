@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://lm5ohwttpkqf"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_3udkf"]
+
+[resource]
+script = ExtResource("1_3udkf")
+move_id = "maxstarfall"
+move_name = "Max Starfall"
+num = 767
+type = "fairy"
+power = 10
+accuracy = -1
+pp = 10
+category = "physical"
+target = "adjacentFoe"

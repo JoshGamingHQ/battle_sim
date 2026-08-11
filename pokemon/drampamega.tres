@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://c2o7y4qt0177x"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_023lj"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_xxgm4"]
+
+[resource]
+script = ExtResource("2_xxgm4")
+species_name = "Drampa-Mega"
+species_id = 780
+types = Array[String](["normal", "dragon"])
+base_stats = {
+"atk": 85.0,
+"def": 110.0,
+"hp": 78.0,
+"spa": 160.0,
+"spd": 116.0,
+"spe": 36.0
+}
+abilities = {
+"0": "Berserk"
+}
+height = 3.0
+weight = 240.5
+color = "White"

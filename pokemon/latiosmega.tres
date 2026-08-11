@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://bwulhwgwxrq1q"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_6eksf"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_57yhi"]
+
+[resource]
+script = ExtResource("2_57yhi")
+species_name = "Latios-Mega"
+species_id = 381
+types = Array[String](["dragon", "psychic"])
+base_stats = {
+"atk": 130.0,
+"def": 100.0,
+"hp": 80.0,
+"spa": 160.0,
+"spd": 120.0,
+"spe": 110.0
+}
+abilities = {
+"0": "Levitate"
+}
+height = 2.3
+weight = 70.0
+color = "Purple"

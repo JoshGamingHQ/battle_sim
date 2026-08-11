@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://pvsba7rjcnpx"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_2al5y"]
+
+[resource]
+script = ExtResource("1_2al5y")
+move_id = "breakingswipe"
+move_name = "Breaking Swipe"
+num = 784
+type = "dragon"
+power = 60
+accuracy = 100
+pp = 15
+category = "physical"
+target = "allAdjacentFoes"
+flags = {
+"contact": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"boosts": {
+"atk": -1.0
+},
+"chance": 100.0
+}

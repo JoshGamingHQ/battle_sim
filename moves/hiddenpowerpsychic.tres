@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cidmepuqc50t6"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_l00wn"]
+
+[resource]
+script = ExtResource("1_l00wn")
+move_id = "hiddenpowerpsychic"
+move_name = "Hidden Power Psychic"
+num = 237
+type = "psychic"
+power = 60
+accuracy = 100
+pp = 15
+category = "special"
+target = "normal"
+flags = {
+"mirror": 1.0,
+"protect": 1.0
+}

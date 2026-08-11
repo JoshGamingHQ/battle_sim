@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://b54pbfavwqxtp"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_rddm7"]
+
+[resource]
+script = ExtResource("1_rddm7")
+move_id = "gmaxfireball"
+move_name = "G-Max Fireball"
+num = 1000
+type = "fire"
+power = 160
+accuracy = -1
+pp = 5
+category = "physical"
+target = "adjacentFoe"

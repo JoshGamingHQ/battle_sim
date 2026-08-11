@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://455sa73wfde7"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_fedxy"]
+
+[resource]
+script = ExtResource("1_fedxy")
+move_id = "overdrive"
+move_name = "Overdrive"
+num = 786
+type = "electric"
+power = 80
+accuracy = 100
+pp = 10
+category = "special"
+target = "allAdjacentFoes"
+flags = {
+"bypasssub": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"sound": 1.0
+}

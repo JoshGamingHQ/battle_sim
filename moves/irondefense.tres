@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://ecx0t3y6hydc"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_hj3j6"]
+
+[resource]
+script = ExtResource("1_hj3j6")
+move_id = "irondefense"
+move_name = "Iron Defense"
+num = 334
+type = "steel"
+accuracy = -1
+pp = 15
+category = "status"
+target = "self"
+flags = {
+"metronome": 1.0,
+"snatch": 1.0
+}
+boosts = {
+"def": 2.0
+}

@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bhdhyatyiy8mn"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_2s64g"]
+
+[resource]
+script = ExtResource("1_2s64g")
+move_id = "solarblade"
+move_name = "Solar Blade"
+num = 669
+type = "grass"
+power = 125
+accuracy = 100
+pp = 10
+category = "physical"
+target = "normal"
+flags = {
+"charge": 1.0,
+"contact": 1.0,
+"failinstruct": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"nosleeptalk": 1.0,
+"protect": 1.0,
+"slicing": 1.0
+}

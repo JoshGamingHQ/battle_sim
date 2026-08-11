@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://clryfw85lodem"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_q0rpk"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_ayce1"]
+
+[resource]
+script = ExtResource("2_ayce1")
+species_name = "Scizor-Mega"
+species_id = 212
+types = Array[String](["bug", "steel"])
+base_stats = {
+"atk": 150.0,
+"def": 140.0,
+"hp": 70.0,
+"spa": 65.0,
+"spd": 100.0,
+"spe": 75.0
+}
+abilities = {
+"0": "Technician"
+}
+height = 2.0
+weight = 125.0
+color = "Red"

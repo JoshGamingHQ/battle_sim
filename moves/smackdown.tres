@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://ntxuyn6j56cp"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ivcvf"]
+
+[resource]
+script = ExtResource("1_ivcvf")
+move_id = "smackdown"
+move_name = "Smack Down"
+num = 479
+type = "rock"
+power = 50
+accuracy = 100
+pp = 15
+category = "physical"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"nonsky": 1.0,
+"protect": 1.0
+}

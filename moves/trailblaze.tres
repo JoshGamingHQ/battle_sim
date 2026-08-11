@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cbays7gls4ebj"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_6efwh"]
+
+[resource]
+script = ExtResource("1_6efwh")
+move_id = "trailblaze"
+move_name = "Trailblaze"
+num = 885
+type = "grass"
+power = 50
+accuracy = 100
+pp = 20
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 100.0,
+"self": {
+"boosts": {
+"spe": 1.0
+}
+}
+}

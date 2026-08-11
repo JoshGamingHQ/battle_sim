@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bf3k7y4xg1bb2"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_jfr71"]
+
+[resource]
+script = ExtResource("1_jfr71")
+move_id = "batonpass"
+move_name = "Baton Pass"
+num = 226
+type = "normal"
+accuracy = -1
+pp = 40
+category = "status"
+target = "self"
+flags = {
+"metronome": 1.0
+}

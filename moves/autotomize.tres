@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://sq2jhhsid2te"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_eqtpe"]
+
+[resource]
+script = ExtResource("1_eqtpe")
+move_id = "autotomize"
+move_name = "Autotomize"
+num = 475
+type = "steel"
+accuracy = -1
+pp = 15
+category = "status"
+target = "self"
+flags = {
+"metronome": 1.0,
+"snatch": 1.0
+}
+boosts = {
+"spe": 2.0
+}

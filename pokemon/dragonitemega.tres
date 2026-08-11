@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://ctoyial8m5we8"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_3mj4f"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_jhxoy"]
+
+[resource]
+script = ExtResource("2_jhxoy")
+species_name = "Dragonite-Mega"
+species_id = 149
+types = Array[String](["dragon", "flying"])
+base_stats = {
+"atk": 124.0,
+"def": 115.0,
+"hp": 91.0,
+"spa": 145.0,
+"spd": 125.0,
+"spe": 100.0
+}
+abilities = {
+"0": "Multiscale"
+}
+height = 2.2
+weight = 290.0
+color = "Brown"

@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://p08kpksxf63c"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_c5buo"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_uue5f"]
+
+[resource]
+script = ExtResource("2_uue5f")
+species_name = "Steelix-Mega"
+species_id = 208
+types = Array[String](["steel", "ground"])
+base_stats = {
+"atk": 125.0,
+"def": 230.0,
+"hp": 75.0,
+"spa": 55.0,
+"spd": 95.0,
+"spe": 30.0
+}
+abilities = {
+"0": "Sand Force"
+}
+height = 10.5
+weight = 740.0
+color = "Gray"

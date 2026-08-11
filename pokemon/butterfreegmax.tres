@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://bf6men4ojuhdt"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_qbpcm"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_qcrns"]
+
+[resource]
+script = ExtResource("2_qcrns")
+species_name = "Butterfree-Gmax"
+species_id = 12
+types = Array[String](["bug", "flying"])
+base_stats = {
+"atk": 45.0,
+"def": 50.0,
+"hp": 60.0,
+"spa": 90.0,
+"spd": 80.0,
+"spe": 70.0
+}
+abilities = {
+"0": "Compound Eyes",
+"H": "Tinted Lens"
+}
+height = 17.0
+color = "White"

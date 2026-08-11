@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://deyfdew2xllku"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_qoslf"]
+
+[resource]
+script = ExtResource("1_qoslf")
+move_id = "obstruct"
+move_name = "Obstruct"
+num = 792
+type = "dark"
+accuracy = 100
+pp = 10
+category = "status"
+priority = 4
+target = "self"
+flags = {
+"failinstruct": 1.0
+}

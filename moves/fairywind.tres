@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bcyjkf6j22cfp"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_jquep"]
+
+[resource]
+script = ExtResource("1_jquep")
+move_id = "fairywind"
+move_name = "Fairy Wind"
+num = 584
+type = "fairy"
+power = 40
+accuracy = 100
+pp = 30
+category = "special"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"wind": 1.0
+}

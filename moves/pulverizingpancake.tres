@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://ckbe3ton10uoc"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_8qi68"]
+
+[resource]
+script = ExtResource("1_8qi68")
+move_id = "pulverizingpancake"
+move_name = "Pulverizing Pancake"
+num = 701
+type = "normal"
+power = 210
+accuracy = -1
+pp = 1
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0
+}

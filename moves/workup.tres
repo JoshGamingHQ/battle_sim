@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://m0aeuc7py1mo"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_dl5ac"]
+
+[resource]
+script = ExtResource("1_dl5ac")
+move_id = "workup"
+move_name = "Work Up"
+num = 526
+type = "normal"
+accuracy = -1
+pp = 30
+category = "status"
+target = "self"
+flags = {
+"metronome": 1.0,
+"snatch": 1.0
+}
+boosts = {
+"atk": 1.0,
+"spa": 1.0
+}

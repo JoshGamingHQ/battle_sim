@@ -1,0 +1,58 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://btfswapa2ds2n"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_8m16g"]
+[ext_resource type="Resource" uid="uid://dk2fhncy1vnde" path="res://moves/agility.tres" id="2_piwfp"]
+[ext_resource type="Resource" uid="uid://b5qtv3x1348kd" path="res://moves/attract.tres" id="3_54yvt"]
+[ext_resource type="Resource" uid="uid://dhygv2n46apo" path="res://moves/copycat.tres" id="4_5q707"]
+[ext_resource type="Resource" uid="uid://bvbyqui4hnrst" path="res://moves/cottonguard.tres" id="5_56gkg"]
+[ext_resource type="Resource" uid="uid://dy1gpoihpenxe" path="res://moves/counter.tres" id="6_ceu5f"]
+[ext_resource type="Resource" uid="uid://d3sm3g735akb7" path="res://moves/defensecurl.tres" id="7_oo7da"]
+[ext_resource type="Resource" uid="uid://clq77jvglqqka" path="res://moves/doubleedge.tres" id="8_uap5u"]
+[ext_resource type="Resource" uid="uid://dfxj3xhhoc1pq" path="res://moves/doublekick.tres" id="9_uqqir"]
+[ext_resource type="Resource" uid="uid://dtu0tt7fmod3a" path="res://moves/electroball.tres" id="10_ee5tv"]
+[ext_resource type="Resource" uid="uid://dixsoo2ylaus6" path="res://moves/endure.tres" id="11_nsguu"]
+[ext_resource type="Resource" uid="uid://beg0sk32xdo2y" path="res://moves/facade.tres" id="12_weuar"]
+[ext_resource type="Resource" uid="uid://dsawhagdf8s2e" path="res://moves/grassyglide.tres" id="13_p0kf0"]
+[ext_resource type="Resource" uid="uid://b5th3yk6ps5di" path="res://moves/growl.tres" id="14_v50xs"]
+[ext_resource type="Resource" uid="uid://dtaf7so2xn8t8" path="res://moves/guardsplit.tres" id="15_lj280"]
+[ext_resource type="Resource" uid="uid://dgnhnemg6j8kh" path="res://moves/guardswap.tres" id="16_3w0e3"]
+[ext_resource type="Resource" uid="uid://cmy6rldrij8pw" path="res://moves/headbutt.tres" id="17_bhkv5"]
+[ext_resource type="Resource" uid="uid://cew6q6q50rjv5" path="res://moves/payback.tres" id="18_ejs1i"]
+[ext_resource type="Resource" uid="uid://cqgprgodgioss" path="res://moves/protect.tres" id="19_oxf67"]
+[ext_resource type="Resource" uid="uid://bb5miq678bml6" path="res://moves/rest.tres" id="20_7d1fx"]
+[ext_resource type="Resource" uid="uid://cccel31mge1bj" path="res://moves/reversal.tres" id="21_uv5ma"]
+[ext_resource type="Resource" uid="uid://clo5n36yutt3y" path="res://moves/round.tres" id="22_1xf1t"]
+[ext_resource type="Resource" uid="uid://dm0v1ccg3yuy3" path="res://moves/sleeptalk.tres" id="23_bvbob"]
+[ext_resource type="Resource" uid="uid://dlqeb5mptbr5w" path="res://moves/snore.tres" id="24_l1hsw"]
+[ext_resource type="Resource" uid="uid://bmemi7adei7j1" path="res://moves/stomp.tres" id="25_gbndp"]
+[ext_resource type="Resource" uid="uid://bgooxmy526mdf" path="res://moves/substitute.tres" id="26_cqlqb"]
+[ext_resource type="Resource" uid="uid://3tljd25wd7fn" path="res://moves/swagger.tres" id="27_h5d4l"]
+[ext_resource type="Resource" uid="uid://bxvr0l21tsqsc" path="res://moves/tackle.tres" id="28_n8q2g"]
+[ext_resource type="Resource" uid="uid://cdstkuv0wdvei" path="res://moves/takedown.tres" id="29_0y4b3"]
+[ext_resource type="Resource" uid="uid://bgwo38yygtkpx" path="res://moves/thunderwave.tres" id="30_6ngta"]
+[ext_resource type="Resource" uid="uid://5uqgqefbfb75" path="res://moves/wildcharge.tres" id="31_hqkdb"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="32_gc0yw"]
+
+[resource]
+script = ExtResource("32_gc0yw")
+species_name = "Wooloo"
+species_id = 831
+types = Array[String](["normal"])
+base_stats = {
+"atk": 40.0,
+"def": 55.0,
+"hp": 42.0,
+"spa": 40.0,
+"spd": 45.0,
+"spe": 48.0
+}
+moves = Array[ExtResource("1_8m16g")]([ExtResource("2_piwfp"), ExtResource("3_54yvt"), ExtResource("4_5q707"), ExtResource("5_56gkg"), ExtResource("6_ceu5f"), ExtResource("7_oo7da"), ExtResource("8_uap5u"), ExtResource("9_uqqir"), ExtResource("10_ee5tv"), ExtResource("11_nsguu"), ExtResource("12_weuar"), ExtResource("13_p0kf0"), ExtResource("14_v50xs"), ExtResource("15_lj280"), ExtResource("16_3w0e3"), ExtResource("17_bhkv5"), ExtResource("18_ejs1i"), ExtResource("19_oxf67"), ExtResource("20_7d1fx"), ExtResource("21_uv5ma"), ExtResource("22_1xf1t"), ExtResource("23_bvbob"), ExtResource("24_l1hsw"), ExtResource("25_gbndp"), ExtResource("26_cqlqb"), ExtResource("27_h5d4l"), ExtResource("28_n8q2g"), ExtResource("29_0y4b3"), ExtResource("30_6ngta"), ExtResource("31_hqkdb")])
+abilities = {
+"0": "Fluffy",
+"1": "Run Away",
+"H": "Bulletproof"
+}
+height = 0.6
+weight = 6.0
+color = "White"
+evolutions = Array[String](["Dubwool"])

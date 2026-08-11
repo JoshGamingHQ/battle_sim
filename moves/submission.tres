@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://io5vx7wa2pwo"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_86hoy"]
+
+[resource]
+script = ExtResource("1_86hoy")
+move_id = "submission"
+move_name = "Submission"
+num = 66
+type = "fighting"
+power = 80
+accuracy = 80
+pp = 20
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

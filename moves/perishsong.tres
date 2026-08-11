@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://c6jynuxltxmen"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_xp5ep"]
+
+[resource]
+script = ExtResource("1_xp5ep")
+move_id = "perishsong"
+move_name = "Perish Song"
+num = 195
+type = "normal"
+accuracy = -1
+pp = 5
+category = "status"
+target = "all"
+flags = {
+"bypasssub": 1.0,
+"distance": 1.0,
+"metronome": 1.0,
+"sound": 1.0
+}

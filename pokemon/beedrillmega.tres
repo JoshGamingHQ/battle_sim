@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://cpjxcynk27m40"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_gq48m"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_ubdhs"]
+
+[resource]
+script = ExtResource("2_ubdhs")
+species_name = "Beedrill-Mega"
+species_id = 15
+types = Array[String](["bug", "poison"])
+base_stats = {
+"atk": 150.0,
+"def": 40.0,
+"hp": 65.0,
+"spa": 15.0,
+"spd": 80.0,
+"spe": 145.0
+}
+abilities = {
+"0": "Adaptability"
+}
+height = 1.4
+weight = 40.5
+color = "Yellow"

@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://ch7mhm3swws88"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_x8pop"]
+
+[resource]
+script = ExtResource("1_x8pop")
+move_id = "dizzypunch"
+move_name = "Dizzy Punch"
+num = 146
+type = "normal"
+power = 70
+accuracy = 100
+pp = 10
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"punch": 1.0
+}
+secondary = {
+"chance": 20.0,
+"volatileStatus": "confusion"
+}

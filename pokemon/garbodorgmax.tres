@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://di3supt0vu5co"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_mm3t3"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_dba1u"]
+
+[resource]
+script = ExtResource("2_dba1u")
+species_name = "Garbodor-Gmax"
+species_id = 569
+types = Array[String](["poison"])
+base_stats = {
+"atk": 95.0,
+"def": 82.0,
+"hp": 80.0,
+"spa": 60.0,
+"spd": 82.0,
+"spe": 75.0
+}
+abilities = {
+"0": "Stench",
+"1": "Weak Armor",
+"H": "Aftermath"
+}
+height = 21.0
+color = "Green"

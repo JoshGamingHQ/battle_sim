@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://c5mtlj33rxm8g"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ld3te"]
+
+[resource]
+script = ExtResource("1_ld3te")
+move_id = "acupressure"
+move_name = "Acupressure"
+num = 367
+type = "normal"
+accuracy = -1
+pp = 30
+category = "status"
+target = "adjacentAllyOrSelf"
+flags = {
+"metronome": 1.0
+}

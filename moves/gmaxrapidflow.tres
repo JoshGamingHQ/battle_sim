@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bla1gfte7qgql"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_67l7c"]
+
+[resource]
+script = ExtResource("1_67l7c")
+move_id = "gmaxrapidflow"
+move_name = "G-Max Rapid Flow"
+num = 1000
+type = "water"
+power = 10
+accuracy = -1
+pp = 5
+category = "physical"
+target = "adjacentFoe"

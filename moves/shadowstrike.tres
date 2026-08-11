@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dfhs3qgu7t3is"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_562ri"]
+
+[resource]
+script = ExtResource("1_562ri")
+move_id = "shadowstrike"
+move_name = "Shadow Strike"
+num = -2
+type = "ghost"
+power = 80
+accuracy = 95
+pp = 10
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"boosts": {
+"def": -1.0
+},
+"chance": 50.0
+}

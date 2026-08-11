@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dm0v1ccg3yuy3"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_p4qdh"]
+
+[resource]
+script = ExtResource("1_p4qdh")
+move_id = "sleeptalk"
+move_name = "Sleep Talk"
+num = 214
+type = "normal"
+accuracy = -1
+pp = 10
+category = "status"
+target = "self"
+flags = {
+"failcopycat": 1.0,
+"failencore": 1.0,
+"failinstruct": 1.0,
+"failmimic": 1.0,
+"noassist": 1.0,
+"nosleeptalk": 1.0
+}

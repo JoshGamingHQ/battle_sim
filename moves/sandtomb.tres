@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://b57xwiv2ushjq"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ycgpc"]
+
+[resource]
+script = ExtResource("1_ycgpc")
+move_id = "sandtomb"
+move_name = "Sand Tomb"
+num = 328
+type = "ground"
+power = 35
+accuracy = 85
+pp = 15
+category = "physical"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://b7jv8eiivhxrg"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_br154"]
+
+[resource]
+script = ExtResource("1_br154")
+move_id = "meanlook"
+move_name = "Mean Look"
+num = 212
+type = "normal"
+accuracy = -1
+pp = 5
+category = "status"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"reflectable": 1.0
+}

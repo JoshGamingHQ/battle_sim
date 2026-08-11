@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://hqy31abucobr"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_cdbif"]
+
+[resource]
+script = ExtResource("1_cdbif")
+move_id = "mirrormove"
+move_name = "Mirror Move"
+num = 119
+type = "flying"
+accuracy = -1
+pp = 20
+category = "status"
+target = "normal"
+flags = {
+"failcopycat": 1.0,
+"failencore": 1.0,
+"failinstruct": 1.0,
+"failmimic": 1.0,
+"noassist": 1.0,
+"nosleeptalk": 1.0
+}

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://c264nmnu1kflu"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_rujdl"]
+
+[resource]
+script = ExtResource("1_rujdl")
+move_id = "pikapapow"
+move_name = "Pika Papow"
+num = 732
+type = "electric"
+accuracy = -1
+pp = 20
+category = "special"
+target = "normal"
+flags = {
+"mirror": 1.0,
+"protect": 1.0
+}

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://baf2kcqjm3lil"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_aj03m"]
+
+[resource]
+script = ExtResource("1_aj03m")
+move_id = "baddybad"
+move_name = "Baddy Bad"
+num = 737
+type = "dark"
+power = 80
+accuracy = 95
+pp = 15
+category = "special"
+target = "normal"
+flags = {
+"mirror": 1.0,
+"protect": 1.0
+}

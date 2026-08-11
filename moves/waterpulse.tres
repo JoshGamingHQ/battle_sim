@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bp6nhinyes6g6"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_mngln"]
+
+[resource]
+script = ExtResource("1_mngln")
+move_id = "waterpulse"
+move_name = "Water Pulse"
+num = 352
+type = "water"
+power = 60
+accuracy = 100
+pp = 20
+category = "special"
+target = "any"
+flags = {
+"distance": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"pulse": 1.0
+}
+secondary = {
+"chance": 20.0,
+"volatileStatus": "confusion"
+}

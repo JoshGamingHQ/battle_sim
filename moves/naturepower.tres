@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://brfp5d0j0qvss"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_o24k5"]
+
+[resource]
+script = ExtResource("1_o24k5")
+move_id = "naturepower"
+move_name = "Nature Power"
+num = 267
+type = "normal"
+accuracy = -1
+pp = 20
+category = "status"
+target = "normal"
+flags = {
+"failcopycat": 1.0,
+"failencore": 1.0,
+"failinstruct": 1.0,
+"failmimic": 1.0,
+"noassist": 1.0,
+"nosleeptalk": 1.0
+}

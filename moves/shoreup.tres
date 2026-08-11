@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://crbehxhdu5bvc"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_wuoty"]
+
+[resource]
+script = ExtResource("1_wuoty")
+move_id = "shoreup"
+move_name = "Shore Up"
+num = 659
+type = "ground"
+accuracy = -1
+pp = 5
+category = "status"
+target = "self"
+flags = {
+"heal": 1.0,
+"metronome": 1.0,
+"snatch": 1.0
+}

@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://5phoe70rdm04"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_rdyh7"]
+[ext_resource type="Resource" uid="uid://b37iyi4epqbo2" path="res://moves/moongeistbeam.tres" id="2_6jamv"]
+[ext_resource type="Resource" uid="uid://bvpyw8mg21ovo" path="res://moves/sunsteelstrike.tres" id="3_1xa1n"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="4_kc658"]
+
+[resource]
+script = ExtResource("4_kc658")
+species_name = "Necrozma-Ultra"
+species_id = 800
+types = Array[String](["psychic", "dragon"])
+base_stats = {
+"atk": 167.0,
+"def": 97.0,
+"hp": 97.0,
+"spa": 167.0,
+"spd": 97.0,
+"spe": 129.0
+}
+moves = Array[ExtResource("1_rdyh7")]([ExtResource("2_6jamv"), ExtResource("3_1xa1n")])
+abilities = {
+"0": "Neuroforce"
+}
+height = 7.5
+weight = 230.0
+color = "Yellow"

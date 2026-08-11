@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://j0v64afkoy1w"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_w2apl"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_b34ng"]
+
+[resource]
+script = ExtResource("2_b34ng")
+species_name = "Magearna-Mega"
+species_id = 801
+types = Array[String](["steel", "fairy"])
+base_stats = {
+"atk": 125.0,
+"def": 115.0,
+"hp": 80.0,
+"spa": 170.0,
+"spd": 115.0,
+"spe": 95.0
+}
+abilities = {
+"0": "Soul-Heart"
+}
+height = 1.3
+weight = 248.1
+color = "Gray"

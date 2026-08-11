@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://btcm7p0dscn6t"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_d5n6x"]
+
+[resource]
+script = ExtResource("1_d5n6x")
+move_id = "wavecrash"
+move_name = "Wave Crash"
+num = 834
+type = "water"
+power = 120
+accuracy = 100
+pp = 10
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

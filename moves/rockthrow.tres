@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cqrc73480f0ut"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_2q8o5"]
+
+[resource]
+script = ExtResource("1_2q8o5")
+move_id = "rockthrow"
+move_name = "Rock Throw"
+num = 88
+type = "rock"
+power = 50
+accuracy = 90
+pp = 15
+category = "physical"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

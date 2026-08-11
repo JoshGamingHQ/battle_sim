@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://oybkd2y5r64h"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_d6b1q"]
+[ext_resource type="Resource" uid="uid://dhkgps3ryc08d" path="res://moves/blizzard.tres" id="2_4ukkd"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="3_sng7f"]
+
+[resource]
+script = ExtResource("3_sng7f")
+species_name = "Rotom-Frost"
+species_id = 479
+types = Array[String](["electric", "ice"])
+base_stats = {
+"atk": 65.0,
+"def": 107.0,
+"hp": 50.0,
+"spa": 105.0,
+"spd": 107.0,
+"spe": 86.0
+}
+moves = Array[ExtResource("1_d6b1q")]([ExtResource("2_4ukkd")])
+abilities = {
+"0": "Levitate"
+}
+height = 0.3
+weight = 0.3
+color = "Red"

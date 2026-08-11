@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://1fckg3s8ica"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_n5evh"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_6jn8o"]
+
+[resource]
+script = ExtResource("2_6jn8o")
+species_name = "Gourgeist-Small"
+species_id = 711
+types = Array[String](["ghost", "grass"])
+base_stats = {
+"atk": 85.0,
+"def": 122.0,
+"hp": 55.0,
+"spa": 58.0,
+"spd": 75.0,
+"spe": 99.0
+}
+abilities = {
+"0": "Pickup",
+"1": "Frisk",
+"H": "Insomnia"
+}
+height = 0.7
+weight = 9.5
+color = "Brown"
+prevo = "Pumpkaboo-Small"

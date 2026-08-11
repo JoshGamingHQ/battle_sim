@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://brpsgoh04pbei"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_jho2m"]
+
+[resource]
+script = ExtResource("1_jho2m")
+move_id = "aquaring"
+move_name = "Aqua Ring"
+num = 392
+type = "water"
+accuracy = -1
+pp = 20
+category = "status"
+target = "self"
+flags = {
+"metronome": 1.0,
+"snatch": 1.0
+}

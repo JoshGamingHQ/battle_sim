@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://bdb1wu4qt5gfj"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_fgsw2"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_dmknx"]
+
+[resource]
+script = ExtResource("2_dmknx")
+species_name = "Baxcalibur-Mega"
+species_id = 998
+types = Array[String](["dragon", "ice"])
+base_stats = {
+"atk": 175.0,
+"def": 117.0,
+"hp": 115.0,
+"spa": 105.0,
+"spd": 101.0,
+"spe": 87.0
+}
+abilities = {
+"0": "Thermal Exchange",
+"H": "Ice Body"
+}
+height = 2.1
+weight = 315.0
+color = "Blue"

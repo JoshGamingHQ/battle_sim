@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://b5010ysl46qbs"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_by544"]
+
+[resource]
+script = ExtResource("1_by544")
+move_id = "stockpile"
+move_name = "Stockpile"
+num = 254
+type = "normal"
+accuracy = -1
+pp = 20
+category = "status"
+target = "self"
+flags = {
+"metronome": 1.0,
+"snatch": 1.0
+}

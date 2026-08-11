@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://b41p4e20n8g0n"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_u4nn5"]
+
+[resource]
+script = ExtResource("1_u4nn5")
+move_id = "gmaxsnooze"
+move_name = "G-Max Snooze"
+num = 1000
+type = "dark"
+power = 10
+accuracy = -1
+pp = 5
+category = "physical"
+target = "adjacentFoe"

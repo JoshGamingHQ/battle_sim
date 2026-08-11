@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://p25tfa3r3ph2"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_hepnv"]
+
+[resource]
+script = ExtResource("1_hepnv")
+move_id = "mudslap"
+move_name = "Mud-Slap"
+num = 189
+type = "ground"
+power = 20
+accuracy = 100
+pp = 10
+category = "special"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"boosts": {
+"accuracy": -1.0
+},
+"chance": 100.0
+}

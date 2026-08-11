@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://bq1xdr0o3l31l"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_1bnbs"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_itbde"]
+
+[resource]
+script = ExtResource("2_itbde")
+species_name = "Darkrai-Mega"
+species_id = 491
+types = Array[String](["dark"])
+base_stats = {
+"atk": 120.0,
+"def": 130.0,
+"hp": 70.0,
+"spa": 165.0,
+"spd": 130.0,
+"spe": 85.0
+}
+abilities = {
+"0": "Bad Dreams"
+}
+height = 3.0
+weight = 240.0
+color = "Black"

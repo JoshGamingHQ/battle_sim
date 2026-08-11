@@ -1,0 +1,34 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://d3bpqseb81beb"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_dmndg"]
+[ext_resource type="Resource" uid="uid://cq6lu5bcpf50i" path="res://moves/bugbite.tres" id="2_plmnv"]
+[ext_resource type="Resource" uid="uid://c3spkon7qka3x" path="res://moves/electroweb.tres" id="3_3ufqm"]
+[ext_resource type="Resource" uid="uid://dkypr30sepwgb" path="res://moves/hiddenpower.tres" id="4_nywvu"]
+[ext_resource type="Resource" uid="uid://cqgprgodgioss" path="res://moves/protect.tres" id="5_ojxn7"]
+[ext_resource type="Resource" uid="uid://dlqeb5mptbr5w" path="res://moves/snore.tres" id="6_1ucld"]
+[ext_resource type="Resource" uid="uid://ce0ic1pk4kia6" path="res://moves/stringshot.tres" id="7_15vs4"]
+[ext_resource type="Resource" uid="uid://bxvr0l21tsqsc" path="res://moves/tackle.tres" id="8_c6qjg"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="9_0208f"]
+
+[resource]
+script = ExtResource("9_0208f")
+species_name = "Burmy"
+species_id = 412
+types = Array[String](["bug"])
+base_stats = {
+"atk": 29.0,
+"def": 45.0,
+"hp": 40.0,
+"spa": 29.0,
+"spd": 45.0,
+"spe": 36.0
+}
+moves = Array[ExtResource("1_dmndg")]([ExtResource("2_plmnv"), ExtResource("3_3ufqm"), ExtResource("4_nywvu"), ExtResource("5_ojxn7"), ExtResource("6_1ucld"), ExtResource("7_15vs4"), ExtResource("8_c6qjg")])
+abilities = {
+"0": "Shed Skin",
+"H": "Overcoat"
+}
+height = 0.2
+weight = 3.4
+color = "Green"
+evolutions = Array[String](["Wormadam", "Wormadam-Sandy", "Wormadam-Trash", "Mothim"])

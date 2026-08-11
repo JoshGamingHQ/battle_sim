@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://6csnknacw17w"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_v71d1"]
+
+[resource]
+script = ExtResource("1_v71d1")
+move_id = "holdback"
+move_name = "Hold Back"
+num = 610
+type = "normal"
+power = 40
+accuracy = 100
+pp = 40
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

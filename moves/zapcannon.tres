@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dbebnqeh2hw1i"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_2l3f6"]
+
+[resource]
+script = ExtResource("1_2l3f6")
+move_id = "zapcannon"
+move_name = "Zap Cannon"
+num = 192
+type = "electric"
+power = 120
+accuracy = 50
+pp = 5
+category = "special"
+target = "normal"
+flags = {
+"bullet": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 100.0,
+"status": "par"
+}

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://5vc1g4y0bm7k"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_1j3bo"]
+
+[resource]
+script = ExtResource("1_1j3bo")
+move_id = "voltswitch"
+move_name = "Volt Switch"
+num = 521
+type = "electric"
+power = 70
+accuracy = 100
+pp = 20
+category = "special"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

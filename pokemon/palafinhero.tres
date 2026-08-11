@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://l3xeue78gnwa"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_v17oj"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_lwhts"]
+
+[resource]
+script = ExtResource("2_lwhts")
+species_name = "Palafin-Hero"
+species_id = 964
+types = Array[String](["water"])
+base_stats = {
+"atk": 160.0,
+"def": 97.0,
+"hp": 100.0,
+"spa": 106.0,
+"spd": 87.0,
+"spe": 100.0
+}
+abilities = {
+"0": "Zero to Hero"
+}
+height = 1.8
+weight = 97.4
+color = "Blue"

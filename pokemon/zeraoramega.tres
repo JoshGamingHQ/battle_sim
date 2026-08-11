@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://dmposg0kvyq3f"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_smqgk"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_7hpqu"]
+
+[resource]
+script = ExtResource("2_7hpqu")
+species_name = "Zeraora-Mega"
+species_id = 807
+types = Array[String](["electric"])
+base_stats = {
+"atk": 157.0,
+"def": 75.0,
+"hp": 88.0,
+"spa": 147.0,
+"spd": 80.0,
+"spe": 153.0
+}
+abilities = {
+"0": "Volt Absorb"
+}
+height = 1.5
+weight = 44.5
+color = "Yellow"

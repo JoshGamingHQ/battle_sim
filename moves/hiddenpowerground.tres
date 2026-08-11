@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dq73hihimx5oa"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_jjn0p"]
+
+[resource]
+script = ExtResource("1_jjn0p")
+move_id = "hiddenpowerground"
+move_name = "Hidden Power Ground"
+num = 237
+type = "ground"
+power = 60
+accuracy = 100
+pp = 15
+category = "special"
+target = "normal"
+flags = {
+"mirror": 1.0,
+"protect": 1.0
+}

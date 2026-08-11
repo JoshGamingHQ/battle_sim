@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cmbiqus4ya3o2"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_qgex7"]
+
+[resource]
+script = ExtResource("1_qgex7")
+move_id = "rototiller"
+move_name = "Rototiller"
+num = 563
+type = "ground"
+accuracy = -1
+pp = 10
+category = "status"
+target = "all"
+flags = {
+"distance": 1.0,
+"metronome": 1.0,
+"nonsky": 1.0
+}

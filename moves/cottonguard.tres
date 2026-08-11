@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bvbyqui4hnrst"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_gym8v"]
+
+[resource]
+script = ExtResource("1_gym8v")
+move_id = "cottonguard"
+move_name = "Cotton Guard"
+num = 538
+type = "grass"
+accuracy = -1
+pp = 10
+category = "status"
+target = "self"
+flags = {
+"metronome": 1.0,
+"snatch": 1.0
+}
+boosts = {
+"def": 3.0
+}

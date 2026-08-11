@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dht1mwuew1e6x"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_vh7et"]
+
+[resource]
+script = ExtResource("1_vh7et")
+move_id = "pursuit"
+move_name = "Pursuit"
+num = 228
+type = "dark"
+power = 40
+accuracy = 100
+pp = 20
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

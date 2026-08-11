@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dgnhnemg6j8kh"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_af18o"]
+
+[resource]
+script = ExtResource("1_af18o")
+move_id = "guardswap"
+move_name = "Guard Swap"
+num = 385
+type = "psychic"
+accuracy = -1
+pp = 10
+category = "status"
+target = "normal"
+flags = {
+"allyanim": 1.0,
+"bypasssub": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

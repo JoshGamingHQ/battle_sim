@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://d4dbyj26bv4sk"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_mg5wn"]
+
+[resource]
+script = ExtResource("1_mg5wn")
+move_id = "amnesia"
+move_name = "Amnesia"
+num = 133
+type = "psychic"
+accuracy = -1
+pp = 20
+category = "status"
+target = "self"
+flags = {
+"metronome": 1.0,
+"snatch": 1.0
+}
+boosts = {
+"spd": 2.0
+}

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://b3appnqomv1am"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_3ewqr"]
+
+[resource]
+script = ExtResource("1_3ewqr")
+move_id = "fissure"
+move_name = "Fissure"
+num = 90
+type = "ground"
+accuracy = 30
+pp = 5
+category = "physical"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"nonsky": 1.0,
+"protect": 1.0
+}

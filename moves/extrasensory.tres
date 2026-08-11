@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://c1l0idtak6h3x"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_2qwfe"]
+
+[resource]
+script = ExtResource("1_2qwfe")
+move_id = "extrasensory"
+move_name = "Extrasensory"
+num = 326
+type = "psychic"
+power = 80
+accuracy = 100
+pp = 20
+category = "special"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 10.0,
+"volatileStatus": "flinch"
+}

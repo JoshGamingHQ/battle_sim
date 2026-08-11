@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cndrthgurg3sy"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_y26bs"]
+
+[resource]
+script = ExtResource("1_y26bs")
+move_id = "coaching"
+move_name = "Coaching"
+num = 811
+type = "fighting"
+accuracy = -1
+pp = 10
+category = "status"
+target = "adjacentAlly"
+flags = {
+"allyanim": 1.0,
+"bypasssub": 1.0,
+"metronome": 1.0
+}
+boosts = {
+"atk": 1.0,
+"def": 1.0
+}

@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bnf3bx3r3ble3"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_nx8su"]
+
+[resource]
+script = ExtResource("1_nx8su")
+move_id = "noxioustorque"
+move_name = "Noxious Torque"
+num = 898
+type = "poison"
+power = 100
+accuracy = 100
+pp = 10
+category = "physical"
+target = "normal"
+flags = {
+"failcopycat": 1.0,
+"failencore": 1.0,
+"failinstruct": 1.0,
+"failmefirst": 1.0,
+"failmimic": 1.0,
+"noassist": 1.0,
+"nosketch": 1.0,
+"nosleeptalk": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 30.0,
+"status": "psn"
+}

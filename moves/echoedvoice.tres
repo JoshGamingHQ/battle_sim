@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://drj2t6qt7m5es"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_pnjql"]
+
+[resource]
+script = ExtResource("1_pnjql")
+move_id = "echoedvoice"
+move_name = "Echoed Voice"
+num = 497
+type = "normal"
+power = 40
+accuracy = 100
+pp = 15
+category = "special"
+target = "normal"
+flags = {
+"bypasssub": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"sound": 1.0
+}

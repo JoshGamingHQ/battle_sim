@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://1wxj8lf1c617"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_hwat7"]
+
+[resource]
+script = ExtResource("1_hwat7")
+move_id = "celebrate"
+move_name = "Celebrate"
+num = 606
+type = "normal"
+accuracy = -1
+pp = 40
+category = "status"
+target = "self"
+flags = {
+"failcopycat": 1.0,
+"failinstruct": 1.0,
+"failmimic": 1.0,
+"noassist": 1.0,
+"nosleeptalk": 1.0
+}

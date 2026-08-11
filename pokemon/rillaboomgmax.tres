@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://b3i3kdgi0rakh"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_1e14j"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_vs60s"]
+
+[resource]
+script = ExtResource("2_vs60s")
+species_name = "Rillaboom-Gmax"
+species_id = 812
+types = Array[String](["grass"])
+base_stats = {
+"atk": 125.0,
+"def": 90.0,
+"hp": 100.0,
+"spa": 60.0,
+"spd": 70.0,
+"spe": 85.0
+}
+abilities = {
+"0": "Overgrow",
+"H": "Grassy Surge"
+}
+height = 28.0
+color = "Green"

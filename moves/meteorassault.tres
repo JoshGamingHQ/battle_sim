@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://4q5agks36g3g"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_41wwh"]
+
+[resource]
+script = ExtResource("1_41wwh")
+move_id = "meteorassault"
+move_name = "Meteor Assault"
+num = 794
+type = "fighting"
+power = 150
+accuracy = 100
+pp = 5
+category = "physical"
+target = "normal"
+flags = {
+"failinstruct": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"recharge": 1.0
+}

@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dg7xboweepa7y"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_wnq38"]
+
+[resource]
+script = ExtResource("1_wnq38")
+move_id = "ragefist"
+move_name = "Rage Fist"
+num = 889
+type = "ghost"
+power = 50
+accuracy = 100
+pp = 10
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"punch": 1.0
+}

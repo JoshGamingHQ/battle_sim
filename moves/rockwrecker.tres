@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://c2ytb5g1j57yv"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_c3gmj"]
+
+[resource]
+script = ExtResource("1_c3gmj")
+move_id = "rockwrecker"
+move_name = "Rock Wrecker"
+num = 439
+type = "rock"
+power = 150
+accuracy = 90
+pp = 5
+category = "physical"
+target = "normal"
+flags = {
+"bullet": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"recharge": 1.0
+}

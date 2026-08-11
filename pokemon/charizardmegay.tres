@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://ci6k6vkyexe0g"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_06gvc"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_5bf8r"]
+
+[resource]
+script = ExtResource("2_5bf8r")
+species_name = "Charizard-Mega-Y"
+species_id = 6
+types = Array[String](["fire", "flying"])
+base_stats = {
+"atk": 104.0,
+"def": 78.0,
+"hp": 78.0,
+"spa": 159.0,
+"spd": 115.0,
+"spe": 100.0
+}
+abilities = {
+"0": "Drought"
+}
+height = 1.7
+weight = 100.5
+color = "Red"

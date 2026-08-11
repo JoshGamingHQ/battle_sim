@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cb5u3em7bcb2t"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_px2f5"]
+
+[resource]
+script = ExtResource("1_px2f5")
+move_id = "poisonjab"
+move_name = "Poison Jab"
+num = 398
+type = "poison"
+power = 80
+accuracy = 100
+pp = 20
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 30.0,
+"status": "psn"
+}

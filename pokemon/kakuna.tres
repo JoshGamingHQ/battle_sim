@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://c88gxljcmrtq6"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_svofy"]
+[ext_resource type="Resource" uid="uid://cq6lu5bcpf50i" path="res://moves/bugbite.tres" id="2_olk3u"]
+[ext_resource type="Resource" uid="uid://c3spkon7qka3x" path="res://moves/electroweb.tres" id="3_qgpav"]
+[ext_resource type="Resource" uid="uid://reoly645ihro" path="res://moves/harden.tres" id="4_rm1le"]
+[ext_resource type="Resource" uid="uid://ecx0t3y6hydc" path="res://moves/irondefense.tres" id="5_s045k"]
+[ext_resource type="Resource" uid="uid://ce0ic1pk4kia6" path="res://moves/stringshot.tres" id="6_c3b7m"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="7_1u0kt"]
+
+[resource]
+script = ExtResource("7_1u0kt")
+species_name = "Kakuna"
+species_id = 14
+types = Array[String](["bug", "poison"])
+base_stats = {
+"atk": 25.0,
+"def": 50.0,
+"hp": 45.0,
+"spa": 25.0,
+"spd": 25.0,
+"spe": 35.0
+}
+moves = Array[ExtResource("1_svofy")]([ExtResource("2_olk3u"), ExtResource("3_qgpav"), ExtResource("4_rm1le"), ExtResource("5_s045k"), ExtResource("6_c3b7m")])
+abilities = {
+"0": "Shed Skin"
+}
+height = 0.6
+weight = 10.0
+color = "Yellow"
+evolutions = Array[String](["Beedrill"])
+prevo = "Weedle"

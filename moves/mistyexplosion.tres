@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bow6qvmsj0dsi"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_sidwx"]
+
+[resource]
+script = ExtResource("1_sidwx")
+move_id = "mistyexplosion"
+move_name = "Misty Explosion"
+num = 802
+type = "fairy"
+power = 100
+accuracy = 100
+pp = 5
+category = "special"
+target = "allAdjacent"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

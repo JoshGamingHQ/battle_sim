@@ -1,0 +1,40 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://ckl1p04tnck28"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_q4cvq"]
+[ext_resource type="Resource" uid="uid://d0a13x2bmb7x5" path="res://moves/captivate.tres" id="2_tsxnu"]
+[ext_resource type="Resource" uid="uid://c8fkw8tgvnk0o" path="res://moves/doubleslap.tres" id="3_q3p2j"]
+[ext_resource type="Resource" uid="uid://pv50173fs5uh" path="res://moves/falseswipe.tres" id="4_ccflj"]
+[ext_resource type="Resource" uid="uid://djc7ng2r7hm18" path="res://moves/flamethrower.tres" id="5_thiok"]
+[ext_resource type="Resource" uid="uid://laguccu1aes" path="res://moves/furyswipes.tres" id="6_7k38m"]
+[ext_resource type="Resource" uid="uid://dwmqt0n0t3jpl" path="res://moves/irontail.tres" id="7_elsg1"]
+[ext_resource type="Resource" uid="uid://b7jv8eiivhxrg" path="res://moves/meanlook.tres" id="8_lxpv0"]
+[ext_resource type="Resource" uid="uid://c23diqxlcqe6n" path="res://moves/odorsleuth.tres" id="9_ycv3r"]
+[ext_resource type="Resource" uid="uid://c70rshwb8ca0t" path="res://moves/seismictoss.tres" id="10_4hs3x"]
+[ext_resource type="Resource" uid="uid://brtvgwef8qoui" path="res://moves/sketch.tres" id="11_rwogt"]
+[ext_resource type="Resource" uid="uid://dm0v1ccg3yuy3" path="res://moves/sleeptalk.tres" id="12_aot38"]
+[ext_resource type="Resource" uid="uid://b55272j23moab" path="res://moves/spore.tres" id="13_tyc4i"]
+[ext_resource type="Resource" uid="uid://ch8vkda0skth1" path="res://moves/tailwhip.tres" id="14_glby8"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="15_j6078"]
+
+[resource]
+script = ExtResource("15_j6078")
+species_name = "Smeargle"
+species_id = 235
+types = Array[String](["normal"])
+base_stats = {
+"atk": 20.0,
+"def": 35.0,
+"hp": 55.0,
+"spa": 20.0,
+"spd": 45.0,
+"spe": 75.0
+}
+moves = Array[ExtResource("1_q4cvq")]([ExtResource("2_tsxnu"), ExtResource("3_q3p2j"), ExtResource("4_ccflj"), ExtResource("5_thiok"), ExtResource("6_7k38m"), ExtResource("7_elsg1"), ExtResource("8_lxpv0"), ExtResource("9_ycv3r"), ExtResource("10_4hs3x"), ExtResource("11_rwogt"), ExtResource("12_aot38"), ExtResource("13_tyc4i"), ExtResource("14_glby8")])
+abilities = {
+"0": "Own Tempo",
+"1": "Technician",
+"H": "Moody"
+}
+height = 1.2
+weight = 58.0
+color = "White"

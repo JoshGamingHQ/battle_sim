@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bpfg7ui2741vy"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_hqh41"]
+
+[resource]
+script = ExtResource("1_hqh41")
+move_id = "covet"
+move_name = "Covet"
+num = 343
+type = "normal"
+power = 60
+accuracy = 100
+pp = 25
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"failcopycat": 1.0,
+"failmefirst": 1.0,
+"mirror": 1.0,
+"noassist": 1.0,
+"protect": 1.0
+}

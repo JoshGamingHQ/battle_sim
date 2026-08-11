@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://ddfk8qfqvdnfp"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_yu4jv"]
+[ext_resource type="Resource" uid="uid://cq6lu5bcpf50i" path="res://moves/bugbite.tres" id="2_0j2h2"]
+[ext_resource type="Resource" uid="uid://c3spkon7qka3x" path="res://moves/electroweb.tres" id="3_5r6h6"]
+[ext_resource type="Resource" uid="uid://b4wt230q3nqqa" path="res://moves/poisonsting.tres" id="4_s8kul"]
+[ext_resource type="Resource" uid="uid://dlqeb5mptbr5w" path="res://moves/snore.tres" id="5_v1xa6"]
+[ext_resource type="Resource" uid="uid://ce0ic1pk4kia6" path="res://moves/stringshot.tres" id="6_nav1c"]
+[ext_resource type="Resource" uid="uid://bxvr0l21tsqsc" path="res://moves/tackle.tres" id="7_ull1g"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="8_a70a3"]
+
+[resource]
+script = ExtResource("8_a70a3")
+species_name = "Wurmple"
+species_id = 265
+types = Array[String](["bug"])
+base_stats = {
+"atk": 45.0,
+"def": 35.0,
+"hp": 45.0,
+"spa": 20.0,
+"spd": 30.0,
+"spe": 20.0
+}
+moves = Array[ExtResource("1_yu4jv")]([ExtResource("2_0j2h2"), ExtResource("3_5r6h6"), ExtResource("4_s8kul"), ExtResource("5_v1xa6"), ExtResource("6_nav1c"), ExtResource("7_ull1g")])
+abilities = {
+"0": "Shield Dust",
+"H": "Run Away"
+}
+height = 0.3
+weight = 3.6
+color = "Red"
+evolutions = Array[String](["Silcoon", "Cascoon"])

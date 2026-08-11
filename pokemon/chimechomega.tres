@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://ci4g46enbqmp1"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_1r75u"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_srucq"]
+
+[resource]
+script = ExtResource("2_srucq")
+species_name = "Chimecho-Mega"
+species_id = 358
+types = Array[String](["psychic", "steel"])
+base_stats = {
+"atk": 50.0,
+"def": 110.0,
+"hp": 75.0,
+"spa": 135.0,
+"spd": 120.0,
+"spe": 65.0
+}
+abilities = {
+"0": "Levitate"
+}
+height = 1.2
+weight = 8.0
+color = "Blue"

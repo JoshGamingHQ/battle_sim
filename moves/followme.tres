@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bgu35yo3o7pcq"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_x8ag3"]
+
+[resource]
+script = ExtResource("1_x8ag3")
+move_id = "followme"
+move_name = "Follow Me"
+num = 266
+type = "normal"
+accuracy = -1
+pp = 20
+category = "status"
+priority = 2
+target = "self"
+flags = {
+"failcopycat": 1.0,
+"noassist": 1.0
+}

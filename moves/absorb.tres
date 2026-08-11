@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cl7yvpmfciihy"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_lswhn"]
+
+[resource]
+script = ExtResource("1_lswhn")
+move_id = "absorb"
+move_name = "Absorb"
+num = 71
+type = "grass"
+power = 20
+accuracy = 100
+pp = 25
+category = "special"
+target = "normal"
+flags = {
+"heal": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

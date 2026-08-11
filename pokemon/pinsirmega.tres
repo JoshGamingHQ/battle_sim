@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://bjit4qnckljqo"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_iap13"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_tiqsd"]
+
+[resource]
+script = ExtResource("2_tiqsd")
+species_name = "Pinsir-Mega"
+species_id = 127
+types = Array[String](["bug", "flying"])
+base_stats = {
+"atk": 155.0,
+"def": 120.0,
+"hp": 65.0,
+"spa": 65.0,
+"spd": 90.0,
+"spe": 105.0
+}
+abilities = {
+"0": "Aerilate"
+}
+height = 1.7
+weight = 59.0
+color = "Brown"

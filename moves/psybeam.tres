@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://blq5ysf56fk7g"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_jyw35"]
+
+[resource]
+script = ExtResource("1_jyw35")
+move_id = "psybeam"
+move_name = "Psybeam"
+num = 60
+type = "psychic"
+power = 65
+accuracy = 100
+pp = 20
+category = "special"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 10.0,
+"volatileStatus": "confusion"
+}

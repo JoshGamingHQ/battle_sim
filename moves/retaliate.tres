@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://c5ixjfbsef0v1"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_rjrv0"]
+
+[resource]
+script = ExtResource("1_rjrv0")
+move_id = "retaliate"
+move_name = "Retaliate"
+num = 514
+type = "normal"
+power = 70
+accuracy = 100
+pp = 5
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

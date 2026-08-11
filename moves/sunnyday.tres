@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://mbqurspsyue8"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ckyrm"]
+
+[resource]
+script = ExtResource("1_ckyrm")
+move_id = "sunnyday"
+move_name = "Sunny Day"
+num = 241
+type = "fire"
+accuracy = -1
+pp = 5
+category = "status"
+target = "all"
+flags = {
+"metronome": 1.0
+}

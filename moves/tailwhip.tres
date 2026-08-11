@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://ch8vkda0skth1"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_v51o2"]
+
+[resource]
+script = ExtResource("1_v51o2")
+move_id = "tailwhip"
+move_name = "Tail Whip"
+num = 39
+type = "normal"
+accuracy = 100
+pp = 30
+category = "status"
+target = "allAdjacentFoes"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"reflectable": 1.0
+}
+boosts = {
+"def": -1.0
+}

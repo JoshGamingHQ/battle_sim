@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://ded7gf3g6v4li"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_xvtg3"]
+[ext_resource type="Resource" uid="uid://dv61dqysh7wm3" path="res://moves/splash.tres" id="2_dptaf"]
+[ext_resource type="Resource" uid="uid://8pct0r0oo1yw" path="res://moves/teleport.tres" id="3_uilvv"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="4_8d0s8"]
+
+[resource]
+script = ExtResource("4_8d0s8")
+species_name = "Cosmog"
+species_id = 789
+types = Array[String](["psychic"])
+base_stats = {
+"atk": 29.0,
+"def": 31.0,
+"hp": 43.0,
+"spa": 29.0,
+"spd": 31.0,
+"spe": 37.0
+}
+moves = Array[ExtResource("1_xvtg3")]([ExtResource("2_dptaf"), ExtResource("3_uilvv")])
+abilities = {
+"0": "Unaware"
+}
+height = 0.2
+weight = 0.1
+color = "Blue"
+evolutions = Array[String](["Cosmoem"])

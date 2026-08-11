@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://ceshqg3j74qiw"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_t0i06"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_fwdab"]
+
+[resource]
+script = ExtResource("2_fwdab")
+species_name = "Oricorio-Pom-Pom"
+species_id = 741
+types = Array[String](["electric", "flying"])
+base_stats = {
+"atk": 70.0,
+"def": 70.0,
+"hp": 75.0,
+"spa": 98.0,
+"spd": 70.0,
+"spe": 93.0
+}
+abilities = {
+"0": "Dancer"
+}
+height = 0.6
+weight = 3.4
+color = "Yellow"

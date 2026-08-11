@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cjk3hnjlupmyp"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_k4ro0"]
+
+[resource]
+script = ExtResource("1_k4ro0")
+move_id = "spiritshackle"
+move_name = "Spirit Shackle"
+num = 662
+type = "ghost"
+power = 80
+accuracy = 100
+pp = 10
+category = "physical"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 100.0
+}

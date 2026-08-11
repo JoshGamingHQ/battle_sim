@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://b4wt230q3nqqa"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_nxh05"]
+
+[resource]
+script = ExtResource("1_nxh05")
+move_id = "poisonsting"
+move_name = "Poison Sting"
+num = 40
+type = "poison"
+power = 15
+accuracy = 100
+pp = 35
+category = "physical"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 30.0,
+"status": "psn"
+}

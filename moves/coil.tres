@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cu8ropvw8p273"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_lvmps"]
+
+[resource]
+script = ExtResource("1_lvmps")
+move_id = "coil"
+move_name = "Coil"
+num = 489
+type = "poison"
+accuracy = -1
+pp = 20
+category = "status"
+target = "self"
+flags = {
+"metronome": 1.0,
+"snatch": 1.0
+}
+boosts = {
+"accuracy": 1.0,
+"atk": 1.0,
+"def": 1.0
+}

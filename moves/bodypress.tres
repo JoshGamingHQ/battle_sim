@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dph3vaqgow3rv"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ucdt0"]
+
+[resource]
+script = ExtResource("1_ucdt0")
+move_id = "bodypress"
+move_name = "Body Press"
+num = 776
+type = "fighting"
+power = 80
+accuracy = 100
+pp = 10
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

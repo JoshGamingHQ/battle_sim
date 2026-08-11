@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dmqcdjcgnowaw"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_xn8h2"]
+
+[resource]
+script = ExtResource("1_xn8h2")
+move_id = "aurawheel"
+move_name = "Aura Wheel"
+num = 783
+type = "electric"
+power = 110
+accuracy = 100
+pp = 10
+category = "physical"
+target = "normal"
+flags = {
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 100.0,
+"self": {
+"boosts": {
+"spe": 1.0
+}
+}
+}

@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dm8moqil7hou6"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_qdlkt"]
+
+[resource]
+script = ExtResource("1_qdlkt")
+move_id = "healbell"
+move_name = "Heal Bell"
+num = 215
+type = "normal"
+accuracy = -1
+pp = 5
+category = "status"
+target = "allyTeam"
+flags = {
+"bypasssub": 1.0,
+"distance": 1.0,
+"metronome": 1.0,
+"snatch": 1.0,
+"sound": 1.0
+}

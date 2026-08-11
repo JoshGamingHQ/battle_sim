@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dfj2vpdlafxhy"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_kq5tu"]
+
+[resource]
+script = ExtResource("1_kq5tu")
+move_id = "thunderouskick"
+move_name = "Thunderous Kick"
+num = 823
+type = "fighting"
+power = 90
+accuracy = 100
+pp = 10
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"boosts": {
+"def": -1.0
+},
+"chance": 100.0
+}

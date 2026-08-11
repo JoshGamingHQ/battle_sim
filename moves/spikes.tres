@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bpimmsnootrxn"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_0j7tr"]
+
+[resource]
+script = ExtResource("1_0j7tr")
+move_id = "spikes"
+move_name = "Spikes"
+num = 191
+type = "ground"
+accuracy = -1
+pp = 20
+category = "status"
+target = "foeSide"
+flags = {
+"metronome": 1.0,
+"mustpressure": 1.0,
+"nonsky": 1.0,
+"reflectable": 1.0
+}

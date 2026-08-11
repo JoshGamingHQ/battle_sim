@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://c3xyhwlwsfy5k"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_upvww"]
+
+[resource]
+script = ExtResource("1_upvww")
+move_id = "blazekick"
+move_name = "Blaze Kick"
+num = 299
+type = "fire"
+power = 85
+accuracy = 90
+pp = 10
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 10.0,
+"status": "brn"
+}

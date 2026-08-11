@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dlmhq7tjgg7jn"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ppvw7"]
+
+[resource]
+script = ExtResource("1_ppvw7")
+move_id = "flyingpress"
+move_name = "Flying Press"
+num = 560
+type = "fighting"
+power = 100
+accuracy = 95
+pp = 10
+category = "physical"
+target = "any"
+flags = {
+"contact": 1.0,
+"distance": 1.0,
+"gravity": 1.0,
+"metronome": 1.0,
+"minimize": 1.0,
+"mirror": 1.0,
+"nonsky": 1.0,
+"protect": 1.0
+}

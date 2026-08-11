@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bxxttsrwbucmh"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_rw8yb"]
+
+[resource]
+script = ExtResource("1_rw8yb")
+move_id = "triattack"
+move_name = "Tri Attack"
+num = 161
+type = "normal"
+power = 80
+accuracy = 100
+pp = 10
+category = "special"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 20.0
+}

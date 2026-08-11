@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://b8limjiuk5uap"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_s45ir"]
+
+[resource]
+script = ExtResource("1_s45ir")
+move_id = "waterspout"
+move_name = "Water Spout"
+num = 323
+type = "water"
+power = 150
+accuracy = 100
+pp = 5
+category = "special"
+target = "allAdjacentFoes"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

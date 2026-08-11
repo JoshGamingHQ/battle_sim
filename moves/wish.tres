@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dco7432wxc2a0"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_dog47"]
+
+[resource]
+script = ExtResource("1_dog47")
+move_id = "wish"
+move_name = "Wish"
+num = 273
+type = "normal"
+accuracy = -1
+pp = 10
+category = "status"
+target = "self"
+flags = {
+"heal": 1.0,
+"metronome": 1.0,
+"snatch": 1.0
+}

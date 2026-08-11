@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://s6it5aw74xpj"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_3gdmk"]
+
+[resource]
+script = ExtResource("1_3gdmk")
+move_id = "quickguard"
+move_name = "Quick Guard"
+num = 501
+type = "fighting"
+accuracy = -1
+pp = 15
+category = "status"
+priority = 3
+target = "allySide"
+flags = {
+"snatch": 1.0
+}

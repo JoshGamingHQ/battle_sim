@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bohuaktchpamf"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_c5krv"]
+
+[resource]
+script = ExtResource("1_c5krv")
+move_id = "hyperspacehole"
+move_name = "Hyperspace Hole"
+num = 593
+type = "psychic"
+power = 80
+accuracy = -1
+pp = 5
+category = "special"
+target = "normal"
+flags = {
+"bypasssub": 1.0,
+"mirror": 1.0
+}

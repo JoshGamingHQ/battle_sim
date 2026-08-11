@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://ciivcssp5y7we"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_e2ek3"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_0i1qc"]
+
+[resource]
+script = ExtResource("2_0i1qc")
+species_name = "Sandaconda-Gmax"
+species_id = 844
+types = Array[String](["ground"])
+base_stats = {
+"atk": 107.0,
+"def": 125.0,
+"hp": 72.0,
+"spa": 65.0,
+"spd": 70.0,
+"spe": 71.0
+}
+abilities = {
+"0": "Sand Spit",
+"1": "Shed Skin",
+"H": "Sand Veil"
+}
+height = 22.0
+color = "Green"

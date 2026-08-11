@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://b68pl2ytumg38"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_70dwk"]
+
+[resource]
+script = ExtResource("1_70dwk")
+move_id = "ficklebeam"
+move_name = "Fickle Beam"
+num = 907
+type = "dragon"
+power = 80
+accuracy = 100
+pp = 5
+category = "special"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cx56kk0ccfwjf"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_5mv57"]
+
+[resource]
+script = ExtResource("1_5mv57")
+move_id = "muddywater"
+move_name = "Muddy Water"
+num = 330
+type = "water"
+power = 90
+accuracy = 85
+pp = 10
+category = "special"
+target = "allAdjacentFoes"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"nonsky": 1.0,
+"protect": 1.0
+}
+secondary = {
+"boosts": {
+"accuracy": -1.0
+},
+"chance": 30.0
+}

@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://cwbh1akujdfwb"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_4fag0"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_3ahx8"]
+
+[resource]
+script = ExtResource("2_3ahx8")
+species_name = "Snorlax-Gmax"
+species_id = 143
+types = Array[String](["normal"])
+base_stats = {
+"atk": 110.0,
+"def": 65.0,
+"hp": 160.0,
+"spa": 65.0,
+"spd": 110.0,
+"spe": 30.0
+}
+abilities = {
+"0": "Immunity",
+"1": "Thick Fat",
+"H": "Gluttony"
+}
+height = 35.0
+color = "Black"

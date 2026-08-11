@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dd40xbyk520ch"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_h4kre"]
+
+[resource]
+script = ExtResource("1_h4kre")
+move_id = "xscissor"
+move_name = "X-Scissor"
+num = 404
+type = "bug"
+power = 80
+accuracy = 100
+pp = 15
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"slicing": 1.0
+}

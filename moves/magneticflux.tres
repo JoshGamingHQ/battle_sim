@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://kynu013soi14"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_8yjit"]
+
+[resource]
+script = ExtResource("1_8yjit")
+move_id = "magneticflux"
+move_name = "Magnetic Flux"
+num = 602
+type = "electric"
+accuracy = -1
+pp = 20
+category = "status"
+target = "allySide"
+flags = {
+"bypasssub": 1.0,
+"distance": 1.0,
+"metronome": 1.0,
+"snatch": 1.0
+}

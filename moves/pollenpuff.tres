@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bopidmn1h8f6"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_3m35f"]
+
+[resource]
+script = ExtResource("1_3m35f")
+move_id = "pollenpuff"
+move_name = "Pollen Puff"
+num = 676
+type = "bug"
+power = 90
+accuracy = 100
+pp = 15
+category = "special"
+target = "normal"
+flags = {
+"allyanim": 1.0,
+"bullet": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

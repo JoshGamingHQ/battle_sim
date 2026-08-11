@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://edf6a2e1xhit"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ft7p8"]
+
+[resource]
+script = ExtResource("1_ft7p8")
+move_id = "aerialace"
+move_name = "Aerial Ace"
+num = 332
+type = "flying"
+power = 60
+accuracy = -1
+pp = 20
+category = "physical"
+target = "any"
+flags = {
+"contact": 1.0,
+"distance": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"slicing": 1.0
+}

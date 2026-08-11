@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://pguwuu2g5cwc"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_tyira"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_yrjwh"]
+
+[resource]
+script = ExtResource("2_yrjwh")
+species_name = "Excadrill-Mega"
+species_id = 530
+types = Array[String](["ground", "steel"])
+base_stats = {
+"atk": 165.0,
+"def": 100.0,
+"hp": 110.0,
+"spa": 65.0,
+"spd": 65.0,
+"spe": 103.0
+}
+abilities = {
+"0": "Piercing Drill"
+}
+height = 0.9
+weight = 60.0
+color = "Gray"

@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://brg7np541ysxq"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ptuev"]
+
+[resource]
+script = ExtResource("1_ptuev")
+move_id = "psychocut"
+move_name = "Psycho Cut"
+num = 427
+type = "psychic"
+power = 70
+accuracy = 100
+pp = 20
+category = "physical"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"slicing": 1.0
+}

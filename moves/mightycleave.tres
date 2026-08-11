@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dr0s2pvydv4dx"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_s1odv"]
+
+[resource]
+script = ExtResource("1_s1odv")
+move_id = "mightycleave"
+move_name = "Mighty Cleave"
+num = 910
+type = "rock"
+power = 95
+accuracy = 100
+pp = 5
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"slicing": 1.0
+}

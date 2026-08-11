@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cw5e6vdr42vux"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_yqflv"]
+
+[resource]
+script = ExtResource("1_yqflv")
+move_id = "maliciousmoonsault"
+move_name = "Malicious Moonsault"
+num = 696
+type = "dark"
+power = 180
+accuracy = -1
+pp = 1
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"minimize": 1.0
+}

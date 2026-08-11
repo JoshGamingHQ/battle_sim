@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://33cf0mok1xn0"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_xnc2q"]
+
+[resource]
+script = ExtResource("1_xnc2q")
+move_id = "twinbeam"
+move_name = "Twin Beam"
+num = 888
+type = "psychic"
+power = 40
+accuracy = 100
+pp = 10
+category = "special"
+target = "normal"
+flags = {
+"mirror": 1.0,
+"protect": 1.0
+}

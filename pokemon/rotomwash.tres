@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://dmw0ikmexsqvs"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_e7s5f"]
+[ext_resource type="Resource" uid="uid://d1puyp1s20138" path="res://moves/hydropump.tres" id="2_msrks"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="3_3quyx"]
+
+[resource]
+script = ExtResource("3_3quyx")
+species_name = "Rotom-Wash"
+species_id = 479
+types = Array[String](["electric", "water"])
+base_stats = {
+"atk": 65.0,
+"def": 107.0,
+"hp": 50.0,
+"spa": 105.0,
+"spd": 107.0,
+"spe": 86.0
+}
+moves = Array[ExtResource("1_e7s5f")]([ExtResource("2_msrks")])
+abilities = {
+"0": "Levitate"
+}
+height = 0.3
+weight = 0.3
+color = "Red"

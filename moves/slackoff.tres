@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://b7o3kpvkq6pyx"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_wkamo"]
+
+[resource]
+script = ExtResource("1_wkamo")
+move_id = "slackoff"
+move_name = "Slack Off"
+num = 303
+type = "normal"
+accuracy = -1
+pp = 5
+category = "status"
+target = "self"
+flags = {
+"heal": 1.0,
+"metronome": 1.0,
+"snatch": 1.0
+}

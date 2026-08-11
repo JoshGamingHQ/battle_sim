@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://b5o61ah4rh4c2"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_kwfv3"]
+
+[resource]
+script = ExtResource("1_kwfv3")
+move_id = "eerieimpulse"
+move_name = "Eerie Impulse"
+num = 598
+type = "electric"
+accuracy = 100
+pp = 15
+category = "status"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"reflectable": 1.0
+}
+boosts = {
+"spa": -2.0
+}

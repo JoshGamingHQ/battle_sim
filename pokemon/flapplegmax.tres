@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://c4ikams465c1p"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_j7lfp"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_i66lx"]
+
+[resource]
+script = ExtResource("2_i66lx")
+species_name = "Flapple-Gmax"
+species_id = 841
+types = Array[String](["grass", "dragon"])
+base_stats = {
+"atk": 110.0,
+"def": 80.0,
+"hp": 70.0,
+"spa": 95.0,
+"spd": 60.0,
+"spe": 70.0
+}
+abilities = {
+"0": "Ripen",
+"1": "Gluttony",
+"H": "Hustle"
+}
+height = 24.0
+color = "Green"

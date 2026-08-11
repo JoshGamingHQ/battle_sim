@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://ck1rcs4eywg0r"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ex2bk"]
+
+[resource]
+script = ExtResource("1_ex2bk")
+move_id = "blueflare"
+move_name = "Blue Flare"
+num = 551
+type = "fire"
+power = 130
+accuracy = 85
+pp = 5
+category = "special"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 20.0,
+"status": "brn"
+}

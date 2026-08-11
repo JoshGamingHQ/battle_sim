@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://b8j6x1lad7ick"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_xxpvo"]
+
+[resource]
+script = ExtResource("1_xxpvo")
+move_id = "filletaway"
+move_name = "Fillet Away"
+num = 868
+type = "normal"
+accuracy = -1
+pp = 10
+category = "status"
+target = "self"
+flags = {
+"snatch": 1.0
+}
+boosts = {
+"atk": 2.0,
+"spa": 2.0,
+"spe": 2.0
+}

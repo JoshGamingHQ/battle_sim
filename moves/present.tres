@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://covrdfv44lym1"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_g4ytp"]
+
+[resource]
+script = ExtResource("1_g4ytp")
+move_id = "present"
+move_name = "Present"
+num = 217
+type = "normal"
+accuracy = 90
+pp = 15
+category = "physical"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

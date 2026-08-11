@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bsgfrd0tyy55g"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_i2dvc"]
+
+[resource]
+script = ExtResource("1_i2dvc")
+move_id = "dragonpulse"
+move_name = "Dragon Pulse"
+num = 406
+type = "dragon"
+power = 85
+accuracy = 100
+pp = 10
+category = "special"
+target = "any"
+flags = {
+"distance": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"pulse": 1.0
+}

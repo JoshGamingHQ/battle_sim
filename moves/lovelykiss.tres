@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://yrcyb2ai1k7y"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_sjn3o"]
+
+[resource]
+script = ExtResource("1_sjn3o")
+move_id = "lovelykiss"
+move_name = "Lovely Kiss"
+num = 142
+type = "normal"
+accuracy = 75
+pp = 10
+category = "status"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"reflectable": 1.0
+}
+status = "slp"

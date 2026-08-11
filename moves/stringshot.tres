@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://ce0ic1pk4kia6"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_3h0lr"]
+
+[resource]
+script = ExtResource("1_3h0lr")
+move_id = "stringshot"
+move_name = "String Shot"
+num = 81
+type = "bug"
+accuracy = 95
+pp = 40
+category = "status"
+target = "allAdjacentFoes"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"reflectable": 1.0
+}
+boosts = {
+"spe": -2.0
+}

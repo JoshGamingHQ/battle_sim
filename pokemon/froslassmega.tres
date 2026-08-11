@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://c2jbojn2njrjw"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_vmii4"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_kymuo"]
+
+[resource]
+script = ExtResource("2_kymuo")
+species_name = "Froslass-Mega"
+species_id = 478
+types = Array[String](["ice", "ghost"])
+base_stats = {
+"atk": 80.0,
+"def": 70.0,
+"hp": 70.0,
+"spa": 140.0,
+"spd": 100.0,
+"spe": 120.0
+}
+abilities = {
+"0": "Snow Warning"
+}
+height = 2.6
+weight = 29.6
+color = "White"

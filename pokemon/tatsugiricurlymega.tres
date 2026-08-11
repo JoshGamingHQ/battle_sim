@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://pgex7fbf2b77"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_n83qq"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_7l6w2"]
+
+[resource]
+script = ExtResource("2_7l6w2")
+species_name = "Tatsugiri-Curly-Mega"
+species_id = 978
+types = Array[String](["dragon", "water"])
+base_stats = {
+"atk": 65.0,
+"def": 90.0,
+"hp": 68.0,
+"spa": 135.0,
+"spd": 125.0,
+"spe": 92.0
+}
+abilities = {
+"0": "Commander",
+"H": "Storm Drain"
+}
+height = 0.3
+weight = 24.0
+color = "Red"

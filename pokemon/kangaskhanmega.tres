@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://c0bwiek2ky3me"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_2fv3d"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_3f5o8"]
+
+[resource]
+script = ExtResource("2_3f5o8")
+species_name = "Kangaskhan-Mega"
+species_id = 115
+types = Array[String](["normal"])
+base_stats = {
+"atk": 125.0,
+"def": 100.0,
+"hp": 105.0,
+"spa": 60.0,
+"spd": 100.0,
+"spe": 100.0
+}
+abilities = {
+"0": "Parental Bond"
+}
+height = 2.2
+weight = 100.0
+color = "Brown"

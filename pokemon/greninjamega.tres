@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://ccp3p3rsakwv8"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_lvqqm"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_ynqyn"]
+
+[resource]
+script = ExtResource("2_ynqyn")
+species_name = "Greninja-Mega"
+species_id = 658
+types = Array[String](["water", "dark"])
+base_stats = {
+"atk": 125.0,
+"def": 77.0,
+"hp": 72.0,
+"spa": 133.0,
+"spd": 81.0,
+"spe": 142.0
+}
+abilities = {
+"0": "Protean"
+}
+height = 1.5
+weight = 40.0
+color = "Blue"

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://462pqsqs8t76"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_g662i"]
+
+[resource]
+script = ExtResource("1_g662i")
+move_id = "precipiceblades"
+move_name = "Precipice Blades"
+num = 619
+type = "ground"
+power = 120
+accuracy = 85
+pp = 10
+category = "physical"
+target = "allAdjacentFoes"
+flags = {
+"mirror": 1.0,
+"nonsky": 1.0,
+"protect": 1.0
+}

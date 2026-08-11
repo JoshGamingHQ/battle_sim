@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cu8yujxqxsbs5"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_nmfg3"]
+
+[resource]
+script = ExtResource("1_nmfg3")
+move_id = "zenheadbutt"
+move_name = "Zen Headbutt"
+num = 428
+type = "psychic"
+power = 80
+accuracy = 90
+pp = 15
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 20.0,
+"volatileStatus": "flinch"
+}

@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://bbshhjdvuhqq2"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_t8dec"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_0d08y"]
+
+[resource]
+script = ExtResource("2_0d08y")
+species_name = "Floette-Mega"
+species_id = 670
+types = Array[String](["fairy"])
+base_stats = {
+"atk": 85.0,
+"def": 87.0,
+"hp": 74.0,
+"spa": 155.0,
+"spd": 148.0,
+"spe": 102.0
+}
+abilities = {
+"0": "Fairy Aura"
+}
+height = 0.2
+weight = 100.8
+color = "White"

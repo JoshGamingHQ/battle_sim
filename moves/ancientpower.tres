@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://duwww1j2djt1c"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_xfj7a"]
+
+[resource]
+script = ExtResource("1_xfj7a")
+move_id = "ancientpower"
+move_name = "Ancient Power"
+num = 246
+type = "rock"
+power = 60
+accuracy = 100
+pp = 5
+category = "special"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 10.0,
+"self": {
+"boosts": {
+"atk": 1.0,
+"def": 1.0,
+"spa": 1.0,
+"spd": 1.0,
+"spe": 1.0
+}
+}
+}

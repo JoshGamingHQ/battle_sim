@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://10aaw1schioj"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_0jv58"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_tvkmv"]
+
+[resource]
+script = ExtResource("2_tvkmv")
+species_name = "Swampert-Mega"
+species_id = 260
+types = Array[String](["water", "ground"])
+base_stats = {
+"atk": 150.0,
+"def": 110.0,
+"hp": 100.0,
+"spa": 95.0,
+"spd": 110.0,
+"spe": 70.0
+}
+abilities = {
+"0": "Swift Swim"
+}
+height = 1.9
+weight = 102.0
+color = "Blue"

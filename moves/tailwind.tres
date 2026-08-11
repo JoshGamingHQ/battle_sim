@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://2rkqillaetkk"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ccp05"]
+
+[resource]
+script = ExtResource("1_ccp05")
+move_id = "tailwind"
+move_name = "Tailwind"
+num = 366
+type = "flying"
+accuracy = -1
+pp = 15
+category = "status"
+target = "allySide"
+flags = {
+"metronome": 1.0,
+"snatch": 1.0,
+"wind": 1.0
+}

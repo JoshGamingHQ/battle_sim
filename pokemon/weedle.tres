@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://c8nop3ic68tli"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ix5q5"]
+[ext_resource type="Resource" uid="uid://cq6lu5bcpf50i" path="res://moves/bugbite.tres" id="2_yxxrj"]
+[ext_resource type="Resource" uid="uid://c3spkon7qka3x" path="res://moves/electroweb.tres" id="3_cbaf5"]
+[ext_resource type="Resource" uid="uid://b4wt230q3nqqa" path="res://moves/poisonsting.tres" id="4_grwsq"]
+[ext_resource type="Resource" uid="uid://ce0ic1pk4kia6" path="res://moves/stringshot.tres" id="5_uyrja"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="6_jq2vt"]
+
+[resource]
+script = ExtResource("6_jq2vt")
+species_name = "Weedle"
+species_id = 13
+types = Array[String](["bug", "poison"])
+base_stats = {
+"atk": 35.0,
+"def": 30.0,
+"hp": 40.0,
+"spa": 20.0,
+"spd": 20.0,
+"spe": 50.0
+}
+moves = Array[ExtResource("1_ix5q5")]([ExtResource("2_yxxrj"), ExtResource("3_cbaf5"), ExtResource("4_grwsq"), ExtResource("5_uyrja")])
+abilities = {
+"0": "Shield Dust",
+"H": "Run Away"
+}
+height = 0.3
+weight = 3.2
+color = "Brown"
+evolutions = Array[String](["Kakuna"])

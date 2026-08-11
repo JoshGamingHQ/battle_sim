@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://d373a3p60tjgb"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_afr2w"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_hka5s"]
+
+[resource]
+script = ExtResource("2_hka5s")
+species_name = "Gardevoir-Mega"
+species_id = 282
+types = Array[String](["psychic", "fairy"])
+base_stats = {
+"atk": 85.0,
+"def": 65.0,
+"hp": 68.0,
+"spa": 165.0,
+"spd": 135.0,
+"spe": 100.0
+}
+abilities = {
+"0": "Pixilate"
+}
+height = 1.6
+weight = 48.4
+color = "White"

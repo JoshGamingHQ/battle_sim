@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://c1f8shw4u4b7k"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_bu3de"]
+
+[resource]
+script = ExtResource("1_bu3de")
+move_id = "toxicspikes"
+move_name = "Toxic Spikes"
+num = 390
+type = "poison"
+accuracy = -1
+pp = 20
+category = "status"
+target = "foeSide"
+flags = {
+"metronome": 1.0,
+"mustpressure": 1.0,
+"nonsky": 1.0,
+"reflectable": 1.0
+}

@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://dqufsqfol3t0h"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_s5ylm"]
+[ext_resource type="Resource" uid="uid://bv7hmsfokida5" path="res://moves/overheat.tres" id="2_3vn2l"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="3_de8yb"]
+
+[resource]
+script = ExtResource("3_de8yb")
+species_name = "Rotom-Heat"
+species_id = 479
+types = Array[String](["electric", "fire"])
+base_stats = {
+"atk": 65.0,
+"def": 107.0,
+"hp": 50.0,
+"spa": 105.0,
+"spd": 107.0,
+"spe": 86.0
+}
+moves = Array[ExtResource("1_s5ylm")]([ExtResource("2_3vn2l")])
+abilities = {
+"0": "Levitate"
+}
+height = 0.3
+weight = 0.3
+color = "Red"

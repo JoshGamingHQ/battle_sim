@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dd3yyd2bouhf0"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_8klee"]
+
+[resource]
+script = ExtResource("1_8klee")
+move_id = "wideguard"
+move_name = "Wide Guard"
+num = 469
+type = "rock"
+accuracy = -1
+pp = 10
+category = "status"
+priority = 3
+target = "allySide"
+flags = {
+"snatch": 1.0
+}

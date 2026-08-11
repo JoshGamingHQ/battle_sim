@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://4f0lqenu3h"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_k8fa7"]
+
+[resource]
+script = ExtResource("1_k8fa7")
+move_id = "shelltrap"
+move_name = "Shell Trap"
+num = 704
+type = "fire"
+power = 150
+accuracy = 100
+pp = 5
+category = "special"
+priority = -3
+target = "allAdjacentFoes"
+flags = {
+"failcopycat": 1.0,
+"failinstruct": 1.0,
+"failmefirst": 1.0,
+"noassist": 1.0,
+"nosleeptalk": 1.0,
+"protect": 1.0
+}

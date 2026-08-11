@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://c11vn8yuh82eo"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_u1ffw"]
+
+[resource]
+script = ExtResource("1_u1ffw")
+move_id = "belch"
+move_name = "Belch"
+num = 562
+type = "poison"
+power = 120
+accuracy = 90
+pp = 10
+category = "special"
+target = "normal"
+flags = {
+"failcopycat": 1.0,
+"failinstruct": 1.0,
+"failmefirst": 1.0,
+"failmimic": 1.0,
+"noassist": 1.0,
+"nosleeptalk": 1.0,
+"protect": 1.0
+}

@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://6l6gie1lfqlw"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_8ew1s"]
+
+[resource]
+script = ExtResource("1_8ew1s")
+move_id = "toxicthread"
+move_name = "Toxic Thread"
+num = 672
+type = "poison"
+accuracy = 100
+pp = 20
+category = "status"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"reflectable": 1.0
+}
+status = "psn"
+boosts = {
+"spe": -1.0
+}

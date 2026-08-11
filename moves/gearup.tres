@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cmnj6gamqhp5g"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_irda7"]
+
+[resource]
+script = ExtResource("1_irda7")
+move_id = "gearup"
+move_name = "Gear Up"
+num = 674
+type = "steel"
+accuracy = -1
+pp = 20
+category = "status"
+target = "allySide"
+flags = {
+"bypasssub": 1.0,
+"metronome": 1.0,
+"snatch": 1.0
+}

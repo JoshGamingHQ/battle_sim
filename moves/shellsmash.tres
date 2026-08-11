@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://b3j8o2ffw7awi"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_7tqq1"]
+
+[resource]
+script = ExtResource("1_7tqq1")
+move_id = "shellsmash"
+move_name = "Shell Smash"
+num = 504
+type = "normal"
+accuracy = -1
+pp = 15
+category = "status"
+target = "self"
+flags = {
+"metronome": 1.0,
+"snatch": 1.0
+}
+boosts = {
+"atk": 2.0,
+"def": -1.0,
+"spa": 2.0,
+"spd": -1.0,
+"spe": 2.0
+}

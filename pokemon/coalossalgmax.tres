@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://7hdwq2js0iaf"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_mkm4x"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_n4ivq"]
+
+[resource]
+script = ExtResource("2_n4ivq")
+species_name = "Coalossal-Gmax"
+species_id = 839
+types = Array[String](["rock", "fire"])
+base_stats = {
+"atk": 80.0,
+"def": 120.0,
+"hp": 110.0,
+"spa": 80.0,
+"spd": 90.0,
+"spe": 30.0
+}
+abilities = {
+"0": "Steam Engine",
+"1": "Flame Body",
+"H": "Flash Fire"
+}
+height = 42.0
+color = "Black"

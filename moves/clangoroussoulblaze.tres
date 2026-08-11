@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://ovvcw70tymxx"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_j8avp"]
+
+[resource]
+script = ExtResource("1_j8avp")
+move_id = "clangoroussoulblaze"
+move_name = "Clangorous Soulblaze"
+num = 728
+type = "dragon"
+power = 185
+accuracy = -1
+pp = 1
+category = "special"
+target = "allAdjacentFoes"
+flags = {
+"bypasssub": 1.0,
+"sound": 1.0
+}

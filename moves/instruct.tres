@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cbsqy5dd6ghbb"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_6u8tq"]
+
+[resource]
+script = ExtResource("1_6u8tq")
+move_id = "instruct"
+move_name = "Instruct"
+num = 689
+type = "psychic"
+accuracy = -1
+pp = 15
+category = "status"
+target = "normal"
+flags = {
+"allyanim": 1.0,
+"bypasssub": 1.0,
+"failinstruct": 1.0,
+"protect": 1.0
+}

@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://b3uhdlti3hp1x"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_yxyjo"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_ld5kg"]
+
+[resource]
+script = ExtResource("2_ld5kg")
+species_name = "Scovillain-Mega"
+species_id = 952
+types = Array[String](["grass", "fire"])
+base_stats = {
+"atk": 138.0,
+"def": 85.0,
+"hp": 65.0,
+"spa": 138.0,
+"spd": 85.0,
+"spe": 75.0
+}
+abilities = {
+"0": "Spicy Spray"
+}
+height = 1.2
+weight = 22.0
+color = "Green"

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cw5pgwud6mecn"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_crejx"]
+
+[resource]
+script = ExtResource("1_crejx")
+move_id = "eternabeam"
+move_name = "Eternabeam"
+num = 795
+type = "dragon"
+power = 160
+accuracy = 90
+pp = 5
+category = "special"
+target = "normal"
+flags = {
+"mirror": 1.0,
+"protect": 1.0,
+"recharge": 1.0
+}

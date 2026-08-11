@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://bts6aa0lb2tyy"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_hwu54"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_205lu"]
+
+[resource]
+script = ExtResource("2_205lu")
+species_name = "Giratina-Origin"
+species_id = 487
+types = Array[String](["ghost", "dragon"])
+base_stats = {
+"atk": 120.0,
+"def": 100.0,
+"hp": 150.0,
+"spa": 120.0,
+"spd": 100.0,
+"spe": 90.0
+}
+abilities = {
+"0": "Levitate"
+}
+height = 6.9
+weight = 650.0
+color = "Black"

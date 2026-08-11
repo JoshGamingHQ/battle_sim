@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dl1rne8wquyv2"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_51yvo"]
+
+[resource]
+script = ExtResource("1_51yvo")
+move_id = "calmmind"
+move_name = "Calm Mind"
+num = 347
+type = "psychic"
+accuracy = -1
+pp = 20
+category = "status"
+target = "self"
+flags = {
+"metronome": 1.0,
+"snatch": 1.0
+}
+boosts = {
+"spa": 1.0,
+"spd": 1.0
+}

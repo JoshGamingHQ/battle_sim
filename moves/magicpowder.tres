@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cl7s6abfgp5xr"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_0am56"]
+
+[resource]
+script = ExtResource("1_0am56")
+move_id = "magicpowder"
+move_name = "Magic Powder"
+num = 750
+type = "psychic"
+accuracy = 100
+pp = 20
+category = "status"
+target = "normal"
+flags = {
+"allyanim": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"powder": 1.0,
+"protect": 1.0,
+"reflectable": 1.0
+}

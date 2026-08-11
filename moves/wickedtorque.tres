@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bdhbi4jl7xyjn"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_8lxp8"]
+
+[resource]
+script = ExtResource("1_8lxp8")
+move_id = "wickedtorque"
+move_name = "Wicked Torque"
+num = 897
+type = "dark"
+power = 80
+accuracy = 100
+pp = 10
+category = "physical"
+target = "normal"
+flags = {
+"failcopycat": 1.0,
+"failencore": 1.0,
+"failinstruct": 1.0,
+"failmefirst": 1.0,
+"failmimic": 1.0,
+"noassist": 1.0,
+"nosketch": 1.0,
+"nosleeptalk": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 10.0,
+"status": "slp"
+}

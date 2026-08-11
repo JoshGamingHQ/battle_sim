@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://hmejufa28ae5"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_1gds1"]
+
+[resource]
+script = ExtResource("1_1gds1")
+move_id = "bulkup"
+move_name = "Bulk Up"
+num = 339
+type = "fighting"
+accuracy = -1
+pp = 20
+category = "status"
+target = "self"
+flags = {
+"metronome": 1.0,
+"snatch": 1.0
+}
+boosts = {
+"atk": 1.0,
+"def": 1.0
+}

@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://c8daafkd1jri8"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_j6y8u"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_6twdv"]
+
+[resource]
+script = ExtResource("2_6twdv")
+species_name = "Basculin-Blue-Striped"
+species_id = 550
+types = Array[String](["water"])
+base_stats = {
+"atk": 92.0,
+"def": 65.0,
+"hp": 70.0,
+"spa": 80.0,
+"spd": 55.0,
+"spe": 98.0
+}
+abilities = {
+"0": "Rock Head",
+"1": "Adaptability",
+"H": "Mold Breaker"
+}
+height = 1.0
+weight = 18.0
+color = "Green"

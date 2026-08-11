@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cl0iudwba50qi"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_yn7d6"]
+
+[resource]
+script = ExtResource("1_yn7d6")
+move_id = "waterpledge"
+move_name = "Water Pledge"
+num = 518
+type = "water"
+power = 80
+accuracy = 100
+pp = 10
+category = "special"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"nonsky": 1.0,
+"pledgecombo": 1.0,
+"protect": 1.0
+}

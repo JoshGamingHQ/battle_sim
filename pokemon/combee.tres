@@ -1,0 +1,44 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://bwyhq3qox7nkq"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_4ux38"]
+[ext_resource type="Resource" uid="uid://debajhelu1j1h" path="res://moves/aircutter.tres" id="2_mbiv8"]
+[ext_resource type="Resource" uid="uid://cq6lu5bcpf50i" path="res://moves/bugbite.tres" id="3_pa7ja"]
+[ext_resource type="Resource" uid="uid://btb7xitd0ruw5" path="res://moves/bugbuzz.tres" id="4_csuvm"]
+[ext_resource type="Resource" uid="uid://dqhbo0vsvetv6" path="res://moves/dualwingbeat.tres" id="5_rrcmf"]
+[ext_resource type="Resource" uid="uid://denu3qeqkhurh" path="res://moves/endeavor.tres" id="6_sxjh5"]
+[ext_resource type="Resource" uid="uid://ngf6cvoo0g0l" path="res://moves/gust.tres" id="7_3kurf"]
+[ext_resource type="Resource" uid="uid://b3vu0ix30m1kr" path="res://moves/lunge.tres" id="8_wcfb7"]
+[ext_resource type="Resource" uid="uid://p25tfa3r3ph2" path="res://moves/mudslap.tres" id="9_bqjkg"]
+[ext_resource type="Resource" uid="uid://bqy0xgmmgpm0p" path="res://moves/ominouswind.tres" id="10_s2oke"]
+[ext_resource type="Resource" uid="uid://d3om5qq6wie7m" path="res://moves/skittersmack.tres" id="11_c7cy3"]
+[ext_resource type="Resource" uid="uid://dm0v1ccg3yuy3" path="res://moves/sleeptalk.tres" id="12_6rg75"]
+[ext_resource type="Resource" uid="uid://dlqeb5mptbr5w" path="res://moves/snore.tres" id="13_fl1un"]
+[ext_resource type="Resource" uid="uid://ce0ic1pk4kia6" path="res://moves/stringshot.tres" id="14_gagnu"]
+[ext_resource type="Resource" uid="uid://dmbjrtucacjy5" path="res://moves/strugglebug.tres" id="15_oxkqs"]
+[ext_resource type="Resource" uid="uid://3rl8jpxpdwd1" path="res://moves/sweetscent.tres" id="16_qh1bg"]
+[ext_resource type="Resource" uid="uid://blxkqtlq076np" path="res://moves/swift.tres" id="17_0c7hh"]
+[ext_resource type="Resource" uid="uid://2rkqillaetkk" path="res://moves/tailwind.tres" id="18_w7myn"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="19_opvwg"]
+
+[resource]
+script = ExtResource("19_opvwg")
+species_name = "Combee"
+species_id = 415
+types = Array[String](["bug", "flying"])
+base_stats = {
+"atk": 30.0,
+"def": 42.0,
+"hp": 30.0,
+"spa": 30.0,
+"spd": 42.0,
+"spe": 70.0
+}
+moves = Array[ExtResource("1_4ux38")]([ExtResource("2_mbiv8"), ExtResource("3_pa7ja"), ExtResource("4_csuvm"), ExtResource("5_rrcmf"), ExtResource("6_sxjh5"), ExtResource("7_3kurf"), ExtResource("8_wcfb7"), ExtResource("9_bqjkg"), ExtResource("10_s2oke"), ExtResource("11_c7cy3"), ExtResource("12_6rg75"), ExtResource("13_fl1un"), ExtResource("14_gagnu"), ExtResource("15_oxkqs"), ExtResource("16_qh1bg"), ExtResource("17_0c7hh"), ExtResource("18_w7myn")])
+abilities = {
+"0": "Honey Gather",
+"H": "Hustle"
+}
+height = 0.3
+weight = 5.5
+color = "Yellow"
+evolutions = Array[String](["Vespiquen"])

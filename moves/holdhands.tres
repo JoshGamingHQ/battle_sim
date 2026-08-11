@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://blxcauigth56g"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_8eown"]
+
+[resource]
+script = ExtResource("1_8eown")
+move_id = "holdhands"
+move_name = "Hold Hands"
+num = 607
+type = "normal"
+accuracy = -1
+pp = 40
+category = "status"
+target = "adjacentAlly"
+flags = {
+"bypasssub": 1.0,
+"failcopycat": 1.0,
+"failinstruct": 1.0,
+"failmimic": 1.0,
+"noassist": 1.0,
+"nosleeptalk": 1.0
+}

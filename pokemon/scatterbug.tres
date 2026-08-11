@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://c81juyy33cw42"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_jfp35"]
+[ext_resource type="Resource" uid="uid://cq6lu5bcpf50i" path="res://moves/bugbite.tres" id="2_rpejs"]
+[ext_resource type="Resource" uid="uid://pv4hsm4eiynd" path="res://moves/poisonpowder.tres" id="3_5t7i8"]
+[ext_resource type="Resource" uid="uid://8iamd0ftk4rb" path="res://moves/pounce.tres" id="4_xph51"]
+[ext_resource type="Resource" uid="uid://bw8ttfbkqjod6" path="res://moves/ragepowder.tres" id="5_t5aj7"]
+[ext_resource type="Resource" uid="uid://ce0ic1pk4kia6" path="res://moves/stringshot.tres" id="6_pjw15"]
+[ext_resource type="Resource" uid="uid://dmbjrtucacjy5" path="res://moves/strugglebug.tres" id="7_seln8"]
+[ext_resource type="Resource" uid="uid://3fo316af7dkp" path="res://moves/stunspore.tres" id="8_g1x5f"]
+[ext_resource type="Resource" uid="uid://bxvr0l21tsqsc" path="res://moves/tackle.tres" id="9_in08w"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="10_a204j"]
+
+[resource]
+script = ExtResource("10_a204j")
+species_name = "Scatterbug"
+species_id = 664
+types = Array[String](["bug"])
+base_stats = {
+"atk": 35.0,
+"def": 40.0,
+"hp": 38.0,
+"spa": 27.0,
+"spd": 25.0,
+"spe": 35.0
+}
+moves = Array[ExtResource("1_jfp35")]([ExtResource("2_rpejs"), ExtResource("3_5t7i8"), ExtResource("4_xph51"), ExtResource("5_t5aj7"), ExtResource("6_pjw15"), ExtResource("7_seln8"), ExtResource("8_g1x5f"), ExtResource("9_in08w")])
+abilities = {
+"0": "Shield Dust",
+"1": "Compound Eyes",
+"H": "Friend Guard"
+}
+height = 0.3
+weight = 2.5
+color = "Black"
+evolutions = Array[String](["Spewpa"])

@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://lu4f7277j0jx"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_24bea"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_7a77i"]
+
+[resource]
+script = ExtResource("2_7a77i")
+species_name = "Raichu-Mega-X"
+species_id = 26
+types = Array[String](["electric"])
+base_stats = {
+"atk": 135.0,
+"def": 95.0,
+"hp": 60.0,
+"spa": 90.0,
+"spd": 95.0,
+"spe": 110.0
+}
+abilities = {
+"0": "Electric Surge"
+}
+height = 1.2
+weight = 38.0
+color = "Yellow"

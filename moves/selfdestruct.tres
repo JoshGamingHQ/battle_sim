@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cyu13bswsdvxm"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_85c71"]
+
+[resource]
+script = ExtResource("1_85c71")
+move_id = "selfdestruct"
+move_name = "Self-Destruct"
+num = 120
+type = "normal"
+power = 200
+accuracy = 100
+pp = 5
+category = "physical"
+target = "allAdjacent"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"noparentalbond": 1.0,
+"protect": 1.0
+}

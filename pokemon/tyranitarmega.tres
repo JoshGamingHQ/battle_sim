@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://dvevoserwtp7b"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ph6ya"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_6s53q"]
+
+[resource]
+script = ExtResource("2_6s53q")
+species_name = "Tyranitar-Mega"
+species_id = 248
+types = Array[String](["rock", "dark"])
+base_stats = {
+"atk": 164.0,
+"def": 150.0,
+"hp": 100.0,
+"spa": 95.0,
+"spd": 120.0,
+"spe": 71.0
+}
+abilities = {
+"0": "Sand Stream"
+}
+height = 2.5
+weight = 255.0
+color = "Green"

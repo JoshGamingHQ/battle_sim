@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bqqq00wbgx2ef"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_02qnf"]
+
+[resource]
+script = ExtResource("1_02qnf")
+move_id = "detect"
+move_name = "Detect"
+num = 197
+type = "fighting"
+accuracy = -1
+pp = 5
+category = "status"
+priority = 4
+target = "self"
+flags = {
+"failcopycat": 1.0,
+"noassist": 1.0
+}

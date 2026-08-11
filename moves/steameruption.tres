@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dkc1etxxvsjaj"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_scung"]
+
+[resource]
+script = ExtResource("1_scung")
+move_id = "steameruption"
+move_name = "Steam Eruption"
+num = 592
+type = "water"
+power = 110
+accuracy = 95
+pp = 5
+category = "special"
+target = "normal"
+flags = {
+"defrost": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 30.0,
+"status": "brn"
+}

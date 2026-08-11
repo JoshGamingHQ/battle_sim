@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bctc4o52ij2h3"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_aypv8"]
+
+[resource]
+script = ExtResource("1_aypv8")
+move_id = "rockpolish"
+move_name = "Rock Polish"
+num = 397
+type = "rock"
+accuracy = -1
+pp = 20
+category = "status"
+target = "self"
+flags = {
+"metronome": 1.0,
+"snatch": 1.0
+}
+boosts = {
+"spe": 2.0
+}

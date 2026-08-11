@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://6g34iah12ag4"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_kwmvf"]
+
+[resource]
+script = ExtResource("1_kwmvf")
+move_id = "lunardance"
+move_name = "Lunar Dance"
+num = 461
+type = "psychic"
+accuracy = -1
+pp = 10
+category = "status"
+target = "self"
+flags = {
+"dance": 1.0,
+"heal": 1.0,
+"metronome": 1.0,
+"snatch": 1.0
+}

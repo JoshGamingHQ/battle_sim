@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://c3gu2uu3is2c2"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_cqnie"]
+
+[resource]
+script = ExtResource("1_cqnie")
+move_id = "crosschop"
+move_name = "Cross Chop"
+num = 238
+type = "fighting"
+power = 100
+accuracy = 80
+pp = 5
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

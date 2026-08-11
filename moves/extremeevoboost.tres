@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://e06daxlo8gx2"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_t458r"]
+
+[resource]
+script = ExtResource("1_t458r")
+move_id = "extremeevoboost"
+move_name = "Extreme Evoboost"
+num = 702
+type = "normal"
+accuracy = -1
+pp = 1
+category = "status"
+target = "self"
+boosts = {
+"atk": 2.0,
+"def": 2.0,
+"spa": 2.0,
+"spd": 2.0,
+"spe": 2.0
+}

@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://d151nwje4wpco"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_d6c7n"]
+
+[resource]
+script = ExtResource("1_d6c7n")
+move_id = "acidarmor"
+move_name = "Acid Armor"
+num = 151
+type = "poison"
+accuracy = -1
+pp = 20
+category = "status"
+target = "self"
+flags = {
+"metronome": 1.0,
+"snatch": 1.0
+}
+boosts = {
+"def": 2.0
+}

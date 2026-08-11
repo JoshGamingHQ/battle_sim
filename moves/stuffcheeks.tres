@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://c5q3hs6x2m5a3"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_wxq2i"]
+
+[resource]
+script = ExtResource("1_wxq2i")
+move_id = "stuffcheeks"
+move_name = "Stuff Cheeks"
+num = 747
+type = "normal"
+accuracy = -1
+pp = 10
+category = "status"
+target = "self"
+flags = {
+"metronome": 1.0,
+"snatch": 1.0
+}

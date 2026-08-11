@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://duofhkv07eh0g"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_o1pmv"]
+
+[resource]
+script = ExtResource("1_o1pmv")
+move_id = "leafage"
+move_name = "Leafage"
+num = 670
+type = "grass"
+power = 40
+accuracy = 100
+pp = 40
+category = "physical"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

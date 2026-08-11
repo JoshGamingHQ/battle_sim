@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://ctcq0pl03olvx"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_vge28"]
+
+[resource]
+script = ExtResource("1_vge28")
+move_id = "hiddenpowerrock"
+move_name = "Hidden Power Rock"
+num = 237
+type = "rock"
+power = 60
+accuracy = 100
+pp = 15
+category = "special"
+target = "normal"
+flags = {
+"mirror": 1.0,
+"protect": 1.0
+}

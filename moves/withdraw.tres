@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://b6rj1je4y7sls"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_go2t5"]
+
+[resource]
+script = ExtResource("1_go2t5")
+move_id = "withdraw"
+move_name = "Withdraw"
+num = 110
+type = "water"
+accuracy = -1
+pp = 40
+category = "status"
+target = "self"
+flags = {
+"metronome": 1.0,
+"snatch": 1.0
+}
+boosts = {
+"def": 1.0
+}

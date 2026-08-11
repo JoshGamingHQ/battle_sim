@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://binnknayfcgep"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_r06rw"]
+
+[resource]
+script = ExtResource("1_r06rw")
+move_id = "gmaxvoltcrash"
+move_name = "G-Max Volt Crash"
+num = 1000
+type = "electric"
+power = 10
+accuracy = -1
+pp = 10
+category = "physical"
+target = "adjacentFoe"

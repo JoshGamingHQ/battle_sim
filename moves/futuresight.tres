@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dn862kchl6pcr"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_mhsqc"]
+
+[resource]
+script = ExtResource("1_mhsqc")
+move_id = "futuresight"
+move_name = "Future Sight"
+num = 248
+type = "psychic"
+power = 120
+accuracy = 100
+pp = 10
+category = "special"
+target = "normal"
+flags = {
+"allyanim": 1.0,
+"futuremove": 1.0,
+"metronome": 1.0
+}

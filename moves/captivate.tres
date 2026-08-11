@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://d0a13x2bmb7x5"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_4ww72"]
+
+[resource]
+script = ExtResource("1_4ww72")
+move_id = "captivate"
+move_name = "Captivate"
+num = 445
+type = "normal"
+accuracy = 100
+pp = 20
+category = "status"
+target = "allAdjacentFoes"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"reflectable": 1.0
+}
+boosts = {
+"spa": -2.0
+}

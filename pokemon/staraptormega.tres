@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://dn6s3gon8mcbh"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_niu4q"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_kaees"]
+
+[resource]
+script = ExtResource("2_kaees")
+species_name = "Staraptor-Mega"
+species_id = 398
+types = Array[String](["fighting", "flying"])
+base_stats = {
+"atk": 140.0,
+"def": 100.0,
+"hp": 85.0,
+"spa": 60.0,
+"spd": 90.0,
+"spe": 110.0
+}
+abilities = {
+"0": "Contrary"
+}
+height = 1.9
+weight = 50.0
+color = "Gray"

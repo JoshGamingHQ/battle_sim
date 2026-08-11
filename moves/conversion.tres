@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://ba37cujtltc6r"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ifxfk"]
+
+[resource]
+script = ExtResource("1_ifxfk")
+move_id = "conversion"
+move_name = "Conversion"
+num = 160
+type = "normal"
+accuracy = -1
+pp = 30
+category = "status"
+target = "self"
+flags = {
+"metronome": 1.0,
+"snatch": 1.0
+}

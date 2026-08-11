@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://cjetkxsymftm"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ym8qa"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_vxa7k"]
+
+[resource]
+script = ExtResource("2_vxa7k")
+species_name = "Gyarados-Mega"
+species_id = 130
+types = Array[String](["water", "dark"])
+base_stats = {
+"atk": 155.0,
+"def": 109.0,
+"hp": 95.0,
+"spa": 70.0,
+"spd": 130.0,
+"spe": 81.0
+}
+abilities = {
+"0": "Mold Breaker"
+}
+height = 6.5
+weight = 305.0
+color = "Blue"

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://b37xbcds34swq"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ia83l"]
+
+[resource]
+script = ExtResource("1_ia83l")
+move_id = "hiddenpowerfighting"
+move_name = "Hidden Power Fighting"
+num = 237
+type = "fighting"
+power = 60
+accuracy = 100
+pp = 15
+category = "special"
+target = "normal"
+flags = {
+"mirror": 1.0,
+"protect": 1.0
+}

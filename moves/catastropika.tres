@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://xn7dn31hbn4j"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_fv7um"]
+
+[resource]
+script = ExtResource("1_fv7um")
+move_id = "catastropika"
+move_name = "Catastropika"
+num = 658
+type = "electric"
+power = 210
+accuracy = -1
+pp = 1
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0
+}

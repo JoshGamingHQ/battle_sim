@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bpl6n2srstias"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_cxqa2"]
+
+[resource]
+script = ExtResource("1_cxqa2")
+move_id = "spinout"
+move_name = "Spin Out"
+num = 859
+type = "steel"
+power = 100
+accuracy = 100
+pp = 5
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

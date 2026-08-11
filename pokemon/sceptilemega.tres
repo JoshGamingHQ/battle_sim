@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://s6lfmpxwpaiu"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_1awjf"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_d2jbi"]
+
+[resource]
+script = ExtResource("2_d2jbi")
+species_name = "Sceptile-Mega"
+species_id = 254
+types = Array[String](["grass", "dragon"])
+base_stats = {
+"atk": 110.0,
+"def": 75.0,
+"hp": 70.0,
+"spa": 145.0,
+"spd": 85.0,
+"spe": 145.0
+}
+abilities = {
+"0": "Lightning Rod"
+}
+height = 1.9
+weight = 55.2
+color = "Green"

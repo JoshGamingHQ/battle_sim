@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://c3r2w5ca01gdy"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_edesk"]
+
+[resource]
+script = ExtResource("1_edesk")
+move_id = "tropkick"
+move_name = "Trop Kick"
+num = 688
+type = "grass"
+power = 70
+accuracy = 100
+pp = 15
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"boosts": {
+"atk": -1.0
+},
+"chance": 100.0
+}

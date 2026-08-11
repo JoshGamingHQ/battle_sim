@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://b0wu0f6oaujm"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_3xxlj"]
+
+[resource]
+script = ExtResource("1_3xxlj")
+move_id = "dig"
+move_name = "Dig"
+num = 91
+type = "ground"
+power = 80
+accuracy = 100
+pp = 10
+category = "physical"
+target = "normal"
+flags = {
+"charge": 1.0,
+"contact": 1.0,
+"failinstruct": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"noassist": 1.0,
+"nonsky": 1.0,
+"nosleeptalk": 1.0,
+"protect": 1.0
+}

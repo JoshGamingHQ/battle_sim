@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://7snqssyp4dbi"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_y4v62"]
+[ext_resource type="Resource" uid="uid://dkypr30sepwgb" path="res://moves/hiddenpower.tres" id="2_d2abe"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="3_a5mrl"]
+
+[resource]
+script = ExtResource("3_a5mrl")
+species_name = "Unown"
+species_id = 201
+types = Array[String](["psychic"])
+base_stats = {
+"atk": 72.0,
+"def": 48.0,
+"hp": 48.0,
+"spa": 72.0,
+"spd": 48.0,
+"spe": 48.0
+}
+moves = Array[ExtResource("1_y4v62")]([ExtResource("2_d2abe")])
+abilities = {
+"0": "Levitate"
+}
+height = 0.5
+weight = 5.0
+color = "Black"

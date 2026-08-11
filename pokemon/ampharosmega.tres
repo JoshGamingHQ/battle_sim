@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://n4xyhbdvotj3"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_083n5"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_pg8m0"]
+
+[resource]
+script = ExtResource("2_pg8m0")
+species_name = "Ampharos-Mega"
+species_id = 181
+types = Array[String](["electric", "dragon"])
+base_stats = {
+"atk": 95.0,
+"def": 105.0,
+"hp": 90.0,
+"spa": 165.0,
+"spd": 110.0,
+"spe": 45.0
+}
+abilities = {
+"0": "Mold Breaker"
+}
+height = 1.4
+weight = 61.5
+color = "Yellow"

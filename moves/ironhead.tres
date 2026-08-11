@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bjqm32x0o3kpe"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_r1oll"]
+
+[resource]
+script = ExtResource("1_r1oll")
+move_id = "ironhead"
+move_name = "Iron Head"
+num = 442
+type = "steel"
+power = 80
+accuracy = 100
+pp = 15
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 30.0,
+"volatileStatus": "flinch"
+}

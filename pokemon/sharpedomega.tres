@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://bb64av5gadngs"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_lwff0"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_f3s2p"]
+
+[resource]
+script = ExtResource("2_f3s2p")
+species_name = "Sharpedo-Mega"
+species_id = 319
+types = Array[String](["water", "dark"])
+base_stats = {
+"atk": 140.0,
+"def": 70.0,
+"hp": 70.0,
+"spa": 110.0,
+"spd": 65.0,
+"spe": 105.0
+}
+abilities = {
+"0": "Strong Jaw"
+}
+height = 2.5
+weight = 130.3
+color = "Blue"

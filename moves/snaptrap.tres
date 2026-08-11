@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://oa7gt73li6ym"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_fa52v"]
+
+[resource]
+script = ExtResource("1_fa52v")
+move_id = "snaptrap"
+move_name = "Snap Trap"
+num = 779
+type = "grass"
+power = 35
+accuracy = 100
+pp = 15
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://bwbimkmm0eye8"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_4xqwi"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_4n6ka"]
+
+[resource]
+script = ExtResource("2_4n6ka")
+species_name = "Silvally-Rock"
+species_id = 773
+types = Array[String](["rock"])
+base_stats = {
+"atk": 95.0,
+"def": 95.0,
+"hp": 95.0,
+"spa": 95.0,
+"spd": 95.0,
+"spe": 95.0
+}
+abilities = {
+"0": "RKS System"
+}
+height = 2.3
+weight = 100.5
+color = "Gray"

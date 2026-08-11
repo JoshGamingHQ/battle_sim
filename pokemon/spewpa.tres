@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://bg8d5oeufaoqp"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_76ud7"]
+[ext_resource type="Resource" uid="uid://cq6lu5bcpf50i" path="res://moves/bugbite.tres" id="2_grp6g"]
+[ext_resource type="Resource" uid="uid://c3spkon7qka3x" path="res://moves/electroweb.tres" id="3_i2mh4"]
+[ext_resource type="Resource" uid="uid://reoly645ihro" path="res://moves/harden.tres" id="4_ctlx5"]
+[ext_resource type="Resource" uid="uid://ecx0t3y6hydc" path="res://moves/irondefense.tres" id="5_61tmq"]
+[ext_resource type="Resource" uid="uid://8iamd0ftk4rb" path="res://moves/pounce.tres" id="6_4it3h"]
+[ext_resource type="Resource" uid="uid://cqgprgodgioss" path="res://moves/protect.tres" id="7_i5rub"]
+[ext_resource type="Resource" uid="uid://dmbjrtucacjy5" path="res://moves/strugglebug.tres" id="8_7tya4"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="9_3n4n3"]
+
+[resource]
+script = ExtResource("9_3n4n3")
+species_name = "Spewpa"
+species_id = 665
+types = Array[String](["bug"])
+base_stats = {
+"atk": 22.0,
+"def": 60.0,
+"hp": 45.0,
+"spa": 27.0,
+"spd": 30.0,
+"spe": 29.0
+}
+moves = Array[ExtResource("1_76ud7")]([ExtResource("2_grp6g"), ExtResource("3_i2mh4"), ExtResource("4_ctlx5"), ExtResource("5_61tmq"), ExtResource("6_4it3h"), ExtResource("7_i5rub"), ExtResource("8_7tya4")])
+abilities = {
+"0": "Shed Skin",
+"H": "Friend Guard"
+}
+height = 0.3
+weight = 8.4
+color = "Black"
+evolutions = Array[String](["Vivillon", "Vivillon-Fancy"])
+prevo = "Scatterbug"

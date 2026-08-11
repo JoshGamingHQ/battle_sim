@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://b2ybwylaw1aj3"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_5oj0x"]
+
+[resource]
+script = ExtResource("1_5oj0x")
+move_id = "feint"
+move_name = "Feint"
+num = 364
+type = "normal"
+power = 30
+accuracy = 100
+pp = 10
+category = "physical"
+priority = 2
+target = "normal"
+flags = {
+"failcopycat": 1.0,
+"mirror": 1.0,
+"noassist": 1.0
+}

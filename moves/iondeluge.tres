@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://coqig0nwkk46w"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_w2g1j"]
+
+[resource]
+script = ExtResource("1_w2g1j")
+move_id = "iondeluge"
+move_name = "Ion Deluge"
+num = 569
+type = "electric"
+accuracy = -1
+pp = 25
+category = "status"
+priority = 1
+target = "all"
+flags = {
+"metronome": 1.0
+}

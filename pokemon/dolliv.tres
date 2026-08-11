@@ -1,0 +1,60 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://cyuctojcffidr"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_oy5mx"]
+[ext_resource type="Resource" uid="uid://cl7yvpmfciihy" path="res://moves/absorb.tres" id="2_rthip"]
+[ext_resource type="Resource" uid="uid://lrym82bjsqs7" path="res://moves/bulletseed.tres" id="3_6dgum"]
+[ext_resource type="Resource" uid="uid://blwyw6ktaygew" path="res://moves/charm.tres" id="4_ju6ek"]
+[ext_resource type="Resource" uid="uid://c18cjax5rpxwf" path="res://moves/earthpower.tres" id="5_eylgk"]
+[ext_resource type="Resource" uid="uid://dixsoo2ylaus6" path="res://moves/endure.tres" id="6_aevro"]
+[ext_resource type="Resource" uid="uid://i87xhkvjpvjd" path="res://moves/energyball.tres" id="7_v7e1o"]
+[ext_resource type="Resource" uid="uid://beg0sk32xdo2y" path="res://moves/facade.tres" id="8_flhvl"]
+[ext_resource type="Resource" uid="uid://c3cccdti4woux" path="res://moves/flail.tres" id="9_kik64"]
+[ext_resource type="Resource" uid="uid://cu33shij5j2re" path="res://moves/gigadrain.tres" id="10_a441f"]
+[ext_resource type="Resource" uid="uid://edc6ld7483oo" path="res://moves/grassknot.tres" id="11_765pr"]
+[ext_resource type="Resource" uid="uid://cbmty44rpf0jg" path="res://moves/grassyterrain.tres" id="12_b4hmv"]
+[ext_resource type="Resource" uid="uid://clcpndyksg5rw" path="res://moves/growth.tres" id="13_sie2h"]
+[ext_resource type="Resource" uid="uid://ds3le6dwwbuym" path="res://moves/helpinghand.tres" id="14_1kamf"]
+[ext_resource type="Resource" uid="uid://dcc686iqvm4jl" path="res://moves/leafstorm.tres" id="15_xmeei"]
+[ext_resource type="Resource" uid="uid://c6eccg4khkfol" path="res://moves/leechseed.tres" id="16_nmd13"]
+[ext_resource type="Resource" uid="uid://daipqnx08r51o" path="res://moves/magicalleaf.tres" id="17_jpr58"]
+[ext_resource type="Resource" uid="uid://bcy1d6d2u2pfu" path="res://moves/megadrain.tres" id="18_xdhl7"]
+[ext_resource type="Resource" uid="uid://cqgprgodgioss" path="res://moves/protect.tres" id="19_jcsn3"]
+[ext_resource type="Resource" uid="uid://djnvncai2doe6" path="res://moves/razorleaf.tres" id="20_c5qly"]
+[ext_resource type="Resource" uid="uid://bb5miq678bml6" path="res://moves/rest.tres" id="21_pycdl"]
+[ext_resource type="Resource" uid="uid://djwn73ji07240" path="res://moves/seedbomb.tres" id="22_ajr8w"]
+[ext_resource type="Resource" uid="uid://dm0v1ccg3yuy3" path="res://moves/sleeptalk.tres" id="23_74lra"]
+[ext_resource type="Resource" uid="uid://pdm2twbgitav" path="res://moves/solarbeam.tres" id="24_imdye"]
+[ext_resource type="Resource" uid="uid://bhdhyatyiy8mn" path="res://moves/solarblade.tres" id="25_gices"]
+[ext_resource type="Resource" uid="uid://bgooxmy526mdf" path="res://moves/substitute.tres" id="26_58481"]
+[ext_resource type="Resource" uid="uid://mbqurspsyue8" path="res://moves/sunnyday.tres" id="27_7div1"]
+[ext_resource type="Resource" uid="uid://3rl8jpxpdwd1" path="res://moves/sweetscent.tres" id="28_x2uak"]
+[ext_resource type="Resource" uid="uid://blxkqtlq076np" path="res://moves/swift.tres" id="29_fufom"]
+[ext_resource type="Resource" uid="uid://bxvr0l21tsqsc" path="res://moves/tackle.tres" id="30_opv5m"]
+[ext_resource type="Resource" uid="uid://cg1c4o5wois05" path="res://moves/terrainpulse.tres" id="31_scmnb"]
+[ext_resource type="Resource" uid="uid://cbays7gls4ebj" path="res://moves/trailblaze.tres" id="32_8jfkl"]
+[ext_resource type="Resource" uid="uid://catfmdiwlpdwu" path="res://moves/weatherball.tres" id="33_5iqeg"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="34_ohdb1"]
+
+[resource]
+script = ExtResource("34_ohdb1")
+species_name = "Dolliv"
+species_id = 929
+types = Array[String](["grass", "normal"])
+base_stats = {
+"atk": 53.0,
+"def": 60.0,
+"hp": 52.0,
+"spa": 78.0,
+"spd": 78.0,
+"spe": 33.0
+}
+moves = Array[ExtResource("1_oy5mx")]([ExtResource("2_rthip"), ExtResource("3_6dgum"), ExtResource("4_ju6ek"), ExtResource("5_eylgk"), ExtResource("6_aevro"), ExtResource("7_v7e1o"), ExtResource("8_flhvl"), ExtResource("9_kik64"), ExtResource("10_a441f"), ExtResource("11_765pr"), ExtResource("12_b4hmv"), ExtResource("13_sie2h"), ExtResource("14_1kamf"), ExtResource("15_xmeei"), ExtResource("16_nmd13"), ExtResource("17_jpr58"), ExtResource("18_xdhl7"), ExtResource("19_jcsn3"), ExtResource("20_c5qly"), ExtResource("21_pycdl"), ExtResource("22_ajr8w"), ExtResource("23_74lra"), ExtResource("24_imdye"), ExtResource("25_gices"), ExtResource("26_58481"), ExtResource("27_7div1"), ExtResource("28_x2uak"), ExtResource("29_fufom"), ExtResource("30_opv5m"), ExtResource("31_scmnb"), ExtResource("32_8jfkl"), ExtResource("33_5iqeg")])
+abilities = {
+"0": "Early Bird",
+"H": "Harvest"
+}
+height = 0.6
+weight = 11.9
+color = "Green"
+evolutions = Array[String](["Arboliva"])
+prevo = "Smoliv"

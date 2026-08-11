@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://db5r1t60i6k62"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_5xegu"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_a02g8"]
+
+[resource]
+script = ExtResource("2_a02g8")
+species_name = "Drednaw-Gmax"
+species_id = 834
+types = Array[String](["water", "rock"])
+base_stats = {
+"atk": 115.0,
+"def": 90.0,
+"hp": 90.0,
+"spa": 48.0,
+"spd": 68.0,
+"spe": 74.0
+}
+abilities = {
+"0": "Strong Jaw",
+"1": "Shell Armor",
+"H": "Swift Swim"
+}
+height = 24.0
+color = "Green"

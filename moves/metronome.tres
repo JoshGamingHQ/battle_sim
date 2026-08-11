@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://duyp2dglq4afn"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ogpkw"]
+
+[resource]
+script = ExtResource("1_ogpkw")
+move_id = "metronome"
+move_name = "Metronome"
+num = 118
+type = "normal"
+accuracy = -1
+pp = 10
+category = "status"
+target = "self"
+flags = {
+"failcopycat": 1.0,
+"failencore": 1.0,
+"failinstruct": 1.0,
+"failmimic": 1.0,
+"noassist": 1.0,
+"nosleeptalk": 1.0
+}

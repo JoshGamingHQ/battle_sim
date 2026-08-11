@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://05wo5nxdvelc"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_irtdp"]
+
+[resource]
+script = ExtResource("1_irtdp")
+move_id = "zingzap"
+move_name = "Zing Zap"
+num = 716
+type = "electric"
+power = 80
+accuracy = 100
+pp = 10
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 30.0,
+"volatileStatus": "flinch"
+}

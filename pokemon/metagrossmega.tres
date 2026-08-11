@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://ct4p1c51tdpbd"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_51nfy"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_sig5x"]
+
+[resource]
+script = ExtResource("2_sig5x")
+species_name = "Metagross-Mega"
+species_id = 376
+types = Array[String](["steel", "psychic"])
+base_stats = {
+"atk": 145.0,
+"def": 150.0,
+"hp": 80.0,
+"spa": 105.0,
+"spd": 110.0,
+"spe": 110.0
+}
+abilities = {
+"0": "Tough Claws"
+}
+height = 2.5
+weight = 942.9
+color = "Blue"

@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://pqs7i6fwcx1s"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_kt68q"]
+
+[resource]
+script = ExtResource("1_kt68q")
+move_id = "splishysplash"
+move_name = "Splishy Splash"
+num = 730
+type = "water"
+power = 90
+accuracy = 100
+pp = 15
+category = "special"
+target = "allAdjacentFoes"
+flags = {
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 30.0,
+"status": "par"
+}

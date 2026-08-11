@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://cys3jw5754naw"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_s5cl6"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_rga7t"]
+
+[resource]
+script = ExtResource("2_rga7t")
+species_name = "Falinks-Mega"
+species_id = 870
+types = Array[String](["fighting"])
+base_stats = {
+"atk": 135.0,
+"def": 135.0,
+"hp": 65.0,
+"spa": 70.0,
+"spd": 65.0,
+"spe": 100.0
+}
+abilities = {
+"0": "Defiant"
+}
+height = 1.6
+weight = 99.0
+color = "Yellow"

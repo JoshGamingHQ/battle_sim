@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://wcerckpeu7xp"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_013ho"]
+
+[resource]
+script = ExtResource("1_013ho")
+move_id = "aurasphere"
+move_name = "Aura Sphere"
+num = 396
+type = "fighting"
+power = 80
+accuracy = -1
+pp = 20
+category = "special"
+target = "any"
+flags = {
+"bullet": 1.0,
+"distance": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"pulse": 1.0
+}

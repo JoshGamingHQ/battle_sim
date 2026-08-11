@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://byh2ln7vtttsj"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_55gdw"]
+
+[resource]
+script = ExtResource("1_55gdw")
+move_id = "hiddenpowerpoison"
+move_name = "Hidden Power Poison"
+num = 237
+type = "poison"
+power = 60
+accuracy = 100
+pp = 15
+category = "special"
+target = "normal"
+flags = {
+"mirror": 1.0,
+"protect": 1.0
+}

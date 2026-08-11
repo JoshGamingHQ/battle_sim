@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cs2cv57mq1or6"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_gc5ly"]
+
+[resource]
+script = ExtResource("1_gc5ly")
+move_id = "armthrust"
+move_name = "Arm Thrust"
+num = 292
+type = "fighting"
+power = 15
+accuracy = 100
+pp = 20
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

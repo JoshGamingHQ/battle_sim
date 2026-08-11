@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://be6hqqqs147bl"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_r8865"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_sdwyr"]
+
+[resource]
+script = ExtResource("2_sdwyr")
+species_name = "Maushold-Four"
+species_id = 925
+types = Array[String](["normal"])
+base_stats = {
+"atk": 75.0,
+"def": 70.0,
+"hp": 74.0,
+"spa": 65.0,
+"spd": 75.0,
+"spe": 111.0
+}
+abilities = {
+"0": "Friend Guard",
+"1": "Cheek Pouch",
+"H": "Technician"
+}
+height = 0.3
+weight = 2.8
+color = "White"
+prevo = "Tandemaus"

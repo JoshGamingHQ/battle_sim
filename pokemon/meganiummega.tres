@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://df01j65yo1uf0"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_x70h6"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_l383w"]
+
+[resource]
+script = ExtResource("2_l383w")
+species_name = "Meganium-Mega"
+species_id = 154
+types = Array[String](["grass", "fairy"])
+base_stats = {
+"atk": 92.0,
+"def": 115.0,
+"hp": 80.0,
+"spa": 143.0,
+"spd": 115.0,
+"spe": 80.0
+}
+abilities = {
+"0": "Mega Sol"
+}
+height = 2.4
+weight = 201.0
+color = "Green"

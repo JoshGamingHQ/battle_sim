@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dx5itiekm05o0"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_044we"]
+
+[resource]
+script = ExtResource("1_044we")
+move_id = "stickyweb"
+move_name = "Sticky Web"
+num = 564
+type = "bug"
+accuracy = -1
+pp = 20
+category = "status"
+target = "foeSide"
+flags = {
+"metronome": 1.0,
+"reflectable": 1.0
+}

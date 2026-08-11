@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://p7g34s83wlgj"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_pi1mv"]
+
+[resource]
+script = ExtResource("1_pi1mv")
+move_id = "powertrick"
+move_name = "Power Trick"
+num = 379
+type = "psychic"
+accuracy = -1
+pp = 10
+category = "status"
+target = "self"
+flags = {
+"metronome": 1.0,
+"snatch": 1.0
+}

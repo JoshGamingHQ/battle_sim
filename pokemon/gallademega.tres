@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://coh8w7dhye3nu"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_eh0w7"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_817bl"]
+
+[resource]
+script = ExtResource("2_817bl")
+species_name = "Gallade-Mega"
+species_id = 475
+types = Array[String](["psychic", "fighting"])
+base_stats = {
+"atk": 165.0,
+"def": 95.0,
+"hp": 68.0,
+"spa": 65.0,
+"spd": 115.0,
+"spe": 110.0
+}
+abilities = {
+"0": "Inner Focus"
+}
+height = 1.6
+weight = 56.4
+color = "White"

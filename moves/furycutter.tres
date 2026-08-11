@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bc5kqup4bokse"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ohwrv"]
+
+[resource]
+script = ExtResource("1_ohwrv")
+move_id = "furycutter"
+move_name = "Fury Cutter"
+num = 210
+type = "bug"
+power = 40
+accuracy = 95
+pp = 20
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"slicing": 1.0
+}

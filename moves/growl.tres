@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://b5th3yk6ps5di"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_84u6t"]
+
+[resource]
+script = ExtResource("1_84u6t")
+move_id = "growl"
+move_name = "Growl"
+num = 45
+type = "normal"
+accuracy = 100
+pp = 40
+category = "status"
+target = "allAdjacentFoes"
+flags = {
+"bypasssub": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"reflectable": 1.0,
+"sound": 1.0
+}
+boosts = {
+"atk": -1.0
+}

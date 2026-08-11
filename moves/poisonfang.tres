@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bj3op7syoc8o2"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_os4c5"]
+
+[resource]
+script = ExtResource("1_os4c5")
+move_id = "poisonfang"
+move_name = "Poison Fang"
+num = 305
+type = "poison"
+power = 50
+accuracy = 100
+pp = 15
+category = "physical"
+target = "normal"
+flags = {
+"bite": 1.0,
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 50.0,
+"status": "tox"
+}

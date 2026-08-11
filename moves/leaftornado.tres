@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bola2wp25p7es"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_7d0u7"]
+
+[resource]
+script = ExtResource("1_7d0u7")
+move_id = "leaftornado"
+move_name = "Leaf Tornado"
+num = 536
+type = "grass"
+power = 65
+accuracy = 90
+pp = 10
+category = "special"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"boosts": {
+"accuracy": -1.0
+},
+"chance": 50.0
+}

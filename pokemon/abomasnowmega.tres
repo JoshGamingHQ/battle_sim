@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://cpqms6ie2rgft"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_giq5m"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_u25dc"]
+
+[resource]
+script = ExtResource("2_u25dc")
+species_name = "Abomasnow-Mega"
+species_id = 460
+types = Array[String](["grass", "ice"])
+base_stats = {
+"atk": 132.0,
+"def": 105.0,
+"hp": 90.0,
+"spa": 132.0,
+"spd": 105.0,
+"spe": 30.0
+}
+abilities = {
+"0": "Snow Warning"
+}
+height = 2.7
+weight = 185.0
+color = "White"

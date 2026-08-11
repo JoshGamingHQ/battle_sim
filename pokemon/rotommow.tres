@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://cx6hv57nr25oh"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_spocr"]
+[ext_resource type="Resource" uid="uid://dcc686iqvm4jl" path="res://moves/leafstorm.tres" id="2_5nsmk"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="3_r3ic1"]
+
+[resource]
+script = ExtResource("3_r3ic1")
+species_name = "Rotom-Mow"
+species_id = 479
+types = Array[String](["electric", "grass"])
+base_stats = {
+"atk": 65.0,
+"def": 107.0,
+"hp": 50.0,
+"spa": 105.0,
+"spd": 107.0,
+"spe": 86.0
+}
+moves = Array[ExtResource("1_spocr")]([ExtResource("2_5nsmk")])
+abilities = {
+"0": "Levitate"
+}
+height = 0.3
+weight = 0.3
+color = "Red"

@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://8lcqdt85vqg7"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_7mmsx"]
+
+[resource]
+script = ExtResource("1_7mmsx")
+move_id = "avalanche"
+move_name = "Avalanche"
+num = 419
+type = "ice"
+power = 60
+accuracy = 100
+pp = 10
+category = "physical"
+priority = -4
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

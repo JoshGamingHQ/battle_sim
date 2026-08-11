@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://etsetbmqrex6"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ccf1w"]
+
+[resource]
+script = ExtResource("1_ccf1w")
+move_id = "gmaxoneblow"
+move_name = "G-Max One Blow"
+num = 1000
+type = "dark"
+power = 10
+accuracy = -1
+pp = 5
+category = "physical"
+target = "adjacentFoe"

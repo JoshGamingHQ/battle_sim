@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://byeq6mn13gbmw"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_b47s8"]
+
+[resource]
+script = ExtResource("1_b47s8")
+move_id = "sludge"
+move_name = "Sludge"
+num = 124
+type = "poison"
+power = 65
+accuracy = 100
+pp = 20
+category = "special"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 30.0,
+"status": "psn"
+}

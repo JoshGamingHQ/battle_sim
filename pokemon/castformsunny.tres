@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://b6da8xonmaxo"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_onl4n"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_0juld"]
+
+[resource]
+script = ExtResource("2_0juld")
+species_name = "Castform-Sunny"
+species_id = 351
+types = Array[String](["fire"])
+base_stats = {
+"atk": 70.0,
+"def": 70.0,
+"hp": 70.0,
+"spa": 70.0,
+"spd": 70.0,
+"spe": 70.0
+}
+abilities = {
+"0": "Forecast"
+}
+height = 0.3
+weight = 0.8
+color = "Red"

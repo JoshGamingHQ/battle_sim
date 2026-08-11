@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://d3sm3g735akb7"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_d11pg"]
+
+[resource]
+script = ExtResource("1_d11pg")
+move_id = "defensecurl"
+move_name = "Defense Curl"
+num = 111
+type = "normal"
+accuracy = -1
+pp = 40
+category = "status"
+target = "self"
+flags = {
+"metronome": 1.0,
+"snatch": 1.0
+}
+boosts = {
+"def": 1.0
+}

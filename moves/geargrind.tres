@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dxhb2ueaj3408"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_3uowg"]
+
+[resource]
+script = ExtResource("1_3uowg")
+move_id = "geargrind"
+move_name = "Gear Grind"
+num = 544
+type = "steel"
+power = 50
+accuracy = 85
+pp = 15
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

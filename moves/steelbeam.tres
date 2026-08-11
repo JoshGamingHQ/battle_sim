@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cerrokee8bxub"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_0c7cw"]
+
+[resource]
+script = ExtResource("1_0c7cw")
+move_id = "steelbeam"
+move_name = "Steel Beam"
+num = 796
+type = "steel"
+power = 140
+accuracy = 95
+pp = 5
+category = "special"
+target = "normal"
+flags = {
+"mirror": 1.0,
+"protect": 1.0
+}

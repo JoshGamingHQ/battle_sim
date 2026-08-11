@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://35u6kguiv7f8"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_bja3g"]
+
+[resource]
+script = ExtResource("1_bja3g")
+move_id = "saltcure"
+move_name = "Salt Cure"
+num = 864
+type = "rock"
+power = 40
+accuracy = 100
+pp = 15
+category = "physical"
+target = "normal"
+flags = {
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 100.0,
+"volatileStatus": "saltcure"
+}

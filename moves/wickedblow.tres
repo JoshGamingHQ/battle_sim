@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bw3sdlsyd5yuu"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ukajq"]
+
+[resource]
+script = ExtResource("1_ukajq")
+move_id = "wickedblow"
+move_name = "Wicked Blow"
+num = 817
+type = "dark"
+power = 75
+accuracy = 100
+pp = 5
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"punch": 1.0
+}

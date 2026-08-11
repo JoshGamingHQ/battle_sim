@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://gp2jbmufbb4m"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_qbob3"]
+
+[resource]
+script = ExtResource("1_qbob3")
+move_id = "maxhailstorm"
+move_name = "Max Hailstorm"
+num = 763
+type = "ice"
+power = 10
+accuracy = -1
+pp = 10
+category = "physical"
+target = "adjacentFoe"

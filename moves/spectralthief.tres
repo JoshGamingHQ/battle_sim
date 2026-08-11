@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://d2fpahsll3f0w"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_5jbyl"]
+
+[resource]
+script = ExtResource("1_5jbyl")
+move_id = "spectralthief"
+move_name = "Spectral Thief"
+num = 712
+type = "ghost"
+power = 90
+accuracy = 100
+pp = 10
+category = "physical"
+target = "normal"
+flags = {
+"bypasssub": 1.0,
+"contact": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

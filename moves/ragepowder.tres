@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bw8ttfbkqjod6"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_km61r"]
+
+[resource]
+script = ExtResource("1_km61r")
+move_id = "ragepowder"
+move_name = "Rage Powder"
+num = 476
+type = "bug"
+accuracy = -1
+pp = 20
+category = "status"
+priority = 2
+target = "self"
+flags = {
+"failcopycat": 1.0,
+"noassist": 1.0,
+"powder": 1.0
+}

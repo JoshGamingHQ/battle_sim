@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://dmurd51dmdce1"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_qvv3w"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_oegym"]
+
+[resource]
+script = ExtResource("2_oegym")
+species_name = "Garchomp-Mega"
+species_id = 445
+types = Array[String](["dragon", "ground"])
+base_stats = {
+"atk": 170.0,
+"def": 115.0,
+"hp": 108.0,
+"spa": 120.0,
+"spd": 95.0,
+"spe": 92.0
+}
+abilities = {
+"0": "Sand Force"
+}
+height = 1.9
+weight = 95.0
+color = "Blue"

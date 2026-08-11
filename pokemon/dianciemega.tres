@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://cicbp0rcvoavl"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_5mdo2"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_vo8bq"]
+
+[resource]
+script = ExtResource("2_vo8bq")
+species_name = "Diancie-Mega"
+species_id = 719
+types = Array[String](["rock", "fairy"])
+base_stats = {
+"atk": 160.0,
+"def": 110.0,
+"hp": 50.0,
+"spa": 160.0,
+"spd": 110.0,
+"spe": 110.0
+}
+abilities = {
+"0": "Magic Bounce"
+}
+height = 1.1
+weight = 27.8
+color = "Pink"

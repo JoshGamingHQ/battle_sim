@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cijcfdpmv1twc"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_8ho4j"]
+
+[resource]
+script = ExtResource("1_8ho4j")
+move_id = "mudshot"
+move_name = "Mud Shot"
+num = 341
+type = "ground"
+power = 55
+accuracy = 95
+pp = 15
+category = "special"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"boosts": {
+"spe": -1.0
+},
+"chance": 100.0
+}

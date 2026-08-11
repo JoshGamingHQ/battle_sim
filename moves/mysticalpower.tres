@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bxg0xnvjr324h"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_nyyc6"]
+
+[resource]
+script = ExtResource("1_nyyc6")
+move_id = "mysticalpower"
+move_name = "Mystical Power"
+num = 832
+type = "psychic"
+power = 70
+accuracy = 90
+pp = 10
+category = "special"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 100.0,
+"self": {
+"boosts": {
+"spa": 1.0
+}
+}
+}

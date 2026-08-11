@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://73a5lfv6vrhe"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_n66sd"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_5gf4j"]
+
+[resource]
+script = ExtResource("2_5gf4j")
+species_name = "Raichu-Mega-Y"
+species_id = 26
+types = Array[String](["electric"])
+base_stats = {
+"atk": 100.0,
+"def": 55.0,
+"hp": 60.0,
+"spa": 160.0,
+"spd": 80.0,
+"spe": 130.0
+}
+abilities = {
+"0": "No Guard"
+}
+height = 1.0
+weight = 26.0
+color = "Yellow"

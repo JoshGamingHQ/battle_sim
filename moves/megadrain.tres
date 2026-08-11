@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bcy1d6d2u2pfu"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_bkwjn"]
+
+[resource]
+script = ExtResource("1_bkwjn")
+move_id = "megadrain"
+move_name = "Mega Drain"
+num = 72
+type = "grass"
+power = 40
+accuracy = 100
+pp = 15
+category = "special"
+target = "normal"
+flags = {
+"heal": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

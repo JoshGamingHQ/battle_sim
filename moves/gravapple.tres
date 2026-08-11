@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://b4gfc13vkftwm"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_k8ptt"]
+
+[resource]
+script = ExtResource("1_k8ptt")
+move_id = "gravapple"
+move_name = "Grav Apple"
+num = 788
+type = "grass"
+power = 80
+accuracy = 100
+pp = 10
+category = "physical"
+target = "normal"
+flags = {
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"boosts": {
+"def": -1.0
+},
+"chance": 100.0
+}

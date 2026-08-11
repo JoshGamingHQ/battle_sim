@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://jignpej7jqa5"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_3wk8x"]
+
+[resource]
+script = ExtResource("1_3wk8x")
+move_id = "shadowball"
+move_name = "Shadow Ball"
+num = 247
+type = "ghost"
+power = 80
+accuracy = 100
+pp = 15
+category = "special"
+target = "normal"
+flags = {
+"bullet": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"boosts": {
+"spd": -1.0
+},
+"chance": 20.0
+}

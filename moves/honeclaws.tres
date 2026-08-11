@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://c3dmeq1g1idyi"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_k8yu4"]
+
+[resource]
+script = ExtResource("1_k8yu4")
+move_id = "honeclaws"
+move_name = "Hone Claws"
+num = 468
+type = "dark"
+accuracy = -1
+pp = 15
+category = "status"
+target = "self"
+flags = {
+"metronome": 1.0,
+"snatch": 1.0
+}
+boosts = {
+"accuracy": 1.0,
+"atk": 1.0
+}

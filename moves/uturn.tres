@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bv6qlygc8knmb"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ilndl"]
+
+[resource]
+script = ExtResource("1_ilndl")
+move_id = "uturn"
+move_name = "U-turn"
+num = 369
+type = "bug"
+power = 70
+accuracy = 100
+pp = 20
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

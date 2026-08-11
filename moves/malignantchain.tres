@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://mjlkagdnk6db"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_knx37"]
+
+[resource]
+script = ExtResource("1_knx37")
+move_id = "malignantchain"
+move_name = "Malignant Chain"
+num = 919
+type = "poison"
+power = 100
+accuracy = 100
+pp = 5
+category = "special"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 50.0,
+"status": "tox"
+}

@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://robpco58j3ks"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_4ksof"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_q7o61"]
+
+[resource]
+script = ExtResource("2_q7o61")
+species_name = "Eevee-Gmax"
+species_id = 133
+types = Array[String](["normal"])
+base_stats = {
+"atk": 55.0,
+"def": 50.0,
+"hp": 55.0,
+"spa": 45.0,
+"spd": 65.0,
+"spe": 55.0
+}
+abilities = {
+"0": "Run Away",
+"1": "Adaptability",
+"H": "Anticipation"
+}
+height = 18.0
+color = "Brown"

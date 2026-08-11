@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cjuba51sgphcr"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_3mqhv"]
+
+[resource]
+script = ExtResource("1_3mqhv")
+move_id = "haze"
+move_name = "Haze"
+num = 114
+type = "ice"
+accuracy = -1
+pp = 30
+category = "status"
+target = "all"
+flags = {
+"bypasssub": 1.0,
+"metronome": 1.0
+}

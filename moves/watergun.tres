@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://gxrlpm7i8ibo"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_x3liu"]
+
+[resource]
+script = ExtResource("1_x3liu")
+move_id = "watergun"
+move_name = "Water Gun"
+num = 55
+type = "water"
+power = 40
+accuracy = 100
+pp = 25
+category = "special"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

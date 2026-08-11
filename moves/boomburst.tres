@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dwqf3fyqhxc2v"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_b637r"]
+
+[resource]
+script = ExtResource("1_b637r")
+move_id = "boomburst"
+move_name = "Boomburst"
+num = 586
+type = "normal"
+power = 140
+accuracy = 100
+pp = 10
+category = "special"
+target = "allAdjacent"
+flags = {
+"bypasssub": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"sound": 1.0
+}

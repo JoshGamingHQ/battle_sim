@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://d0ohsgj2lqf6i"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_brtmy"]
+
+[resource]
+script = ExtResource("1_brtmy")
+move_id = "gmaxvinelash"
+move_name = "G-Max Vine Lash"
+num = 1000
+type = "grass"
+power = 10
+accuracy = -1
+pp = 10
+category = "physical"
+target = "adjacentFoe"

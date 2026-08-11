@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://by8qpoivbvu7h"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_p5h2l"]
+
+[resource]
+script = ExtResource("1_p5h2l")
+move_id = "needlearm"
+move_name = "Needle Arm"
+num = 302
+type = "grass"
+power = 60
+accuracy = 100
+pp = 15
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 30.0,
+"volatileStatus": "flinch"
+}

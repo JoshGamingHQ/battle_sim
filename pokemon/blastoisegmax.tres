@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://cth0j8pyeg3v2"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_d46ql"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_ibhma"]
+
+[resource]
+script = ExtResource("2_ibhma")
+species_name = "Blastoise-Gmax"
+species_id = 9
+types = Array[String](["water"])
+base_stats = {
+"atk": 83.0,
+"def": 100.0,
+"hp": 79.0,
+"spa": 85.0,
+"spd": 105.0,
+"spe": 78.0
+}
+abilities = {
+"0": "Torrent",
+"H": "Rain Dish"
+}
+height = 25.0
+color = "Blue"

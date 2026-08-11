@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dv7ml146ffaua"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_fh5l3"]
+
+[resource]
+script = ExtResource("1_fh5l3")
+move_id = "gmaxstonesurge"
+move_name = "G-Max Stonesurge"
+num = 1000
+type = "water"
+power = 10
+accuracy = -1
+pp = 5
+category = "physical"
+target = "adjacentFoe"

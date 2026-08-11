@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dttoc6qvne2ic"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_nxt8s"]
+
+[resource]
+script = ExtResource("1_nxt8s")
+move_id = "sparklyswirl"
+move_name = "Sparkly Swirl"
+num = 740
+type = "fairy"
+power = 120
+accuracy = 85
+pp = 5
+category = "special"
+target = "normal"
+flags = {
+"mirror": 1.0,
+"protect": 1.0
+}

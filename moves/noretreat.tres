@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://b62tr6w1gpak4"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_huqhq"]
+
+[resource]
+script = ExtResource("1_huqhq")
+move_id = "noretreat"
+move_name = "No Retreat"
+num = 748
+type = "fighting"
+accuracy = -1
+pp = 5
+category = "status"
+target = "self"
+flags = {
+"metronome": 1.0,
+"snatch": 1.0
+}
+boosts = {
+"atk": 1.0,
+"def": 1.0,
+"spa": 1.0,
+"spd": 1.0,
+"spe": 1.0
+}

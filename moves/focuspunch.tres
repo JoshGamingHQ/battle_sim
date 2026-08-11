@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bvwm81ddkqdkm"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_smgnq"]
+
+[resource]
+script = ExtResource("1_smgnq")
+move_id = "focuspunch"
+move_name = "Focus Punch"
+num = 264
+type = "fighting"
+power = 150
+accuracy = 100
+pp = 20
+category = "physical"
+priority = -3
+target = "normal"
+flags = {
+"contact": 1.0,
+"failcopycat": 1.0,
+"failinstruct": 1.0,
+"failmefirst": 1.0,
+"noassist": 1.0,
+"nosleeptalk": 1.0,
+"protect": 1.0,
+"punch": 1.0
+}

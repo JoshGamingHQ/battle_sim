@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://betye31h0hmib"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_dtsuh"]
+
+[resource]
+script = ExtResource("1_dtsuh")
+move_id = "bulldoze"
+move_name = "Bulldoze"
+num = 523
+type = "ground"
+power = 60
+accuracy = 100
+pp = 20
+category = "physical"
+target = "allAdjacent"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"nonsky": 1.0,
+"protect": 1.0
+}
+secondary = {
+"boosts": {
+"spe": -1.0
+},
+"chance": 100.0
+}

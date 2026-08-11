@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://ds5ob7uy5wfh5"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_mdi5f"]
+
+[resource]
+script = ExtResource("1_mdi5f")
+move_id = "bounce"
+move_name = "Bounce"
+num = 340
+type = "flying"
+power = 85
+accuracy = 85
+pp = 5
+category = "physical"
+target = "any"
+flags = {
+"charge": 1.0,
+"contact": 1.0,
+"distance": 1.0,
+"failinstruct": 1.0,
+"gravity": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"noassist": 1.0,
+"nosleeptalk": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 30.0,
+"status": "par"
+}

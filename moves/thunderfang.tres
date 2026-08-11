@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bmk0nl1sn5xm6"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_is1pe"]
+
+[resource]
+script = ExtResource("1_is1pe")
+move_id = "thunderfang"
+move_name = "Thunder Fang"
+num = 422
+type = "electric"
+power = 65
+accuracy = 95
+pp = 15
+category = "physical"
+target = "normal"
+flags = {
+"bite": 1.0,
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

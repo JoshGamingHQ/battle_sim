@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://beppuue213qfx"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_xvmwd"]
+
+[resource]
+script = ExtResource("1_xvmwd")
+move_id = "maxphantasm"
+move_name = "Max Phantasm"
+num = 762
+type = "ghost"
+power = 10
+accuracy = -1
+pp = 10
+category = "physical"
+target = "adjacentFoe"

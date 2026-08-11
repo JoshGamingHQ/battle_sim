@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://dg3pkxptf7y04"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ru28p"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_t1fym"]
+
+[resource]
+script = ExtResource("2_t1fym")
+species_name = "Ogerpon-Wellspring"
+species_id = 1017
+types = Array[String](["grass", "water"])
+base_stats = {
+"atk": 120.0,
+"def": 84.0,
+"hp": 80.0,
+"spa": 60.0,
+"spd": 96.0,
+"spe": 110.0
+}
+abilities = {
+"0": "Water Absorb"
+}
+height = 1.2
+weight = 39.8
+color = "Blue"

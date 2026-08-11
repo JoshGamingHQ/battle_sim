@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://budky1tckxvgb"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_2avas"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_5gtlo"]
+
+[resource]
+script = ExtResource("2_5gtlo")
+species_name = "Salamence-Mega"
+species_id = 373
+types = Array[String](["dragon", "flying"])
+base_stats = {
+"atk": 145.0,
+"def": 130.0,
+"hp": 95.0,
+"spa": 120.0,
+"spd": 90.0,
+"spe": 120.0
+}
+abilities = {
+"0": "Aerilate"
+}
+height = 1.8
+weight = 112.6
+color = "Blue"

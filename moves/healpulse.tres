@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://ctjx02l4egrfg"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ujtdj"]
+
+[resource]
+script = ExtResource("1_ujtdj")
+move_id = "healpulse"
+move_name = "Heal Pulse"
+num = 505
+type = "psychic"
+accuracy = -1
+pp = 10
+category = "status"
+target = "any"
+flags = {
+"allyanim": 1.0,
+"distance": 1.0,
+"heal": 1.0,
+"metronome": 1.0,
+"protect": 1.0,
+"pulse": 1.0,
+"reflectable": 1.0
+}

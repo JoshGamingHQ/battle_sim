@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://brgsjw8wlgv28"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_v52mi"]
+
+[resource]
+script = ExtResource("1_v52mi")
+move_id = "refresh"
+move_name = "Refresh"
+num = 287
+type = "normal"
+accuracy = -1
+pp = 20
+category = "status"
+target = "self"
+flags = {
+"metronome": 1.0,
+"snatch": 1.0
+}

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dhxks8yr5xifl"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_vk5s6"]
+
+[resource]
+script = ExtResource("1_vk5s6")
+move_id = "synchronoise"
+move_name = "Synchronoise"
+num = 485
+type = "psychic"
+power = 120
+accuracy = 100
+pp = 10
+category = "special"
+target = "allAdjacent"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

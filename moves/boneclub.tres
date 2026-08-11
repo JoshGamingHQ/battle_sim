@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://co0j2uqu0332q"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_3j620"]
+
+[resource]
+script = ExtResource("1_3j620")
+move_id = "boneclub"
+move_name = "Bone Club"
+num = 125
+type = "ground"
+power = 65
+accuracy = 85
+pp = 20
+category = "physical"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 10.0,
+"volatileStatus": "flinch"
+}

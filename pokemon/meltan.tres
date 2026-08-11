@@ -1,0 +1,45 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://dckd7eq33gvxd"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_xt320"]
+[ext_resource type="Resource" uid="uid://d151nwje4wpco" path="res://moves/acidarmor.tres" id="2_4s0kt"]
+[ext_resource type="Resource" uid="uid://dixsoo2ylaus6" path="res://moves/endure.tres" id="3_x67cv"]
+[ext_resource type="Resource" uid="uid://beg0sk32xdo2y" path="res://moves/facade.tres" id="4_lnx3l"]
+[ext_resource type="Resource" uid="uid://ddbm2jqt0wg33" path="res://moves/flashcannon.tres" id="5_xam30"]
+[ext_resource type="Resource" uid="uid://hwekvp2qy7t1" path="res://moves/gyroball.tres" id="6_v2sui"]
+[ext_resource type="Resource" uid="uid://reoly645ihro" path="res://moves/harden.tres" id="7_t01k8"]
+[ext_resource type="Resource" uid="uid://cmy6rldrij8pw" path="res://moves/headbutt.tres" id="8_oab1h"]
+[ext_resource type="Resource" uid="uid://ecx0t3y6hydc" path="res://moves/irondefense.tres" id="9_e73sp"]
+[ext_resource type="Resource" uid="uid://cqgprgodgioss" path="res://moves/protect.tres" id="10_berq6"]
+[ext_resource type="Resource" uid="uid://bb5miq678bml6" path="res://moves/rest.tres" id="11_juecd"]
+[ext_resource type="Resource" uid="uid://clo5n36yutt3y" path="res://moves/round.tres" id="12_i5loh"]
+[ext_resource type="Resource" uid="uid://dm0v1ccg3yuy3" path="res://moves/sleeptalk.tres" id="13_duexr"]
+[ext_resource type="Resource" uid="uid://dlqeb5mptbr5w" path="res://moves/snore.tres" id="14_8yvga"]
+[ext_resource type="Resource" uid="uid://cerrokee8bxub" path="res://moves/steelbeam.tres" id="15_aj51m"]
+[ext_resource type="Resource" uid="uid://bgooxmy526mdf" path="res://moves/substitute.tres" id="16_3h0yw"]
+[ext_resource type="Resource" uid="uid://ch8vkda0skth1" path="res://moves/tailwhip.tres" id="17_ad2pm"]
+[ext_resource type="Resource" uid="uid://cot7u33jh8uc8" path="res://moves/thunderbolt.tres" id="18_88kr8"]
+[ext_resource type="Resource" uid="uid://pkpg77y6vbnt" path="res://moves/thundershock.tres" id="19_qu80e"]
+[ext_resource type="Resource" uid="uid://bgwo38yygtkpx" path="res://moves/thunderwave.tres" id="20_6x2u8"]
+[ext_resource type="Resource" uid="uid://bvtivkgmdb6yq" path="res://moves/toxic.tres" id="21_78j04"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="22_pl728"]
+
+[resource]
+script = ExtResource("22_pl728")
+species_name = "Meltan"
+species_id = 808
+types = Array[String](["steel"])
+base_stats = {
+"atk": 65.0,
+"def": 65.0,
+"hp": 46.0,
+"spa": 55.0,
+"spd": 35.0,
+"spe": 34.0
+}
+moves = Array[ExtResource("1_xt320")]([ExtResource("2_4s0kt"), ExtResource("3_x67cv"), ExtResource("4_lnx3l"), ExtResource("5_xam30"), ExtResource("6_v2sui"), ExtResource("7_t01k8"), ExtResource("8_oab1h"), ExtResource("9_e73sp"), ExtResource("10_berq6"), ExtResource("11_juecd"), ExtResource("12_i5loh"), ExtResource("13_duexr"), ExtResource("14_8yvga"), ExtResource("15_aj51m"), ExtResource("16_3h0yw"), ExtResource("17_ad2pm"), ExtResource("18_88kr8"), ExtResource("19_qu80e"), ExtResource("20_6x2u8"), ExtResource("21_78j04")])
+abilities = {
+"0": "Magnet Pull"
+}
+height = 0.2
+weight = 8.0
+color = "Gray"

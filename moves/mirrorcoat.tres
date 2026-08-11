@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://wq8eqb2kctsr"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_hk57p"]
+
+[resource]
+script = ExtResource("1_hk57p")
+move_id = "mirrorcoat"
+move_name = "Mirror Coat"
+num = 243
+type = "psychic"
+accuracy = 100
+pp = 20
+category = "special"
+priority = -5
+target = "scripted"
+flags = {
+"failmefirst": 1.0,
+"noassist": 1.0,
+"protect": 1.0
+}

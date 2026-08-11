@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://difg75xa0b7tf"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_b26v7"]
+
+[resource]
+script = ExtResource("1_b26v7")
+move_id = "hiddenpowerdark"
+move_name = "Hidden Power Dark"
+num = 237
+type = "dark"
+power = 60
+accuracy = 100
+pp = 15
+category = "special"
+target = "normal"
+flags = {
+"mirror": 1.0,
+"protect": 1.0
+}

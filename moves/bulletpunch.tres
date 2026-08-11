@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://sma2vjyscuhy"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_2i1x6"]
+
+[resource]
+script = ExtResource("1_2i1x6")
+move_id = "bulletpunch"
+move_name = "Bullet Punch"
+num = 418
+type = "steel"
+power = 40
+accuracy = 100
+pp = 30
+category = "physical"
+priority = 1
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"punch": 1.0
+}

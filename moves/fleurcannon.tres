@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://l6qc3wgfafhn"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_yoame"]
+
+[resource]
+script = ExtResource("1_yoame")
+move_id = "fleurcannon"
+move_name = "Fleur Cannon"
+num = 705
+type = "fairy"
+power = 130
+accuracy = 90
+pp = 5
+category = "special"
+target = "normal"
+flags = {
+"mirror": 1.0,
+"protect": 1.0
+}

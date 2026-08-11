@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://dtxyo54p3mwy2"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_hxpdi"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_82u34"]
+
+[resource]
+script = ExtResource("2_82u34")
+species_name = "Gimmighoul-Roaming"
+species_id = 999
+types = Array[String](["ghost"])
+base_stats = {
+"atk": 30.0,
+"def": 25.0,
+"hp": 45.0,
+"spa": 75.0,
+"spd": 45.0,
+"spe": 80.0
+}
+abilities = {
+"0": "Run Away"
+}
+height = 0.1
+weight = 0.1
+color = "Gray"
+evolutions = Array[String](["Gholdengo"])

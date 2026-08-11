@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://rk3af4aa4c8l"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_6ykbb"]
+
+[resource]
+script = ExtResource("1_6ykbb")
+move_id = "darkpulse"
+move_name = "Dark Pulse"
+num = 399
+type = "dark"
+power = 80
+accuracy = 100
+pp = 15
+category = "special"
+target = "any"
+flags = {
+"distance": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"pulse": 1.0
+}
+secondary = {
+"chance": 20.0,
+"volatileStatus": "flinch"
+}

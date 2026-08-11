@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://b4l46e7yfr44j"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_wp81e"]
+[ext_resource type="Resource" uid="uid://d4dbyj26bv4sk" path="res://moves/amnesia.tres" id="2_jnggk"]
+[ext_resource type="Resource" uid="uid://blwyw6ktaygew" path="res://moves/charm.tres" id="3_4ghhq"]
+[ext_resource type="Resource" uid="uid://dy1gpoihpenxe" path="res://moves/counter.tres" id="4_lfg28"]
+[ext_resource type="Resource" uid="uid://cc6t7ieiebg0k" path="res://moves/destinybond.tres" id="5_645om"]
+[ext_resource type="Resource" uid="uid://b6ytllenqu26i" path="res://moves/encore.tres" id="6_ut27q"]
+[ext_resource type="Resource" uid="uid://wq8eqb2kctsr" path="res://moves/mirrorcoat.tres" id="7_4koib"]
+[ext_resource type="Resource" uid="uid://cgas6utodtn1u" path="res://moves/safeguard.tres" id="8_0mhqm"]
+[ext_resource type="Resource" uid="uid://dv61dqysh7wm3" path="res://moves/splash.tres" id="9_15wvh"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="10_r365g"]
+
+[resource]
+script = ExtResource("10_r365g")
+species_name = "Wobbuffet"
+species_id = 202
+types = Array[String](["psychic"])
+base_stats = {
+"atk": 33.0,
+"def": 58.0,
+"hp": 190.0,
+"spa": 33.0,
+"spd": 58.0,
+"spe": 33.0
+}
+moves = Array[ExtResource("1_wp81e")]([ExtResource("2_jnggk"), ExtResource("3_4ghhq"), ExtResource("4_lfg28"), ExtResource("5_645om"), ExtResource("6_ut27q"), ExtResource("7_4koib"), ExtResource("8_0mhqm"), ExtResource("9_15wvh")])
+abilities = {
+"0": "Shadow Tag",
+"H": "Telepathy"
+}
+height = 1.3
+weight = 28.5
+color = "Blue"
+prevo = "Wynaut"

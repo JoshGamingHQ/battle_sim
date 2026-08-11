@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://507lb8jd202l"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_jdi71"]
+
+[resource]
+script = ExtResource("1_jdi71")
+move_id = "tailslap"
+move_name = "Tail Slap"
+num = 541
+type = "normal"
+power = 25
+accuracy = 85
+pp = 10
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

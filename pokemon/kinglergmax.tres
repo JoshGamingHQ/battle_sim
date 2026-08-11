@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://n5y84pvu1v3q"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_amm27"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_kojhi"]
+
+[resource]
+script = ExtResource("2_kojhi")
+species_name = "Kingler-Gmax"
+species_id = 99
+types = Array[String](["water"])
+base_stats = {
+"atk": 130.0,
+"def": 115.0,
+"hp": 55.0,
+"spa": 50.0,
+"spd": 50.0,
+"spe": 75.0
+}
+abilities = {
+"0": "Hyper Cutter",
+"1": "Shell Armor",
+"H": "Sheer Force"
+}
+height = 19.0
+color = "Red"

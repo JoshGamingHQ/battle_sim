@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://0ftrptw3vdyb"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_jrj8m"]
+
+[resource]
+script = ExtResource("1_jrj8m")
+move_id = "vcreate"
+move_name = "V-create"
+num = 557
+type = "fire"
+power = 180
+accuracy = 95
+pp = 5
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

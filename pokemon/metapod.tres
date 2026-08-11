@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://c4k76b3bokxp3"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_bv5hb"]
+[ext_resource type="Resource" uid="uid://cq6lu5bcpf50i" path="res://moves/bugbite.tres" id="2_mranr"]
+[ext_resource type="Resource" uid="uid://c3spkon7qka3x" path="res://moves/electroweb.tres" id="3_2y5a5"]
+[ext_resource type="Resource" uid="uid://reoly645ihro" path="res://moves/harden.tres" id="4_3oiwq"]
+[ext_resource type="Resource" uid="uid://ecx0t3y6hydc" path="res://moves/irondefense.tres" id="5_r0vty"]
+[ext_resource type="Resource" uid="uid://ce0ic1pk4kia6" path="res://moves/stringshot.tres" id="6_tpjb8"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="7_yk2xb"]
+
+[resource]
+script = ExtResource("7_yk2xb")
+species_name = "Metapod"
+species_id = 11
+types = Array[String](["bug"])
+base_stats = {
+"atk": 20.0,
+"def": 55.0,
+"hp": 50.0,
+"spa": 25.0,
+"spd": 25.0,
+"spe": 30.0
+}
+moves = Array[ExtResource("1_bv5hb")]([ExtResource("2_mranr"), ExtResource("3_2y5a5"), ExtResource("4_3oiwq"), ExtResource("5_r0vty"), ExtResource("6_tpjb8")])
+abilities = {
+"0": "Shed Skin"
+}
+height = 0.7
+weight = 9.9
+color = "Green"
+evolutions = Array[String](["Butterfree"])
+prevo = "Caterpie"

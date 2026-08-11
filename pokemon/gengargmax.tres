@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://dd4hvqaj26drb"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_gs3a0"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_os2fi"]
+
+[resource]
+script = ExtResource("2_os2fi")
+species_name = "Gengar-Gmax"
+species_id = 94
+types = Array[String](["ghost", "poison"])
+base_stats = {
+"atk": 65.0,
+"def": 60.0,
+"hp": 60.0,
+"spa": 130.0,
+"spd": 75.0,
+"spe": 110.0
+}
+abilities = {
+"0": "Cursed Body"
+}
+height = 20.0
+color = "Purple"

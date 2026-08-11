@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://diis1jbbivyvg"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_sg2bn"]
+
+[resource]
+script = ExtResource("1_sg2bn")
+move_id = "geomancy"
+move_name = "Geomancy"
+num = 601
+type = "fairy"
+accuracy = -1
+pp = 10
+category = "status"
+target = "self"
+flags = {
+"charge": 1.0,
+"failinstruct": 1.0,
+"metronome": 1.0,
+"nonsky": 1.0,
+"nosleeptalk": 1.0
+}
+boosts = {
+"spa": 2.0,
+"spd": 2.0,
+"spe": 2.0
+}

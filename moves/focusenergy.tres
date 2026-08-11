@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://2gh5il8g7vj5"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_f8sm3"]
+
+[resource]
+script = ExtResource("1_f8sm3")
+move_id = "focusenergy"
+move_name = "Focus Energy"
+num = 116
+type = "normal"
+accuracy = -1
+pp = 30
+category = "status"
+target = "self"
+flags = {
+"metronome": 1.0,
+"snatch": 1.0
+}

@@ -1,0 +1,70 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://b83b672toyx6m"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_cfdwq"]
+[ext_resource type="Resource" uid="uid://ch8ggbftlxghb" path="res://moves/acidspray.tres" id="2_t7lta"]
+[ext_resource type="Resource" uid="uid://bi7j7oxmlvhgo" path="res://moves/charge.tres" id="3_7fbi3"]
+[ext_resource type="Resource" uid="uid://b6wtp4kx5yalb" path="res://moves/chargebeam.tres" id="4_ejfao"]
+[ext_resource type="Resource" uid="uid://c55rtykdyisfe" path="res://moves/chillingwater.tres" id="5_bb8h8"]
+[ext_resource type="Resource" uid="uid://bnjwr7400c6b6" path="res://moves/confuseray.tres" id="6_umwxs"]
+[ext_resource type="Resource" uid="uid://dcr0lw4e5n6rk" path="res://moves/discharge.tres" id="7_ab3su"]
+[ext_resource type="Resource" uid="uid://b5o61ah4rh4c2" path="res://moves/eerieimpulse.tres" id="8_xgeac"]
+[ext_resource type="Resource" uid="uid://cqmagwywjt2mg" path="res://moves/electricterrain.tres" id="9_vcl2u"]
+[ext_resource type="Resource" uid="uid://dtu0tt7fmod3a" path="res://moves/electroball.tres" id="10_x0ekp"]
+[ext_resource type="Resource" uid="uid://c3spkon7qka3x" path="res://moves/electroweb.tres" id="11_lacrp"]
+[ext_resource type="Resource" uid="uid://dixsoo2ylaus6" path="res://moves/endure.tres" id="12_fmys3"]
+[ext_resource type="Resource" uid="uid://c3cccdti4woux" path="res://moves/flail.tres" id="13_ctvno"]
+[ext_resource type="Resource" uid="uid://b44q1874nkg16" path="res://moves/gigaimpact.tres" id="14_5lx46"]
+[ext_resource type="Resource" uid="uid://1v5hxd2ikt4s" path="res://moves/hyperbeam.tres" id="15_lvbu6"]
+[ext_resource type="Resource" uid="uid://dt1igqww2xyjx" path="res://moves/hypervoice.tres" id="16_h3m48"]
+[ext_resource type="Resource" uid="uid://115i6lc6147u" path="res://moves/lightscreen.tres" id="17_530j3"]
+[ext_resource type="Resource" uid="uid://cx56kk0ccfwjf" path="res://moves/muddywater.tres" id="18_x32g8"]
+[ext_resource type="Resource" uid="uid://cijcfdpmv1twc" path="res://moves/mudshot.tres" id="19_peain"]
+[ext_resource type="Resource" uid="uid://p25tfa3r3ph2" path="res://moves/mudslap.tres" id="20_e6tch"]
+[ext_resource type="Resource" uid="uid://cqgprgodgioss" path="res://moves/protect.tres" id="21_sqidc"]
+[ext_resource type="Resource" uid="uid://y4p0gbqjwak1" path="res://moves/raindance.tres" id="22_v4iok"]
+[ext_resource type="Resource" uid="uid://cmdt7vcm6323f" path="res://moves/reflect.tres" id="23_apbvd"]
+[ext_resource type="Resource" uid="uid://bb5miq678bml6" path="res://moves/rest.tres" id="24_7voy2"]
+[ext_resource type="Resource" uid="uid://b7o3kpvkq6pyx" path="res://moves/slackoff.tres" id="25_6rsgk"]
+[ext_resource type="Resource" uid="uid://dm0v1ccg3yuy3" path="res://moves/sleeptalk.tres" id="26_ypluv"]
+[ext_resource type="Resource" uid="uid://wkkbaum85dah" path="res://moves/spark.tres" id="27_j0a66"]
+[ext_resource type="Resource" uid="uid://bgooxmy526mdf" path="res://moves/substitute.tres" id="28_6yjpp"]
+[ext_resource type="Resource" uid="uid://bieexo7wtmtk2" path="res://moves/suckerpunch.tres" id="29_g5r6n"]
+[ext_resource type="Resource" uid="uid://gjb813qnbc3q" path="res://moves/supercellslam.tres" id="30_haqt6"]
+[ext_resource type="Resource" uid="uid://blxkqtlq076np" path="res://moves/swift.tres" id="31_ox4qt"]
+[ext_resource type="Resource" uid="uid://bxvr0l21tsqsc" path="res://moves/tackle.tres" id="32_83t8g"]
+[ext_resource type="Resource" uid="uid://bx3fxvcspl00" path="res://moves/thunder.tres" id="33_dh7xn"]
+[ext_resource type="Resource" uid="uid://cot7u33jh8uc8" path="res://moves/thunderbolt.tres" id="34_8vt7r"]
+[ext_resource type="Resource" uid="uid://pkpg77y6vbnt" path="res://moves/thundershock.tres" id="35_osd0v"]
+[ext_resource type="Resource" uid="uid://bgwo38yygtkpx" path="res://moves/thunderwave.tres" id="36_4q00g"]
+[ext_resource type="Resource" uid="uid://bvtivkgmdb6yq" path="res://moves/toxic.tres" id="37_jumo3"]
+[ext_resource type="Resource" uid="uid://5vc1g4y0bm7k" path="res://moves/voltswitch.tres" id="38_wubhr"]
+[ext_resource type="Resource" uid="uid://gxrlpm7i8ibo" path="res://moves/watergun.tres" id="39_sw4t4"]
+[ext_resource type="Resource" uid="uid://bp6nhinyes6g6" path="res://moves/waterpulse.tres" id="40_xxiia"]
+[ext_resource type="Resource" uid="uid://catfmdiwlpdwu" path="res://moves/weatherball.tres" id="41_ctq0h"]
+[ext_resource type="Resource" uid="uid://5uqgqefbfb75" path="res://moves/wildcharge.tres" id="42_tqsyw"]
+[ext_resource type="Resource" uid="uid://dbebnqeh2hw1i" path="res://moves/zapcannon.tres" id="43_a6856"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="44_70hh5"]
+
+[resource]
+script = ExtResource("44_70hh5")
+species_name = "Bellibolt"
+species_id = 939
+types = Array[String](["electric"])
+base_stats = {
+"atk": 64.0,
+"def": 91.0,
+"hp": 109.0,
+"spa": 103.0,
+"spd": 83.0,
+"spe": 45.0
+}
+moves = Array[ExtResource("1_cfdwq")]([ExtResource("2_t7lta"), ExtResource("3_7fbi3"), ExtResource("4_ejfao"), ExtResource("5_bb8h8"), ExtResource("6_umwxs"), ExtResource("7_ab3su"), ExtResource("8_xgeac"), ExtResource("9_vcl2u"), ExtResource("10_x0ekp"), ExtResource("11_lacrp"), ExtResource("12_fmys3"), ExtResource("13_ctvno"), ExtResource("14_5lx46"), ExtResource("15_lvbu6"), ExtResource("16_h3m48"), ExtResource("17_530j3"), ExtResource("18_x32g8"), ExtResource("19_peain"), ExtResource("20_e6tch"), ExtResource("21_sqidc"), ExtResource("22_v4iok"), ExtResource("23_apbvd"), ExtResource("24_7voy2"), ExtResource("25_6rsgk"), ExtResource("26_ypluv"), ExtResource("27_j0a66"), ExtResource("28_6yjpp"), ExtResource("29_g5r6n"), ExtResource("30_haqt6"), ExtResource("31_ox4qt"), ExtResource("32_83t8g"), ExtResource("33_dh7xn"), ExtResource("34_8vt7r"), ExtResource("35_osd0v"), ExtResource("36_4q00g"), ExtResource("37_jumo3"), ExtResource("38_wubhr"), ExtResource("39_sw4t4"), ExtResource("40_xxiia"), ExtResource("41_ctq0h"), ExtResource("42_tqsyw"), ExtResource("43_a6856")])
+abilities = {
+"0": "Electromorphosis",
+"1": "Static",
+"H": "Damp"
+}
+height = 1.2
+weight = 113.0
+color = "Green"
+prevo = "Tadbulb"

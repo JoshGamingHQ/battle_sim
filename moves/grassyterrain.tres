@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cbmty44rpf0jg"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_16uiy"]
+
+[resource]
+script = ExtResource("1_16uiy")
+move_id = "grassyterrain"
+move_name = "Grassy Terrain"
+num = 580
+type = "grass"
+accuracy = -1
+pp = 10
+category = "status"
+target = "all"
+flags = {
+"metronome": 1.0,
+"nonsky": 1.0
+}

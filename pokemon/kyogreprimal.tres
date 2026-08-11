@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://cldyl53tmaybd"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_gb21s"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_wjn32"]
+
+[resource]
+script = ExtResource("2_wjn32")
+species_name = "Kyogre-Primal"
+species_id = 382
+types = Array[String](["water"])
+base_stats = {
+"atk": 150.0,
+"def": 90.0,
+"hp": 100.0,
+"spa": 180.0,
+"spd": 160.0,
+"spe": 90.0
+}
+abilities = {
+"0": "Primordial Sea"
+}
+height = 9.8
+weight = 430.0
+color = "Blue"

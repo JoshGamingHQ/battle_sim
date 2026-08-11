@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://clixmdh3ls0ch"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_v16fv"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_xkcf4"]
+
+[resource]
+script = ExtResource("2_xkcf4")
+species_name = "Mawile-Mega"
+species_id = 303
+types = Array[String](["steel", "fairy"])
+base_stats = {
+"atk": 105.0,
+"def": 125.0,
+"hp": 50.0,
+"spa": 55.0,
+"spd": 95.0,
+"spe": 50.0
+}
+abilities = {
+"0": "Huge Power"
+}
+height = 1.0
+weight = 23.5
+color = "Black"

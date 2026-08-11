@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://mh0c1gi2apuy"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_rt05l"]
+
+[resource]
+script = ExtResource("1_rt05l")
+move_id = "mindblown"
+move_name = "Mind Blown"
+num = 720
+type = "fire"
+power = 150
+accuracy = 100
+pp = 5
+category = "special"
+target = "allAdjacent"
+flags = {
+"mirror": 1.0,
+"protect": 1.0
+}

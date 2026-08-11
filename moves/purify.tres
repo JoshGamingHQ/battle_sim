@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cwhc73o865sf7"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_r10c1"]
+
+[resource]
+script = ExtResource("1_r10c1")
+move_id = "purify"
+move_name = "Purify"
+num = 685
+type = "poison"
+accuracy = -1
+pp = 20
+category = "status"
+target = "normal"
+flags = {
+"heal": 1.0,
+"metronome": 1.0,
+"protect": 1.0,
+"reflectable": 1.0
+}

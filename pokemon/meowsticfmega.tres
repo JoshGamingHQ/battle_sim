@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://bwxg4e1hl4xn5"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_i4hxt"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_dm1ys"]
+
+[resource]
+script = ExtResource("2_dm1ys")
+species_name = "Meowstic-F-Mega"
+species_id = 678
+types = Array[String](["psychic"])
+base_stats = {
+"atk": 48.0,
+"def": 76.0,
+"hp": 74.0,
+"spa": 143.0,
+"spd": 101.0,
+"spe": 124.0
+}
+abilities = {
+"0": "Trace"
+}
+height = 0.8
+weight = 10.1
+color = "White"

@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://5nlnv625e8k"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_byqot"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_5ir2v"]
+
+[resource]
+script = ExtResource("2_5ir2v")
+species_name = "Aegislash-Blade"
+species_id = 681
+types = Array[String](["steel", "ghost"])
+base_stats = {
+"atk": 140.0,
+"def": 50.0,
+"hp": 60.0,
+"spa": 140.0,
+"spd": 50.0,
+"spe": 60.0
+}
+abilities = {
+"0": "Stance Change"
+}
+height = 1.7
+weight = 53.0
+color = "Brown"

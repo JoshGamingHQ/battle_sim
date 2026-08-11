@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://gjb813qnbc3q"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_aths0"]
+
+[resource]
+script = ExtResource("1_aths0")
+move_id = "supercellslam"
+move_name = "Supercell Slam"
+num = 916
+type = "electric"
+power = 100
+accuracy = 95
+pp = 15
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"minimize": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

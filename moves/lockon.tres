@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://ckok0dhxkobms"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_506n4"]
+
+[resource]
+script = ExtResource("1_506n4")
+move_id = "lockon"
+move_name = "Lock-On"
+num = 199
+type = "normal"
+accuracy = -1
+pp = 5
+category = "status"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

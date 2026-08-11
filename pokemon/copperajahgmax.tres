@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://cgswtbh74lt5r"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_tf733"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_nd2lm"]
+
+[resource]
+script = ExtResource("2_nd2lm")
+species_name = "Copperajah-Gmax"
+species_id = 879
+types = Array[String](["steel"])
+base_stats = {
+"atk": 130.0,
+"def": 69.0,
+"hp": 122.0,
+"spa": 80.0,
+"spd": 69.0,
+"spe": 30.0
+}
+abilities = {
+"0": "Sheer Force",
+"H": "Heavy Metal"
+}
+height = 23.0
+color = "Green"

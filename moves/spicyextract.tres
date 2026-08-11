@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dtgjl6w7vjpon"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_l7uuo"]
+
+[resource]
+script = ExtResource("1_l7uuo")
+move_id = "spicyextract"
+move_name = "Spicy Extract"
+num = 858
+type = "grass"
+accuracy = -1
+pp = 15
+category = "status"
+target = "normal"
+flags = {
+"mirror": 1.0,
+"protect": 1.0,
+"reflectable": 1.0
+}
+boosts = {
+"atk": 2.0,
+"def": -2.0
+}

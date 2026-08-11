@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://dv585fdxccpq8"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_538rc"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_4qpxp"]
+
+[resource]
+script = ExtResource("2_4qpxp")
+species_name = "Skarmory-Mega"
+species_id = 227
+types = Array[String](["steel", "flying"])
+base_stats = {
+"atk": 140.0,
+"def": 110.0,
+"hp": 65.0,
+"spa": 40.0,
+"spd": 100.0,
+"spe": 110.0
+}
+abilities = {
+"0": "Stalwart"
+}
+height = 1.7
+weight = 40.4
+color = "Gray"

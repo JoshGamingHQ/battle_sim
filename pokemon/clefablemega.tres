@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://co34xdilermgc"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_05eif"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_66tnc"]
+
+[resource]
+script = ExtResource("2_66tnc")
+species_name = "Clefable-Mega"
+species_id = 36
+types = Array[String](["fairy", "flying"])
+base_stats = {
+"atk": 80.0,
+"def": 93.0,
+"hp": 95.0,
+"spa": 135.0,
+"spd": 110.0,
+"spe": 70.0
+}
+abilities = {
+"0": "Magic Bounce"
+}
+height = 1.7
+weight = 42.3
+color = "Pink"

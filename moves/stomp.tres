@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bmemi7adei7j1"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_y347y"]
+
+[resource]
+script = ExtResource("1_y347y")
+move_id = "stomp"
+move_name = "Stomp"
+num = 23
+type = "normal"
+power = 65
+accuracy = 100
+pp = 20
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"minimize": 1.0,
+"mirror": 1.0,
+"nonsky": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 30.0,
+"volatileStatus": "flinch"
+}

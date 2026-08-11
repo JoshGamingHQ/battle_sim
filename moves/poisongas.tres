@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://by8s6271v6fcj"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_yi3aa"]
+
+[resource]
+script = ExtResource("1_yi3aa")
+move_id = "poisongas"
+move_name = "Poison Gas"
+num = 139
+type = "poison"
+accuracy = 90
+pp = 40
+category = "status"
+target = "allAdjacentFoes"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"reflectable": 1.0
+}
+status = "psn"

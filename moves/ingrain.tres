@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://c11v3qa1brm5o"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_rk1l0"]
+
+[resource]
+script = ExtResource("1_rk1l0")
+move_id = "ingrain"
+move_name = "Ingrain"
+num = 275
+type = "grass"
+accuracy = -1
+pp = 20
+category = "status"
+target = "self"
+flags = {
+"metronome": 1.0,
+"nonsky": 1.0,
+"snatch": 1.0
+}

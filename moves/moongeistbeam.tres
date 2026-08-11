@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://b37iyi4epqbo2"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ydwhr"]
+
+[resource]
+script = ExtResource("1_ydwhr")
+move_id = "moongeistbeam"
+move_name = "Moongeist Beam"
+num = 714
+type = "ghost"
+power = 100
+accuracy = 100
+pp = 5
+category = "special"
+target = "normal"
+flags = {
+"mirror": 1.0,
+"protect": 1.0
+}

@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://baljvih1a85fy"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_te67w"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_t85uc"]
+
+[resource]
+script = ExtResource("2_t85uc")
+species_name = "Machamp-Gmax"
+species_id = 68
+types = Array[String](["fighting"])
+base_stats = {
+"atk": 130.0,
+"def": 80.0,
+"hp": 90.0,
+"spa": 65.0,
+"spd": 85.0,
+"spe": 55.0
+}
+abilities = {
+"0": "Guts",
+"1": "No Guard",
+"H": "Steadfast"
+}
+height = 25.0
+color = "Gray"

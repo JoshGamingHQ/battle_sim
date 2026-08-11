@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cqmagwywjt2mg"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_7t0t3"]
+
+[resource]
+script = ExtResource("1_7t0t3")
+move_id = "electricterrain"
+move_name = "Electric Terrain"
+num = 604
+type = "electric"
+accuracy = -1
+pp = 10
+category = "status"
+target = "all"
+flags = {
+"metronome": 1.0,
+"nonsky": 1.0
+}

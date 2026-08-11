@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cwuso0m3b13ei"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_lmr12"]
+
+[resource]
+script = ExtResource("1_lmr12")
+move_id = "dynamaxcannon"
+move_name = "Dynamax Cannon"
+num = 744
+type = "dragon"
+power = 100
+accuracy = 100
+pp = 5
+category = "special"
+target = "normal"
+flags = {
+"failcopycat": 1.0,
+"failencore": 1.0,
+"failinstruct": 1.0,
+"failmimic": 1.0,
+"noparentalbond": 1.0,
+"nosleeptalk": 1.0,
+"protect": 1.0
+}

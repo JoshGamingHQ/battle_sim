@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://h1ogjtnbinj7"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_tf0tu"]
+
+[resource]
+script = ExtResource("1_tf0tu")
+move_id = "magnitude"
+move_name = "Magnitude"
+num = 222
+type = "ground"
+accuracy = 100
+pp = 30
+category = "physical"
+target = "allAdjacent"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"nonsky": 1.0,
+"protect": 1.0
+}

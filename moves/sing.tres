@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://umsgttbllc1p"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_7y754"]
+
+[resource]
+script = ExtResource("1_7y754")
+move_id = "sing"
+move_name = "Sing"
+num = 47
+type = "normal"
+accuracy = 55
+pp = 15
+category = "status"
+target = "normal"
+flags = {
+"bypasssub": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"reflectable": 1.0,
+"sound": 1.0
+}
+status = "slp"

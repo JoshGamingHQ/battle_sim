@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cbtiupo7f6tsf"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_4w8sy"]
+
+[resource]
+script = ExtResource("1_4w8sy")
+move_id = "burningbulwark"
+move_name = "Burning Bulwark"
+num = 908
+type = "fire"
+accuracy = -1
+pp = 10
+category = "status"
+priority = 4
+target = "self"
+flags = {
+"failcopycat": 1.0,
+"metronome": 1.0,
+"noassist": 1.0
+}

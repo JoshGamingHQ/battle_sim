@@ -1,0 +1,48 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://02j6l7ka1fpx"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_wjkhw"]
+[ext_resource type="Resource" uid="uid://cjmt1gyvq1c4c" path="res://moves/acid.tres" id="2_vlhbu"]
+[ext_resource type="Resource" uid="uid://b5qtv3x1348kd" path="res://moves/attract.tres" id="3_a14bg"]
+[ext_resource type="Resource" uid="uid://c11vn8yuh82eo" path="res://moves/belch.tres" id="4_4etcf"]
+[ext_resource type="Resource" uid="uid://blwyw6ktaygew" path="res://moves/charm.tres" id="5_yvcui"]
+[ext_resource type="Resource" uid="uid://b6ytllenqu26i" path="res://moves/encore.tres" id="6_sihwv"]
+[ext_resource type="Resource" uid="uid://denu3qeqkhurh" path="res://moves/endeavor.tres" id="7_1650v"]
+[ext_resource type="Resource" uid="uid://dixsoo2ylaus6" path="res://moves/endure.tres" id="8_ldepm"]
+[ext_resource type="Resource" uid="uid://beg0sk32xdo2y" path="res://moves/facade.tres" id="9_q51wx"]
+[ext_resource type="Resource" uid="uid://c3cccdti4woux" path="res://moves/flail.tres" id="10_la0ux"]
+[ext_resource type="Resource" uid="uid://b5th3yk6ps5di" path="res://moves/growl.tres" id="11_esgdg"]
+[ext_resource type="Resource" uid="uid://cirmy5ikv1wqa" path="res://moves/metalsound.tres" id="12_gomes"]
+[ext_resource type="Resource" uid="uid://ba7cvnkv5kkut" path="res://moves/nuzzle.tres" id="13_rhk3y"]
+[ext_resource type="Resource" uid="uid://dpi7a12r0yjb7" path="res://moves/poweruppunch.tres" id="14_ly4u7"]
+[ext_resource type="Resource" uid="uid://cqgprgodgioss" path="res://moves/protect.tres" id="15_t8jap"]
+[ext_resource type="Resource" uid="uid://bb5miq678bml6" path="res://moves/rest.tres" id="16_j7r43"]
+[ext_resource type="Resource" uid="uid://clo5n36yutt3y" path="res://moves/round.tres" id="17_t1qh3"]
+[ext_resource type="Resource" uid="uid://dm0v1ccg3yuy3" path="res://moves/sleeptalk.tres" id="18_boiyy"]
+[ext_resource type="Resource" uid="uid://dlqeb5mptbr5w" path="res://moves/snore.tres" id="19_hmrtl"]
+[ext_resource type="Resource" uid="uid://bgooxmy526mdf" path="res://moves/substitute.tres" id="20_l7b2j"]
+[ext_resource type="Resource" uid="uid://dw7dn348wx6gu" path="res://moves/tearfullook.tres" id="21_x16fj"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="22_qm2bv"]
+
+[resource]
+script = ExtResource("22_qm2bv")
+species_name = "Toxel"
+species_id = 848
+types = Array[String](["electric", "poison"])
+base_stats = {
+"atk": 38.0,
+"def": 35.0,
+"hp": 40.0,
+"spa": 54.0,
+"spd": 35.0,
+"spe": 40.0
+}
+moves = Array[ExtResource("1_wjkhw")]([ExtResource("2_vlhbu"), ExtResource("3_a14bg"), ExtResource("4_4etcf"), ExtResource("5_yvcui"), ExtResource("6_sihwv"), ExtResource("7_1650v"), ExtResource("8_ldepm"), ExtResource("9_q51wx"), ExtResource("10_la0ux"), ExtResource("11_esgdg"), ExtResource("12_gomes"), ExtResource("13_rhk3y"), ExtResource("14_ly4u7"), ExtResource("15_t8jap"), ExtResource("16_j7r43"), ExtResource("17_t1qh3"), ExtResource("18_boiyy"), ExtResource("19_hmrtl"), ExtResource("20_l7b2j"), ExtResource("21_x16fj")])
+abilities = {
+"0": "Rattled",
+"1": "Static",
+"H": "Klutz"
+}
+height = 0.4
+weight = 11.0
+color = "Purple"
+evolutions = Array[String](["Toxtricity", "Toxtricity-Low-Key"])

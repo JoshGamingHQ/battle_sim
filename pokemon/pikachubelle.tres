@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://b10hjfumyymld"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ryyxx"]
+[ext_resource type="Resource" uid="uid://btj6irdunndav" path="res://moves/iciclecrash.tres" id="2_gsfft"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="3_nyjvd"]
+
+[resource]
+script = ExtResource("3_nyjvd")
+species_name = "Pikachu-Belle"
+species_id = 25
+types = Array[String](["electric"])
+base_stats = {
+"atk": 55.0,
+"def": 40.0,
+"hp": 35.0,
+"spa": 50.0,
+"spd": 50.0,
+"spe": 90.0
+}
+moves = Array[ExtResource("1_ryyxx")]([ExtResource("2_gsfft")])
+abilities = {
+"0": "Lightning Rod"
+}
+height = 0.4
+weight = 6.0
+color = "Yellow"

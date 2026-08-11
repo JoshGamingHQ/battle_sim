@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://c7su3ocw0fg7o"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_r4um5"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_2hfa5"]
+
+[resource]
+script = ExtResource("2_2hfa5")
+species_name = "Rayquaza-Mega"
+species_id = 384
+types = Array[String](["dragon", "flying"])
+base_stats = {
+"atk": 180.0,
+"def": 100.0,
+"hp": 105.0,
+"spa": 180.0,
+"spd": 100.0,
+"spe": 115.0
+}
+abilities = {
+"0": "Delta Stream"
+}
+height = 10.8
+weight = 392.0
+color = "Green"

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bwfv3uq2dt7wx"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_5gtvd"]
+
+[resource]
+script = ExtResource("1_5gtvd")
+move_id = "magiccoat"
+move_name = "Magic Coat"
+num = 277
+type = "psychic"
+accuracy = -1
+pp = 15
+category = "status"
+priority = 4
+target = "self"
+flags = {
+"metronome": 1.0
+}

@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://caj21yncnoov5"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_my5ue"]
+
+[resource]
+script = ExtResource("1_my5ue")
+move_id = "lowsweep"
+move_name = "Low Sweep"
+num = 490
+type = "fighting"
+power = 65
+accuracy = 100
+pp = 20
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"boosts": {
+"spe": -1.0
+},
+"chance": 100.0
+}

@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://dfcexk5ht81xq"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_aatj2"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_mfamm"]
+
+[resource]
+script = ExtResource("2_mfamm")
+species_name = "Hawlucha-Mega"
+species_id = 701
+types = Array[String](["fighting", "flying"])
+base_stats = {
+"atk": 137.0,
+"def": 100.0,
+"hp": 78.0,
+"spa": 74.0,
+"spd": 93.0,
+"spe": 118.0
+}
+abilities = {
+"0": "No Guard"
+}
+height = 1.0
+weight = 25.0
+color = "Green"

@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://gqlqft2q5qcw"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_qce4x"]
+
+[resource]
+script = ExtResource("1_qce4x")
+move_id = "foresight"
+move_name = "Foresight"
+num = 193
+type = "normal"
+accuracy = -1
+pp = 40
+category = "status"
+target = "normal"
+flags = {
+"bypasssub": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"reflectable": 1.0
+}

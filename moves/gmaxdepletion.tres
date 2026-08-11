@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://3qc4ejcpeuae"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_1dxhf"]
+
+[resource]
+script = ExtResource("1_1dxhf")
+move_id = "gmaxdepletion"
+move_name = "G-Max Depletion"
+num = 1000
+type = "dragon"
+power = 10
+accuracy = -1
+pp = 5
+category = "physical"
+target = "adjacentFoe"

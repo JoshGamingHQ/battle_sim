@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://t6a6gbea7un3"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_sg4ox"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_mebhn"]
+
+[resource]
+script = ExtResource("2_mebhn")
+species_name = "Dudunsparce-Three-Segment"
+species_id = 982
+types = Array[String](["normal"])
+base_stats = {
+"atk": 100.0,
+"def": 80.0,
+"hp": 125.0,
+"spa": 85.0,
+"spd": 75.0,
+"spe": 55.0
+}
+abilities = {
+"0": "Serene Grace",
+"1": "Run Away",
+"H": "Rattled"
+}
+height = 4.5
+weight = 47.4
+color = "Yellow"
+prevo = "Dunsparce"

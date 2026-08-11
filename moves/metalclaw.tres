@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://felp8pkc6f6q"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_tphdw"]
+
+[resource]
+script = ExtResource("1_tphdw")
+move_id = "metalclaw"
+move_name = "Metal Claw"
+num = 232
+type = "steel"
+power = 50
+accuracy = 95
+pp = 35
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 10.0,
+"self": {
+"boosts": {
+"atk": 1.0
+}
+}
+}

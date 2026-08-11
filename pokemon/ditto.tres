@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://va7c50fyurm8"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_bqol5"]
+[ext_resource type="Resource" uid="uid://c481go7kd8vj4" path="res://moves/transform.tres" id="2_1w8mu"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="3_i6cff"]
+
+[resource]
+script = ExtResource("3_i6cff")
+species_name = "Ditto"
+species_id = 132
+types = Array[String](["normal"])
+base_stats = {
+"atk": 48.0,
+"def": 48.0,
+"hp": 48.0,
+"spa": 48.0,
+"spd": 48.0,
+"spe": 48.0
+}
+moves = Array[ExtResource("1_bqol5")]([ExtResource("2_1w8mu")])
+abilities = {
+"0": "Limber",
+"H": "Imposter"
+}
+height = 0.3
+weight = 4.0
+color = "Purple"

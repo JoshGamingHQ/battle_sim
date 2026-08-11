@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://7vyn44q56g67"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_lbhc4"]
+
+[resource]
+script = ExtResource("1_lbhc4")
+move_id = "earthquake"
+move_name = "Earthquake"
+num = 89
+type = "ground"
+power = 100
+accuracy = 100
+pp = 10
+category = "physical"
+target = "allAdjacent"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"nonsky": 1.0,
+"protect": 1.0
+}

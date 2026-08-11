@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://d0jbxola4itmn"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_kr3ah"]
+
+[resource]
+script = ExtResource("1_kr3ah")
+move_id = "originpulse"
+move_name = "Origin Pulse"
+num = 618
+type = "water"
+power = 110
+accuracy = 85
+pp = 10
+category = "special"
+target = "allAdjacentFoes"
+flags = {
+"mirror": 1.0,
+"protect": 1.0,
+"pulse": 1.0
+}

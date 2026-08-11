@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://gjcht2hb3vv"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_tkylq"]
+
+[resource]
+script = ExtResource("1_tkylq")
+move_id = "vacuumwave"
+move_name = "Vacuum Wave"
+num = 410
+type = "fighting"
+power = 40
+accuracy = 100
+pp = 30
+category = "special"
+priority = 1
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

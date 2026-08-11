@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://4fp6gscf225k"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_2uuix"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_0hdi1"]
+
+[resource]
+script = ExtResource("2_0hdi1")
+species_name = "Greninja-Ash"
+species_id = 658
+types = Array[String](["water", "dark"])
+base_stats = {
+"atk": 145.0,
+"def": 67.0,
+"hp": 72.0,
+"spa": 153.0,
+"spd": 71.0,
+"spe": 132.0
+}
+abilities = {
+"0": "Battle Bond"
+}
+height = 1.5
+weight = 40.0
+color = "Blue"

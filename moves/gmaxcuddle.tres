@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://diexkm05mvpsd"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_lt8tq"]
+
+[resource]
+script = ExtResource("1_lt8tq")
+move_id = "gmaxcuddle"
+move_name = "G-Max Cuddle"
+num = 1000
+type = "normal"
+power = 10
+accuracy = -1
+pp = 5
+category = "physical"
+target = "adjacentFoe"

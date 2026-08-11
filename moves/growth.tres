@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://clcpndyksg5rw"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_04yh4"]
+
+[resource]
+script = ExtResource("1_04yh4")
+move_id = "growth"
+move_name = "Growth"
+num = 74
+type = "normal"
+accuracy = -1
+pp = 20
+category = "status"
+target = "self"
+flags = {
+"metronome": 1.0,
+"snatch": 1.0
+}
+boosts = {
+"atk": 1.0,
+"spa": 1.0
+}

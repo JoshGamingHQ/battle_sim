@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://b2cllco5shqb3"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_w3hgt"]
+
+[resource]
+script = ExtResource("1_w3hgt")
+move_id = "gmaxwildfire"
+move_name = "G-Max Wildfire"
+num = 1000
+type = "fire"
+power = 10
+accuracy = -1
+pp = 10
+category = "physical"
+target = "adjacentFoe"

@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cjyrs6rp4t88o"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_650gr"]
+
+[resource]
+script = ExtResource("1_650gr")
+move_id = "mefirst"
+move_name = "Me First"
+num = 382
+type = "normal"
+accuracy = -1
+pp = 20
+category = "status"
+target = "adjacentFoe"
+flags = {
+"bypasssub": 1.0,
+"failcopycat": 1.0,
+"failencore": 1.0,
+"failinstruct": 1.0,
+"failmefirst": 1.0,
+"failmimic": 1.0,
+"noassist": 1.0,
+"nosleeptalk": 1.0,
+"protect": 1.0
+}

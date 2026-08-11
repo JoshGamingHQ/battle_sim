@@ -1,0 +1,70 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://kwi33dva54mo"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ygiic"]
+[ext_resource type="Resource" uid="uid://dg8kc2nxs6l6x" path="res://moves/bite.tres" id="2_2d73f"]
+[ext_resource type="Resource" uid="uid://cy6ydmrsfa423" path="res://moves/bodyslam.tres" id="3_lgl6d"]
+[ext_resource type="Resource" uid="uid://blwyw6ktaygew" path="res://moves/charm.tres" id="4_deu5t"]
+[ext_resource type="Resource" uid="uid://dcgme0wgqf1ku" path="res://moves/crunch.tres" id="5_0x8od"]
+[ext_resource type="Resource" uid="uid://rk3af4aa4c8l" path="res://moves/darkpulse.tres" id="6_omyi0"]
+[ext_resource type="Resource" uid="uid://cc6t7ieiebg0k" path="res://moves/destinybond.tres" id="7_fxlwi"]
+[ext_resource type="Resource" uid="uid://b0wu0f6oaujm" path="res://moves/dig.tres" id="8_adimu"]
+[ext_resource type="Resource" uid="uid://clq77jvglqqka" path="res://moves/doubleedge.tres" id="9_tgtvf"]
+[ext_resource type="Resource" uid="uid://denu3qeqkhurh" path="res://moves/endeavor.tres" id="10_xx5d3"]
+[ext_resource type="Resource" uid="uid://dixsoo2ylaus6" path="res://moves/endure.tres" id="11_32tsk"]
+[ext_resource type="Resource" uid="uid://beg0sk32xdo2y" path="res://moves/facade.tres" id="12_rm8qr"]
+[ext_resource type="Resource" uid="uid://cp1kkf8o2cdv1" path="res://moves/faketears.tres" id="13_pqhxk"]
+[ext_resource type="Resource" uid="uid://cm681vsjtatim" path="res://moves/firefang.tres" id="14_shn87"]
+[ext_resource type="Resource" uid="uid://cmy6rldrij8pw" path="res://moves/headbutt.tres" id="15_8207u"]
+[ext_resource type="Resource" uid="uid://ds3le6dwwbuym" path="res://moves/helpinghand.tres" id="16_lfjwe"]
+[ext_resource type="Resource" uid="uid://c3dmeq1g1idyi" path="res://moves/honeclaws.tres" id="17_t166c"]
+[ext_resource type="Resource" uid="uid://ck11kdtgmceyt" path="res://moves/icefang.tres" id="18_d3b8a"]
+[ext_resource type="Resource" uid="uid://dfaknusarrnek" path="res://moves/jawlock.tres" id="19_xqbx5"]
+[ext_resource type="Resource" uid="uid://dvajunt6fi7ss" path="res://moves/lashout.tres" id="20_31ps2"]
+[ext_resource type="Resource" uid="uid://dp20vmt510vee" path="res://moves/leer.tres" id="21_5u7qv"]
+[ext_resource type="Resource" uid="uid://d1eexlqsqv358" path="res://moves/lick.tres" id="22_2rd8y"]
+[ext_resource type="Resource" uid="uid://cew6q6q50rjv5" path="res://moves/payback.tres" id="23_6n3ef"]
+[ext_resource type="Resource" uid="uid://do8w0n0fhbrd4" path="res://moves/playrough.tres" id="24_b1143"]
+[ext_resource type="Resource" uid="uid://cqgprgodgioss" path="res://moves/protect.tres" id="25_0wjwe"]
+[ext_resource type="Resource" uid="uid://daty6w28hy546" path="res://moves/psychicfangs.tres" id="26_jtmtu"]
+[ext_resource type="Resource" uid="uid://y4p0gbqjwak1" path="res://moves/raindance.tres" id="27_kawv5"]
+[ext_resource type="Resource" uid="uid://bb5miq678bml6" path="res://moves/rest.tres" id="28_wtd15"]
+[ext_resource type="Resource" uid="uid://c5ixjfbsef0v1" path="res://moves/retaliate.tres" id="29_wcj34"]
+[ext_resource type="Resource" uid="uid://cccel31mge1bj" path="res://moves/reversal.tres" id="30_86xty"]
+[ext_resource type="Resource" uid="uid://b0a16nqpa0wyx" path="res://moves/roar.tres" id="31_y2tlr"]
+[ext_resource type="Resource" uid="uid://b7q1vfgree0ij" path="res://moves/scaryface.tres" id="32_dpvk2"]
+[ext_resource type="Resource" uid="uid://dm0v1ccg3yuy3" path="res://moves/sleeptalk.tres" id="33_8e0io"]
+[ext_resource type="Resource" uid="uid://cmwubyacs8xe8" path="res://moves/snarl.tres" id="34_0wqlx"]
+[ext_resource type="Resource" uid="uid://bgooxmy526mdf" path="res://moves/substitute.tres" id="35_qne8c"]
+[ext_resource type="Resource" uid="uid://mbqurspsyue8" path="res://moves/sunnyday.tres" id="36_s04nb"]
+[ext_resource type="Resource" uid="uid://3tljd25wd7fn" path="res://moves/swagger.tres" id="37_dppwx"]
+[ext_resource type="Resource" uid="uid://bxvr0l21tsqsc" path="res://moves/tackle.tres" id="38_qwmk8"]
+[ext_resource type="Resource" uid="uid://cdstkuv0wdvei" path="res://moves/takedown.tres" id="39_m1ago"]
+[ext_resource type="Resource" uid="uid://bwd02m60dlfhm" path="res://moves/taunt.tres" id="40_y1t50"]
+[ext_resource type="Resource" uid="uid://rk7tcbbxbb3o" path="res://moves/thief.tres" id="41_e3wsh"]
+[ext_resource type="Resource" uid="uid://bmk0nl1sn5xm6" path="res://moves/thunderfang.tres" id="42_b138b"]
+[ext_resource type="Resource" uid="uid://cbays7gls4ebj" path="res://moves/trailblaze.tres" id="43_hkwnh"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="44_6abag"]
+
+[resource]
+script = ExtResource("44_6abag")
+species_name = "Maschiff"
+species_id = 942
+types = Array[String](["dark"])
+base_stats = {
+"atk": 78.0,
+"def": 60.0,
+"hp": 60.0,
+"spa": 40.0,
+"spd": 51.0,
+"spe": 51.0
+}
+moves = Array[ExtResource("1_ygiic")]([ExtResource("2_2d73f"), ExtResource("3_lgl6d"), ExtResource("4_deu5t"), ExtResource("5_0x8od"), ExtResource("6_omyi0"), ExtResource("7_fxlwi"), ExtResource("8_adimu"), ExtResource("9_tgtvf"), ExtResource("10_xx5d3"), ExtResource("11_32tsk"), ExtResource("12_rm8qr"), ExtResource("13_pqhxk"), ExtResource("14_shn87"), ExtResource("15_8207u"), ExtResource("16_lfjwe"), ExtResource("17_t166c"), ExtResource("18_d3b8a"), ExtResource("19_xqbx5"), ExtResource("20_31ps2"), ExtResource("21_5u7qv"), ExtResource("22_2rd8y"), ExtResource("23_6n3ef"), ExtResource("24_b1143"), ExtResource("25_0wjwe"), ExtResource("26_jtmtu"), ExtResource("27_kawv5"), ExtResource("28_wtd15"), ExtResource("29_wcj34"), ExtResource("30_86xty"), ExtResource("31_y2tlr"), ExtResource("32_dpvk2"), ExtResource("33_8e0io"), ExtResource("34_0wqlx"), ExtResource("35_qne8c"), ExtResource("36_s04nb"), ExtResource("37_dppwx"), ExtResource("38_qwmk8"), ExtResource("39_m1ago"), ExtResource("40_y1t50"), ExtResource("41_e3wsh"), ExtResource("42_b138b"), ExtResource("43_hkwnh")])
+abilities = {
+"0": "Intimidate",
+"1": "Run Away",
+"H": "Stakeout"
+}
+height = 0.5
+weight = 16.0
+color = "Brown"
+evolutions = Array[String](["Mabosstiff"])

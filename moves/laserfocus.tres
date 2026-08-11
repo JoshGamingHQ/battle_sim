@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dnoogk10lvys7"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_nxh07"]
+
+[resource]
+script = ExtResource("1_nxh07")
+move_id = "laserfocus"
+move_name = "Laser Focus"
+num = 673
+type = "normal"
+accuracy = -1
+pp = 30
+category = "status"
+target = "self"
+flags = {
+"metronome": 1.0,
+"snatch": 1.0
+}

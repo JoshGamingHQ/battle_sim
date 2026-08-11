@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bpvoboomjyplq"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_csncn"]
+
+[resource]
+script = ExtResource("1_csncn")
+move_id = "acrobatics"
+move_name = "Acrobatics"
+num = 512
+type = "flying"
+power = 55
+accuracy = 100
+pp = 15
+category = "physical"
+target = "any"
+flags = {
+"contact": 1.0,
+"distance": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bwsm4pcrvhi3q"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_sm0ak"]
+
+[resource]
+script = ExtResource("1_sm0ak")
+move_id = "stokedsparksurfer"
+move_name = "Stoked Sparksurfer"
+num = 700
+type = "electric"
+power = 175
+accuracy = -1
+pp = 1
+category = "special"
+target = "normal"
+secondary = {
+"chance": 100.0,
+"status": "par"
+}

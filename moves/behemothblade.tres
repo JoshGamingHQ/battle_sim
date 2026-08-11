@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://b3x8xfku8gsgg"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_bkjip"]
+
+[resource]
+script = ExtResource("1_bkjip")
+move_id = "behemothblade"
+move_name = "Behemoth Blade"
+num = 781
+type = "steel"
+power = 100
+accuracy = 100
+pp = 5
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"failcopycat": 1.0,
+"failmimic": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"slicing": 1.0
+}

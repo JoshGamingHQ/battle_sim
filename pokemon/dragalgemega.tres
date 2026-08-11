@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://bgc5sqrgkunyv"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_t7jvu"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_fe743"]
+
+[resource]
+script = ExtResource("2_fe743")
+species_name = "Dragalge-Mega"
+species_id = 691
+types = Array[String](["poison", "dragon"])
+base_stats = {
+"atk": 85.0,
+"def": 105.0,
+"hp": 65.0,
+"spa": 132.0,
+"spd": 163.0,
+"spe": 44.0
+}
+abilities = {
+"0": "Regenerator"
+}
+height = 2.1
+weight = 100.3
+color = "Brown"

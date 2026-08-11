@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://drg776n5xsi27"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_o6638"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_2t2he"]
+
+[resource]
+script = ExtResource("2_2t2he")
+species_name = "Chandelure-Mega"
+species_id = 609
+types = Array[String](["ghost", "fire"])
+base_stats = {
+"atk": 75.0,
+"def": 110.0,
+"hp": 60.0,
+"spa": 175.0,
+"spd": 110.0,
+"spe": 90.0
+}
+abilities = {
+"0": "Infiltrator"
+}
+height = 2.5
+weight = 69.6
+color = "Black"

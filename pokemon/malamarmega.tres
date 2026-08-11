@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://bt1i44i1t3oyh"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ndq33"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_wrpmn"]
+
+[resource]
+script = ExtResource("2_wrpmn")
+species_name = "Malamar-Mega"
+species_id = 687
+types = Array[String](["dark", "psychic"])
+base_stats = {
+"atk": 102.0,
+"def": 88.0,
+"hp": 86.0,
+"spa": 98.0,
+"spd": 120.0,
+"spe": 88.0
+}
+abilities = {
+"0": "Contrary"
+}
+height = 2.9
+weight = 69.8
+color = "Blue"

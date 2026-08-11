@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://bfvgrrv1aj4i4"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_yiygq"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_tx7sl"]
+
+[resource]
+script = ExtResource("2_tx7sl")
+species_name = "Arceus-Fighting"
+species_id = 493
+types = Array[String](["fighting"])
+base_stats = {
+"atk": 120.0,
+"def": 120.0,
+"hp": 120.0,
+"spa": 120.0,
+"spd": 120.0,
+"spe": 120.0
+}
+abilities = {
+"0": "Multitype"
+}
+height = 3.2
+weight = 320.0
+color = "White"

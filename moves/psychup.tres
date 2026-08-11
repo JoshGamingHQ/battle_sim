@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://1sny3h1x4ow7"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_0rg2k"]
+
+[resource]
+script = ExtResource("1_0rg2k")
+move_id = "psychup"
+move_name = "Psych Up"
+num = 244
+type = "normal"
+accuracy = -1
+pp = 10
+category = "status"
+target = "normal"
+flags = {
+"allyanim": 1.0,
+"bypasssub": 1.0,
+"metronome": 1.0
+}

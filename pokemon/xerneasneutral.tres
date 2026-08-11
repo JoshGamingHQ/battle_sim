@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://dyx5d1ukkkaxg"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_xoona"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_oy144"]
+
+[resource]
+script = ExtResource("2_oy144")
+species_name = "Xerneas-Neutral"
+species_id = 716
+types = Array[String](["fairy"])
+base_stats = {
+"atk": 131.0,
+"def": 95.0,
+"hp": 126.0,
+"spa": 131.0,
+"spd": 98.0,
+"spe": 99.0
+}
+abilities = {
+"0": "Fairy Aura"
+}
+height = 3.0
+weight = 215.0
+color = "Blue"

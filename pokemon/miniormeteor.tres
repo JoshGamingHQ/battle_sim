@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://08gwdtjfag4v"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_aawyo"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_vufko"]
+
+[resource]
+script = ExtResource("2_vufko")
+species_name = "Minior-Meteor"
+species_id = 774
+types = Array[String](["rock", "flying"])
+base_stats = {
+"atk": 60.0,
+"def": 100.0,
+"hp": 60.0,
+"spa": 60.0,
+"spd": 100.0,
+"spe": 60.0
+}
+abilities = {
+"0": "Shields Down"
+}
+height = 0.3
+weight = 40.0
+color = "Brown"

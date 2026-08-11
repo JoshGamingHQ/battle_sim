@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cow12qaaxmyrt"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_l2aei"]
+
+[resource]
+script = ExtResource("1_l2aei")
+move_id = "airslash"
+move_name = "Air Slash"
+num = 403
+type = "flying"
+power = 75
+accuracy = 95
+pp = 15
+category = "special"
+target = "any"
+flags = {
+"distance": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"slicing": 1.0
+}
+secondary = {
+"chance": 30.0,
+"volatileStatus": "flinch"
+}

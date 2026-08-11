@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dlqeb5mptbr5w"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_klarh"]
+
+[resource]
+script = ExtResource("1_klarh")
+move_id = "snore"
+move_name = "Snore"
+num = 173
+type = "normal"
+power = 50
+accuracy = 100
+pp = 15
+category = "special"
+target = "normal"
+flags = {
+"bypasssub": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"sound": 1.0
+}
+secondary = {
+"chance": 30.0,
+"volatileStatus": "flinch"
+}

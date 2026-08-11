@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://d2let8e2cjs1"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_o6kf8"]
+
+[resource]
+script = ExtResource("1_o6kf8")
+move_id = "hiddenpowergrass"
+move_name = "Hidden Power Grass"
+num = 237
+type = "grass"
+power = 60
+accuracy = 100
+pp = 15
+category = "special"
+target = "normal"
+flags = {
+"mirror": 1.0,
+"protect": 1.0
+}

@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bmpf2gvfuwhag"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_utuqf"]
+
+[resource]
+script = ExtResource("1_utuqf")
+move_id = "polarflare"
+move_name = "Polar Flare"
+num = -3
+type = "fire"
+power = 75
+accuracy = 100
+pp = 10
+category = "special"
+target = "allAdjacentFoes"
+flags = {
+"defrost": 1.0,
+"mirror": 1.0,
+"nosketch": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 10.0,
+"status": "frz"
+}

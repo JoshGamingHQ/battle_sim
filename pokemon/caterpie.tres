@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://bfnjbtbaf4gnu"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_e0yml"]
+[ext_resource type="Resource" uid="uid://cq6lu5bcpf50i" path="res://moves/bugbite.tres" id="2_tdiqp"]
+[ext_resource type="Resource" uid="uid://c3spkon7qka3x" path="res://moves/electroweb.tres" id="3_w0u2i"]
+[ext_resource type="Resource" uid="uid://dlqeb5mptbr5w" path="res://moves/snore.tres" id="4_0b6or"]
+[ext_resource type="Resource" uid="uid://ce0ic1pk4kia6" path="res://moves/stringshot.tres" id="5_xw4u8"]
+[ext_resource type="Resource" uid="uid://bxvr0l21tsqsc" path="res://moves/tackle.tres" id="6_ddg3f"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="7_1vmba"]
+
+[resource]
+script = ExtResource("7_1vmba")
+species_name = "Caterpie"
+species_id = 10
+types = Array[String](["bug"])
+base_stats = {
+"atk": 30.0,
+"def": 35.0,
+"hp": 45.0,
+"spa": 20.0,
+"spd": 20.0,
+"spe": 45.0
+}
+moves = Array[ExtResource("1_e0yml")]([ExtResource("2_tdiqp"), ExtResource("3_w0u2i"), ExtResource("4_0b6or"), ExtResource("5_xw4u8"), ExtResource("6_ddg3f")])
+abilities = {
+"0": "Shield Dust",
+"H": "Run Away"
+}
+height = 0.3
+weight = 2.9
+color = "Green"
+evolutions = Array[String](["Metapod"])

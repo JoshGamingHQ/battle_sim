@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dlfj1v3be8n6f"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_rv2fy"]
+
+[resource]
+script = ExtResource("1_rv2fy")
+move_id = "knockoff"
+move_name = "Knock Off"
+num = 282
+type = "dark"
+power = 65
+accuracy = 100
+pp = 20
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

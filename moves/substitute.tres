@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bgooxmy526mdf"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_tdc8l"]
+
+[resource]
+script = ExtResource("1_tdc8l")
+move_id = "substitute"
+move_name = "Substitute"
+num = 164
+type = "normal"
+accuracy = -1
+pp = 10
+category = "status"
+target = "self"
+flags = {
+"metronome": 1.0,
+"nonsky": 1.0,
+"snatch": 1.0
+}

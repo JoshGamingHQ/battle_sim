@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://cmsvmjym4furm"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_rffvd"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_alxno"]
+
+[resource]
+script = ExtResource("2_alxno")
+species_name = "Banette-Mega"
+species_id = 354
+types = Array[String](["ghost"])
+base_stats = {
+"atk": 165.0,
+"def": 75.0,
+"hp": 64.0,
+"spa": 93.0,
+"spd": 83.0,
+"spe": 75.0
+}
+abilities = {
+"0": "Prankster"
+}
+height = 1.2
+weight = 13.0
+color = "Black"

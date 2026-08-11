@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bxt5rbm8557l4"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_h4ady"]
+
+[resource]
+script = ExtResource("1_h4ady")
+move_id = "dragondarts"
+move_name = "Dragon Darts"
+num = 751
+type = "dragon"
+power = 50
+accuracy = 100
+pp = 10
+category = "physical"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"noparentalbond": 1.0,
+"protect": 1.0
+}

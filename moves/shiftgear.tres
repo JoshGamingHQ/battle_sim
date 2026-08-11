@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cdm2lam4u024i"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_c3xd6"]
+
+[resource]
+script = ExtResource("1_c3xd6")
+move_id = "shiftgear"
+move_name = "Shift Gear"
+num = 508
+type = "steel"
+accuracy = -1
+pp = 10
+category = "status"
+target = "self"
+flags = {
+"metronome": 1.0,
+"snatch": 1.0
+}
+boosts = {
+"atk": 1.0,
+"spe": 2.0
+}

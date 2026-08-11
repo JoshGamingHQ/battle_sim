@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://0m0u4b404viy"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_o0yw5"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_cpxbg"]
+
+[resource]
+script = ExtResource("2_cpxbg")
+species_name = "Tatsugiri-Droopy"
+species_id = 978
+types = Array[String](["dragon", "water"])
+base_stats = {
+"atk": 50.0,
+"def": 60.0,
+"hp": 68.0,
+"spa": 120.0,
+"spd": 95.0,
+"spe": 82.0
+}
+abilities = {
+"0": "Commander",
+"H": "Storm Drain"
+}
+height = 0.3
+weight = 8.0
+color = "Pink"

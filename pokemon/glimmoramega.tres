@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://c0uxdfkasxxjt"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_1qotg"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_8vgta"]
+
+[resource]
+script = ExtResource("2_8vgta")
+species_name = "Glimmora-Mega"
+species_id = 970
+types = Array[String](["rock", "poison"])
+base_stats = {
+"atk": 90.0,
+"def": 105.0,
+"hp": 83.0,
+"spa": 150.0,
+"spd": 96.0,
+"spe": 101.0
+}
+abilities = {
+"0": "Adaptability"
+}
+height = 2.8
+weight = 77.0
+color = "Blue"

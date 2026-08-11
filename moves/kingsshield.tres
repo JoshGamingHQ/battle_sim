@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bok6j4udtqifp"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_3tjx4"]
+
+[resource]
+script = ExtResource("1_3tjx4")
+move_id = "kingsshield"
+move_name = "King's Shield"
+num = 588
+type = "steel"
+accuracy = -1
+pp = 10
+category = "status"
+priority = 4
+target = "self"
+flags = {
+"failcopycat": 1.0,
+"failinstruct": 1.0,
+"noassist": 1.0
+}

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://115i6lc6147u"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_6hqnu"]
+
+[resource]
+script = ExtResource("1_6hqnu")
+move_id = "lightscreen"
+move_name = "Light Screen"
+num = 113
+type = "psychic"
+accuracy = -1
+pp = 30
+category = "status"
+target = "allySide"
+flags = {
+"metronome": 1.0,
+"snatch": 1.0
+}

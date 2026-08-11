@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://djp26prkegxb5"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_fys3m"]
+
+[resource]
+script = ExtResource("1_fys3m")
+move_id = "psychoboost"
+move_name = "Psycho Boost"
+num = 354
+type = "psychic"
+power = 140
+accuracy = 90
+pp = 5
+category = "special"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

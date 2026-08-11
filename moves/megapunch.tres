@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://b04kmng16dmdh"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_je6iq"]
+
+[resource]
+script = ExtResource("1_je6iq")
+move_id = "megapunch"
+move_name = "Mega Punch"
+num = 5
+type = "normal"
+power = 80
+accuracy = 85
+pp = 20
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"punch": 1.0
+}

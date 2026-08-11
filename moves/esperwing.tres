@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://1u2yxpb26erp"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_dk11v"]
+
+[resource]
+script = ExtResource("1_dk11v")
+move_id = "esperwing"
+move_name = "Esper Wing"
+num = 840
+type = "psychic"
+power = 80
+accuracy = 100
+pp = 10
+category = "special"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 100.0,
+"self": {
+"boosts": {
+"spe": 1.0
+}
+}
+}

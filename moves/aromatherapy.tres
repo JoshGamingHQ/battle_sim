@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dmu5jeymi1rxh"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_wdx75"]
+
+[resource]
+script = ExtResource("1_wdx75")
+move_id = "aromatherapy"
+move_name = "Aromatherapy"
+num = 312
+type = "grass"
+accuracy = -1
+pp = 5
+category = "status"
+target = "allyTeam"
+flags = {
+"distance": 1.0,
+"metronome": 1.0,
+"snatch": 1.0
+}

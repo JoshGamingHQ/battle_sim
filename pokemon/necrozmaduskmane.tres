@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://1uf0ocho0ypd"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_0wyra"]
+[ext_resource type="Resource" uid="uid://bvpyw8mg21ovo" path="res://moves/sunsteelstrike.tres" id="2_msc6g"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="3_5hu38"]
+
+[resource]
+script = ExtResource("3_5hu38")
+species_name = "Necrozma-Dusk-Mane"
+species_id = 800
+types = Array[String](["psychic", "steel"])
+base_stats = {
+"atk": 157.0,
+"def": 127.0,
+"hp": 97.0,
+"spa": 113.0,
+"spd": 109.0,
+"spe": 77.0
+}
+moves = Array[ExtResource("1_0wyra")]([ExtResource("2_msc6g")])
+abilities = {
+"0": "Prism Armor"
+}
+height = 3.8
+weight = 460.0
+color = "Yellow"

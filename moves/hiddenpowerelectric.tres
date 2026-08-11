@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://qkfqrmorx863"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_oc2lq"]
+
+[resource]
+script = ExtResource("1_oc2lq")
+move_id = "hiddenpowerelectric"
+move_name = "Hidden Power Electric"
+num = 237
+type = "electric"
+power = 60
+accuracy = 100
+pp = 15
+category = "special"
+target = "normal"
+flags = {
+"mirror": 1.0,
+"protect": 1.0
+}

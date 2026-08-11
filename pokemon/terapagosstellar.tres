@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://dw17ws8ts6vtx"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_4rit5"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_mwm2l"]
+
+[resource]
+script = ExtResource("2_mwm2l")
+species_name = "Terapagos-Stellar"
+species_id = 1024
+types = Array[String](["normal"])
+base_stats = {
+"atk": 105.0,
+"def": 110.0,
+"hp": 160.0,
+"spa": 130.0,
+"spd": 110.0,
+"spe": 85.0
+}
+abilities = {
+"0": "Teraform Zero"
+}
+height = 1.7
+weight = 77.0
+color = "Blue"

@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://8m40c75gxaek"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_a0ro4"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_33c86"]
+
+[resource]
+script = ExtResource("2_33c86")
+species_name = "Morpeko-Hangry"
+species_id = 877
+types = Array[String](["electric", "dark"])
+base_stats = {
+"atk": 95.0,
+"def": 58.0,
+"hp": 58.0,
+"spa": 70.0,
+"spd": 58.0,
+"spe": 97.0
+}
+abilities = {
+"0": "Hunger Switch"
+}
+height = 0.3
+weight = 3.0
+color = "Purple"

@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://8dpjh552tqjn"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_1mns1"]
+
+[resource]
+script = ExtResource("1_1mns1")
+move_id = "lusterpurge"
+move_name = "Luster Purge"
+num = 295
+type = "psychic"
+power = 95
+accuracy = 100
+pp = 5
+category = "special"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"boosts": {
+"spd": -1.0
+},
+"chance": 50.0
+}

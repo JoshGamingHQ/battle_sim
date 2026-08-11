@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://b1hns4diruqi4"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_08i1m"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_3jsje"]
+
+[resource]
+script = ExtResource("2_3jsje")
+species_name = "Shaymin-Sky"
+species_id = 492
+types = Array[String](["grass", "flying"])
+base_stats = {
+"atk": 103.0,
+"def": 75.0,
+"hp": 100.0,
+"spa": 120.0,
+"spd": 75.0,
+"spe": 127.0
+}
+abilities = {
+"0": "Serene Grace"
+}
+height = 0.4
+weight = 5.2
+color = "Green"

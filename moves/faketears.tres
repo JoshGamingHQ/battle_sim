@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cp1kkf8o2cdv1"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_h1sfy"]
+
+[resource]
+script = ExtResource("1_h1sfy")
+move_id = "faketears"
+move_name = "Fake Tears"
+num = 313
+type = "dark"
+accuracy = 100
+pp = 20
+category = "status"
+target = "normal"
+flags = {
+"allyanim": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"reflectable": 1.0
+}
+boosts = {
+"spd": -2.0
+}

@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://laguccu1aes"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_m76cb"]
+
+[resource]
+script = ExtResource("1_m76cb")
+move_id = "furyswipes"
+move_name = "Fury Swipes"
+num = 154
+type = "normal"
+power = 18
+accuracy = 80
+pp = 15
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

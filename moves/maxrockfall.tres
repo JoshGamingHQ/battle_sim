@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dijshkkl30lmn"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_5ysfl"]
+
+[resource]
+script = ExtResource("1_5ysfl")
+move_id = "maxrockfall"
+move_name = "Max Rockfall"
+num = 770
+type = "rock"
+power = 10
+accuracy = -1
+pp = 10
+category = "physical"
+target = "adjacentFoe"

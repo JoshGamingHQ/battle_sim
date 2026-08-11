@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://cx1hm5xx4ier7"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_wg0mo"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_nau32"]
+
+[resource]
+script = ExtResource("2_nau32")
+species_name = "Audino-Mega"
+species_id = 531
+types = Array[String](["normal", "fairy"])
+base_stats = {
+"atk": 60.0,
+"def": 126.0,
+"hp": 103.0,
+"spa": 80.0,
+"spd": 126.0,
+"spe": 50.0
+}
+abilities = {
+"0": "Healer"
+}
+height = 1.5
+weight = 32.0
+color = "White"

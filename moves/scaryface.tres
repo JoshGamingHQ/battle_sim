@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://b7q1vfgree0ij"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_rph67"]
+
+[resource]
+script = ExtResource("1_rph67")
+move_id = "scaryface"
+move_name = "Scary Face"
+num = 184
+type = "normal"
+accuracy = 100
+pp = 10
+category = "status"
+target = "normal"
+flags = {
+"allyanim": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"reflectable": 1.0
+}
+boosts = {
+"spe": -2.0
+}

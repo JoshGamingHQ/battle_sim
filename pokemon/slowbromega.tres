@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://y1j77yd56i7j"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_41d0j"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_q5xjx"]
+
+[resource]
+script = ExtResource("2_q5xjx")
+species_name = "Slowbro-Mega"
+species_id = 80
+types = Array[String](["water", "psychic"])
+base_stats = {
+"atk": 75.0,
+"def": 180.0,
+"hp": 95.0,
+"spa": 130.0,
+"spd": 80.0,
+"spe": 30.0
+}
+abilities = {
+"0": "Shell Armor"
+}
+height = 2.0
+weight = 120.0
+color = "Pink"

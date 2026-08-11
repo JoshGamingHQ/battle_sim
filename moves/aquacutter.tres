@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://b0hdwhixqjjli"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_s76tu"]
+
+[resource]
+script = ExtResource("1_s76tu")
+move_id = "aquacutter"
+move_name = "Aqua Cutter"
+num = 895
+type = "water"
+power = 70
+accuracy = 100
+pp = 20
+category = "physical"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"slicing": 1.0
+}

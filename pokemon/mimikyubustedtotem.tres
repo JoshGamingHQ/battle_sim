@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://o5mii7lupaym"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ejg3y"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_q05c3"]
+
+[resource]
+script = ExtResource("2_q05c3")
+species_name = "Mimikyu-Busted-Totem"
+species_id = 778
+types = Array[String](["ghost", "fairy"])
+base_stats = {
+"atk": 90.0,
+"def": 80.0,
+"hp": 55.0,
+"spa": 50.0,
+"spd": 105.0,
+"spe": 96.0
+}
+abilities = {
+"0": "Disguise"
+}
+height = 0.4
+weight = 2.8
+color = "Yellow"

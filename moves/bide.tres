@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cqqk2p4pbtyrg"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_4ngcq"]
+
+[resource]
+script = ExtResource("1_4ngcq")
+move_id = "bide"
+move_name = "Bide"
+num = 117
+type = "normal"
+accuracy = -1
+pp = 10
+category = "physical"
+priority = 1
+target = "self"
+flags = {
+"contact": 1.0,
+"failinstruct": 1.0,
+"metronome": 1.0,
+"nosleeptalk": 1.0,
+"protect": 1.0
+}

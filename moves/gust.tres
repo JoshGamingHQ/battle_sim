@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://ngf6cvoo0g0l"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_d2ahg"]
+
+[resource]
+script = ExtResource("1_d2ahg")
+move_id = "gust"
+move_name = "Gust"
+num = 16
+type = "flying"
+power = 40
+accuracy = 100
+pp = 35
+category = "special"
+target = "any"
+flags = {
+"distance": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"wind": 1.0
+}

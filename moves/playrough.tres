@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://do8w0n0fhbrd4"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_hrigt"]
+
+[resource]
+script = ExtResource("1_hrigt")
+move_id = "playrough"
+move_name = "Play Rough"
+num = 583
+type = "fairy"
+power = 90
+accuracy = 90
+pp = 10
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"boosts": {
+"atk": -1.0
+},
+"chance": 10.0
+}

@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://catfmdiwlpdwu"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_u6wn4"]
+
+[resource]
+script = ExtResource("1_u6wn4")
+move_id = "weatherball"
+move_name = "Weather Ball"
+num = 311
+type = "normal"
+power = 50
+accuracy = 100
+pp = 10
+category = "special"
+target = "normal"
+flags = {
+"bullet": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

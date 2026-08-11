@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://c8u1t6mfg3evw"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ypphg"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_gb52a"]
+
+[resource]
+script = ExtResource("2_gb52a")
+species_name = "Corviknight-Gmax"
+species_id = 823
+types = Array[String](["flying", "steel"])
+base_stats = {
+"atk": 87.0,
+"def": 105.0,
+"hp": 98.0,
+"spa": 53.0,
+"spd": 85.0,
+"spe": 67.0
+}
+abilities = {
+"0": "Pressure",
+"1": "Unnerve",
+"H": "Mirror Armor"
+}
+height = 14.0
+color = "Purple"

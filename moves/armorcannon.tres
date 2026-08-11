@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://b8tqxrnmsrd8e"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ts473"]
+
+[resource]
+script = ExtResource("1_ts473")
+move_id = "armorcannon"
+move_name = "Armor Cannon"
+num = 890
+type = "fire"
+power = 120
+accuracy = 100
+pp = 5
+category = "special"
+target = "normal"
+flags = {
+"mirror": 1.0,
+"protect": 1.0
+}

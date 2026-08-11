@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://e3ca4rirp6w8"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_gt7fi"]
+
+[resource]
+script = ExtResource("1_gt7fi")
+move_id = "rollout"
+move_name = "Rollout"
+num = 205
+type = "rock"
+power = 30
+accuracy = 90
+pp = 20
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"failinstruct": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"noparentalbond": 1.0,
+"protect": 1.0
+}

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bprv07x4v6uks"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_s1uwv"]
+
+[resource]
+script = ExtResource("1_s1uwv")
+move_id = "ragingbull"
+move_name = "Raging Bull"
+num = 873
+type = "normal"
+power = 90
+accuracy = 100
+pp = 10
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

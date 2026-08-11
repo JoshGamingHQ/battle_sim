@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://bxig0t87xdcsr"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_1swko"]
+[ext_resource type="Resource" uid="uid://dlmhq7tjgg7jn" path="res://moves/flyingpress.tres" id="2_qs27f"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="3_hilda"]
+
+[resource]
+script = ExtResource("3_hilda")
+species_name = "Pikachu-Libre"
+species_id = 25
+types = Array[String](["electric"])
+base_stats = {
+"atk": 55.0,
+"def": 40.0,
+"hp": 35.0,
+"spa": 50.0,
+"spd": 50.0,
+"spe": 90.0
+}
+moves = Array[ExtResource("1_1swko")]([ExtResource("2_qs27f")])
+abilities = {
+"0": "Lightning Rod"
+}
+height = 0.4
+weight = 6.0
+color = "Yellow"

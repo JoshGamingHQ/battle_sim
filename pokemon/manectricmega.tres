@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://buajmsxqtgl14"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_08r4v"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_b5kf5"]
+
+[resource]
+script = ExtResource("2_b5kf5")
+species_name = "Manectric-Mega"
+species_id = 310
+types = Array[String](["electric"])
+base_stats = {
+"atk": 75.0,
+"def": 80.0,
+"hp": 70.0,
+"spa": 135.0,
+"spd": 80.0,
+"spe": 135.0
+}
+abilities = {
+"0": "Intimidate"
+}
+height = 1.8
+weight = 44.0
+color = "Yellow"

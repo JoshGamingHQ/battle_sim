@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cipewv418v8j1"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_jxl4e"]
+
+[resource]
+script = ExtResource("1_jxl4e")
+move_id = "hyperdrill"
+move_name = "Hyper Drill"
+num = 887
+type = "normal"
+power = 100
+accuracy = 100
+pp = 5
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"mirror": 1.0
+}

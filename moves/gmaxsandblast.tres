@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://d0l2xei5ra47n"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_fxynn"]
+
+[resource]
+script = ExtResource("1_fxynn")
+move_id = "gmaxsandblast"
+move_name = "G-Max Sandblast"
+num = 1000
+type = "ground"
+power = 10
+accuracy = -1
+pp = 5
+category = "physical"
+target = "adjacentFoe"

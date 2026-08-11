@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://ctkx3qvali2hi"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_4ge23"]
+
+[resource]
+script = ExtResource("1_4ge23")
+move_id = "maxquake"
+move_name = "Max Quake"
+num = 771
+type = "ground"
+power = 10
+accuracy = -1
+pp = 10
+category = "physical"
+target = "adjacentFoe"

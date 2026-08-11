@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://cnt8w25s35g71"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_8rlg2"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_8iyl1"]
+
+[resource]
+script = ExtResource("2_8iyl1")
+species_name = "Grimmsnarl-Gmax"
+species_id = 861
+types = Array[String](["dark", "fairy"])
+base_stats = {
+"atk": 120.0,
+"def": 65.0,
+"hp": 95.0,
+"spa": 95.0,
+"spd": 75.0,
+"spe": 60.0
+}
+abilities = {
+"0": "Prankster",
+"1": "Frisk",
+"H": "Pickpocket"
+}
+height = 32.0
+color = "Purple"

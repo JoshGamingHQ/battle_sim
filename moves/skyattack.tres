@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dtq5c7jkqndsl"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_qo55y"]
+
+[resource]
+script = ExtResource("1_qo55y")
+move_id = "skyattack"
+move_name = "Sky Attack"
+num = 143
+type = "flying"
+power = 140
+accuracy = 90
+pp = 5
+category = "physical"
+target = "any"
+flags = {
+"charge": 1.0,
+"distance": 1.0,
+"failinstruct": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"nosleeptalk": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 30.0,
+"volatileStatus": "flinch"
+}

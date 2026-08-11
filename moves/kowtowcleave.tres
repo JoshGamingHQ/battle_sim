@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bvrdxfu7x0qry"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_g5qjy"]
+
+[resource]
+script = ExtResource("1_g5qjy")
+move_id = "kowtowcleave"
+move_name = "Kowtow Cleave"
+num = 869
+type = "dark"
+power = 85
+accuracy = -1
+pp = 10
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"slicing": 1.0
+}

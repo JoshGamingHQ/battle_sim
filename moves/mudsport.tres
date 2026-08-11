@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://btteamf3lbyv4"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_p2gbr"]
+
+[resource]
+script = ExtResource("1_p2gbr")
+move_id = "mudsport"
+move_name = "Mud Sport"
+num = 300
+type = "ground"
+accuracy = -1
+pp = 15
+category = "status"
+target = "all"
+flags = {
+"metronome": 1.0,
+"nonsky": 1.0
+}

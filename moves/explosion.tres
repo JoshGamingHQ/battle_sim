@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://d4h86fjf8gq7n"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_nud50"]
+
+[resource]
+script = ExtResource("1_nud50")
+move_id = "explosion"
+move_name = "Explosion"
+num = 153
+type = "normal"
+power = 250
+accuracy = 100
+pp = 5
+category = "physical"
+target = "allAdjacent"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"noparentalbond": 1.0,
+"protect": 1.0
+}

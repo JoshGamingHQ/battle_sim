@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://i87xhkvjpvjd"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_pbmcn"]
+
+[resource]
+script = ExtResource("1_pbmcn")
+move_id = "energyball"
+move_name = "Energy Ball"
+num = 412
+type = "grass"
+power = 90
+accuracy = 100
+pp = 10
+category = "special"
+target = "normal"
+flags = {
+"bullet": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"boosts": {
+"spd": -1.0
+},
+"chance": 10.0
+}

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cqgprgodgioss"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_6mrsq"]
+
+[resource]
+script = ExtResource("1_6mrsq")
+move_id = "protect"
+move_name = "Protect"
+num = 182
+type = "normal"
+accuracy = -1
+pp = 10
+category = "status"
+priority = 4
+target = "self"
+flags = {
+"failcopycat": 1.0,
+"noassist": 1.0
+}

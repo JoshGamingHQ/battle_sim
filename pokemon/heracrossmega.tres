@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://fgcacma3ydxk"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_s0l01"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_f0gcy"]
+
+[resource]
+script = ExtResource("2_f0gcy")
+species_name = "Heracross-Mega"
+species_id = 214
+types = Array[String](["bug", "fighting"])
+base_stats = {
+"atk": 185.0,
+"def": 115.0,
+"hp": 80.0,
+"spa": 40.0,
+"spd": 105.0,
+"spe": 75.0
+}
+abilities = {
+"0": "Skill Link"
+}
+height = 1.7
+weight = 62.5
+color = "Blue"

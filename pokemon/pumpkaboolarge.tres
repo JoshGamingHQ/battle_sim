@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://c20ych3qadoy5"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_on4fg"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_grd0r"]
+
+[resource]
+script = ExtResource("2_grd0r")
+species_name = "Pumpkaboo-Large"
+species_id = 710
+types = Array[String](["ghost", "grass"])
+base_stats = {
+"atk": 66.0,
+"def": 70.0,
+"hp": 54.0,
+"spa": 44.0,
+"spd": 55.0,
+"spe": 46.0
+}
+abilities = {
+"0": "Pickup",
+"1": "Frisk",
+"H": "Insomnia"
+}
+height = 0.5
+weight = 7.5
+color = "Brown"
+evolutions = Array[String](["Gourgeist-Large"])

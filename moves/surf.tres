@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bkp6qle84457l"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_6ycx4"]
+
+[resource]
+script = ExtResource("1_6ycx4")
+move_id = "surf"
+move_name = "Surf"
+num = 57
+type = "water"
+power = 90
+accuracy = 100
+pp = 15
+category = "special"
+target = "allAdjacent"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"nonsky": 1.0,
+"protect": 1.0
+}

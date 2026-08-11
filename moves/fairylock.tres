@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cj6x0rel0y1qj"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_wpmmv"]
+
+[resource]
+script = ExtResource("1_wpmmv")
+move_id = "fairylock"
+move_name = "Fairy Lock"
+num = 587
+type = "fairy"
+accuracy = -1
+pp = 10
+category = "status"
+target = "all"
+flags = {
+"bypasssub": 1.0,
+"metronome": 1.0,
+"mirror": 1.0
+}

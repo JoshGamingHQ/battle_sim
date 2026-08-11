@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://b6ks80842rs22"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_mj68j"]
+
+[resource]
+script = ExtResource("1_mj68j")
+move_id = "meteormash"
+move_name = "Meteor Mash"
+num = 309
+type = "steel"
+power = 90
+accuracy = 90
+pp = 10
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"punch": 1.0
+}
+secondary = {
+"chance": 20.0,
+"self": {
+"boosts": {
+"atk": 1.0
+}
+}
+}

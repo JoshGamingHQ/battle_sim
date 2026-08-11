@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bdvout8xjpj4l"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_jxu4v"]
+
+[resource]
+script = ExtResource("1_jxu4v")
+move_id = "plasmafists"
+move_name = "Plasma Fists"
+num = 721
+type = "electric"
+power = 100
+accuracy = 100
+pp = 15
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"punch": 1.0
+}

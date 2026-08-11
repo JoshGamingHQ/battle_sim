@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://pyjqjd1j6t10"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_gwv6c"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_gihpe"]
+
+[resource]
+script = ExtResource("2_gihpe")
+species_name = "Heatran-Mega"
+species_id = 485
+types = Array[String](["fire", "steel"])
+base_stats = {
+"atk": 120.0,
+"def": 106.0,
+"hp": 91.0,
+"spa": 175.0,
+"spd": 141.0,
+"spe": 67.0
+}
+abilities = {
+"0": "Flash Fire",
+"H": "Flame Body"
+}
+height = 2.8
+weight = 570.0
+color = "Brown"

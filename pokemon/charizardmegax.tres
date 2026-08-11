@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://dg782p3241wgq"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_m1bi1"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_p24e1"]
+
+[resource]
+script = ExtResource("2_p24e1")
+species_name = "Charizard-Mega-X"
+species_id = 6
+types = Array[String](["fire", "dragon"])
+base_stats = {
+"atk": 130.0,
+"def": 111.0,
+"hp": 78.0,
+"spa": 130.0,
+"spd": 85.0,
+"spe": 100.0
+}
+abilities = {
+"0": "Tough Claws"
+}
+height = 1.7
+weight = 110.5
+color = "Black"

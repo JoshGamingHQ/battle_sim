@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://dvkilvppfonr"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_34t1b"]
+[ext_resource type="Resource" uid="uid://b3x8xfku8gsgg" path="res://moves/behemothblade.tres" id="2_cbeu4"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="3_426qq"]
+
+[resource]
+script = ExtResource("3_426qq")
+species_name = "Zacian-Crowned"
+species_id = 888
+types = Array[String](["fairy", "steel"])
+base_stats = {
+"atk": 150.0,
+"def": 115.0,
+"hp": 92.0,
+"spa": 80.0,
+"spd": 115.0,
+"spe": 148.0
+}
+moves = Array[ExtResource("1_34t1b")]([ExtResource("2_cbeu4")])
+abilities = {
+"0": "Intrepid Sword"
+}
+height = 2.8
+weight = 355.0
+color = "Blue"

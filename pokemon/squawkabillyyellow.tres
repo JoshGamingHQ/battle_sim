@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://cnrqtf80ks5u0"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_g2mmj"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_85qwc"]
+
+[resource]
+script = ExtResource("2_85qwc")
+species_name = "Squawkabilly-Yellow"
+species_id = 931
+types = Array[String](["normal", "flying"])
+base_stats = {
+"atk": 96.0,
+"def": 51.0,
+"hp": 82.0,
+"spa": 45.0,
+"spd": 51.0,
+"spe": 92.0
+}
+abilities = {
+"0": "Intimidate",
+"1": "Hustle",
+"H": "Sheer Force"
+}
+height = 0.6
+weight = 2.4
+color = "Yellow"

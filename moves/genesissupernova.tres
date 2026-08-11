@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://c8qyjq6v6qlvf"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_tn1f7"]
+
+[resource]
+script = ExtResource("1_tn1f7")
+move_id = "genesissupernova"
+move_name = "Genesis Supernova"
+num = 703
+type = "psychic"
+power = 185
+accuracy = -1
+pp = 1
+category = "special"
+target = "normal"
+secondary = {
+"chance": 100.0,
+"self": {}
+}

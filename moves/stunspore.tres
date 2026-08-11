@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://3fo316af7dkp"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_eh2rj"]
+
+[resource]
+script = ExtResource("1_eh2rj")
+move_id = "stunspore"
+move_name = "Stun Spore"
+num = 78
+type = "grass"
+accuracy = 75
+pp = 30
+category = "status"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"powder": 1.0,
+"protect": 1.0,
+"reflectable": 1.0
+}
+status = "par"

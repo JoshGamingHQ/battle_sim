@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dep37hrd70get"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_xvwws"]
+
+[resource]
+script = ExtResource("1_xvwws")
+move_id = "paleowave"
+move_name = "Paleo Wave"
+num = -1
+type = "rock"
+power = 85
+accuracy = 100
+pp = 15
+category = "special"
+target = "normal"
+flags = {
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"boosts": {
+"atk": -1.0
+},
+"chance": 20.0
+}

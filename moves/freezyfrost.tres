@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://d37rngskkt48f"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_fk5h0"]
+
+[resource]
+script = ExtResource("1_fk5h0")
+move_id = "freezyfrost"
+move_name = "Freezy Frost"
+num = 739
+type = "ice"
+power = 100
+accuracy = 90
+pp = 10
+category = "special"
+target = "normal"
+flags = {
+"mirror": 1.0,
+"protect": 1.0
+}

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dwp63roe43msp"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_p8h6d"]
+
+[resource]
+script = ExtResource("1_p8h6d")
+move_id = "psyshock"
+move_name = "Psyshock"
+num = 473
+type = "psychic"
+power = 80
+accuracy = 100
+pp = 10
+category = "special"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

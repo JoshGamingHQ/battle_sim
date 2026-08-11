@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bjn2j42s5js03"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_elc7l"]
+
+[resource]
+script = ExtResource("1_elc7l")
+move_id = "crushgrip"
+move_name = "Crush Grip"
+num = 462
+type = "normal"
+accuracy = 100
+pp = 5
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://n5ryreytc3d3"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_f5ap8"]
+
+[resource]
+script = ExtResource("1_f5ap8")
+move_id = "dualchop"
+move_name = "Dual Chop"
+num = 530
+type = "dragon"
+power = 40
+accuracy = 90
+pp = 15
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

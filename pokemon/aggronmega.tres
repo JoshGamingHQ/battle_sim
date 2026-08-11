@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://ny32txw4phf5"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_vaquw"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_l43co"]
+
+[resource]
+script = ExtResource("2_l43co")
+species_name = "Aggron-Mega"
+species_id = 306
+types = Array[String](["steel"])
+base_stats = {
+"atk": 140.0,
+"def": 230.0,
+"hp": 70.0,
+"spa": 60.0,
+"spd": 80.0,
+"spe": 50.0
+}
+abilities = {
+"0": "Filter"
+}
+height = 2.2
+weight = 395.0
+color = "Gray"

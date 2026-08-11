@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://ddpbx3u5xo6yq"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_d0e0j"]
+
+[resource]
+script = ExtResource("1_d0e0j")
+move_id = "miracleeye"
+move_name = "Miracle Eye"
+num = 357
+type = "psychic"
+accuracy = -1
+pp = 40
+category = "status"
+target = "normal"
+flags = {
+"bypasssub": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"reflectable": 1.0
+}

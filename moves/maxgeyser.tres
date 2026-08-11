@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cgfvxua4k4fa2"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_0ne0t"]
+
+[resource]
+script = ExtResource("1_0ne0t")
+move_id = "maxgeyser"
+move_name = "Max Geyser"
+num = 765
+type = "water"
+power = 10
+accuracy = -1
+pp = 10
+category = "physical"
+target = "adjacentFoe"

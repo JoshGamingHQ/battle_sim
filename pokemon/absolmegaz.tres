@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://b838ef43j0w2n"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_jvgcb"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_eup00"]
+
+[resource]
+script = ExtResource("2_eup00")
+species_name = "Absol-Mega-Z"
+species_id = 359
+types = Array[String](["dark", "ghost"])
+base_stats = {
+"atk": 154.0,
+"def": 60.0,
+"hp": 65.0,
+"spa": 75.0,
+"spd": 60.0,
+"spe": 151.0
+}
+abilities = {
+"0": "Magic Bounce"
+}
+height = 1.2
+weight = 49.0
+color = "Black"

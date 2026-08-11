@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://bbj3776e85c5h"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ur553"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_b3fin"]
+
+[resource]
+script = ExtResource("2_b3fin")
+species_name = "Duraludon-Gmax"
+species_id = 884
+types = Array[String](["steel", "dragon"])
+base_stats = {
+"atk": 95.0,
+"def": 115.0,
+"hp": 70.0,
+"spa": 120.0,
+"spd": 50.0,
+"spe": 85.0
+}
+abilities = {
+"0": "Light Metal",
+"1": "Heavy Metal",
+"H": "Stalwart"
+}
+height = 43.0
+color = "White"

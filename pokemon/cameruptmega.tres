@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://d3mivhj61qhiq"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_cmljk"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_a6dkc"]
+
+[resource]
+script = ExtResource("2_a6dkc")
+species_name = "Camerupt-Mega"
+species_id = 323
+types = Array[String](["fire", "ground"])
+base_stats = {
+"atk": 120.0,
+"def": 100.0,
+"hp": 70.0,
+"spa": 145.0,
+"spd": 105.0,
+"spe": 20.0
+}
+abilities = {
+"0": "Sheer Force"
+}
+height = 2.5
+weight = 320.5
+color = "Red"

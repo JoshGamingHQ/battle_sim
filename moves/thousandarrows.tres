@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://jtjm8p8j1ema"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_oooqm"]
+
+[resource]
+script = ExtResource("1_oooqm")
+move_id = "thousandarrows"
+move_name = "Thousand Arrows"
+num = 614
+type = "ground"
+power = 90
+accuracy = 100
+pp = 10
+category = "physical"
+target = "allAdjacentFoes"
+flags = {
+"mirror": 1.0,
+"nonsky": 1.0,
+"protect": 1.0
+}

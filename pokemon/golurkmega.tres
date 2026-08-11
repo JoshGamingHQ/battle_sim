@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://ddceyh8nylpb0"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_hi6g0"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_b5ero"]
+
+[resource]
+script = ExtResource("2_b5ero")
+species_name = "Golurk-Mega"
+species_id = 623
+types = Array[String](["ground", "ghost"])
+base_stats = {
+"atk": 159.0,
+"def": 105.0,
+"hp": 89.0,
+"spa": 70.0,
+"spd": 105.0,
+"spe": 55.0
+}
+abilities = {
+"0": "Unseen Fist"
+}
+height = 4.0
+weight = 330.0
+color = "Green"

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://uuydhcryrltf"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_68q1s"]
+
+[resource]
+script = ExtResource("1_68q1s")
+move_id = "maxovergrowth"
+move_name = "Max Overgrowth"
+num = 773
+type = "grass"
+power = 10
+accuracy = -1
+pp = 10
+category = "physical"
+target = "adjacentFoe"

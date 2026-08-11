@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://ka57gj2vyx03"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_7ewqr"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_bjsiu"]
+
+[resource]
+script = ExtResource("2_bjsiu")
+species_name = "Scrafty-Mega"
+species_id = 560
+types = Array[String](["dark", "fighting"])
+base_stats = {
+"atk": 130.0,
+"def": 135.0,
+"hp": 65.0,
+"spa": 55.0,
+"spd": 135.0,
+"spe": 68.0
+}
+abilities = {
+"0": "Intimidate"
+}
+height = 1.1
+weight = 31.0
+color = "Red"

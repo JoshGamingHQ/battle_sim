@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bvpyw8mg21ovo"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_k7ifx"]
+
+[resource]
+script = ExtResource("1_k7ifx")
+move_id = "sunsteelstrike"
+move_name = "Sunsteel Strike"
+num = 713
+type = "steel"
+power = 100
+accuracy = 100
+pp = 5
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://c5q6mw166w6vv"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_mwenm"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_klli6"]
+
+[resource]
+script = ExtResource("2_klli6")
+species_name = "Inteleon-Gmax"
+species_id = 818
+types = Array[String](["water"])
+base_stats = {
+"atk": 85.0,
+"def": 65.0,
+"hp": 70.0,
+"spa": 125.0,
+"spd": 65.0,
+"spe": 120.0
+}
+abilities = {
+"0": "Torrent",
+"H": "Sniper"
+}
+height = 40.0
+color = "Blue"

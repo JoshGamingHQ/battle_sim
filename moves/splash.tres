@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dv61dqysh7wm3"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_uw2nk"]
+
+[resource]
+script = ExtResource("1_uw2nk")
+move_id = "splash"
+move_name = "Splash"
+num = 150
+type = "normal"
+accuracy = -1
+pp = 40
+category = "status"
+target = "self"
+flags = {
+"gravity": 1.0,
+"metronome": 1.0
+}

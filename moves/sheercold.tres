@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dfghq0r7sfhmk"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_4v3a0"]
+
+[resource]
+script = ExtResource("1_4v3a0")
+move_id = "sheercold"
+move_name = "Sheer Cold"
+num = 329
+type = "ice"
+accuracy = 30
+pp = 5
+category = "special"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://dcsrhalkbccfe"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ifjk7"]
+[ext_resource type="Resource" uid="uid://ccw0erqtebem" path="res://moves/bind.tres" id="2_a3qkc"]
+[ext_resource type="Resource" uid="uid://b0wu0f6oaujm" path="res://moves/dig.tres" id="3_k3jly"]
+[ext_resource type="Resource" uid="uid://cb5uctfugbbk7" path="res://moves/dragonbreath.tres" id="4_ydiaw"]
+[ext_resource type="Resource" uid="uid://dxulwrreydq3a" path="res://moves/dragondance.tres" id="5_xdpq2"]
+[ext_resource type="Resource" uid="uid://bsgfrd0tyy55g" path="res://moves/dragonpulse.tres" id="6_7ayno"]
+[ext_resource type="Resource" uid="uid://cv2nt7sewd1k5" path="res://moves/extremespeed.tres" id="7_aqbab"]
+[ext_resource type="Resource" uid="uid://1lfm7te3xagu" path="res://moves/glare.tres" id="8_sw050"]
+[ext_resource type="Resource" uid="uid://cjuba51sgphcr" path="res://moves/haze.tres" id="9_ilssj"]
+[ext_resource type="Resource" uid="uid://dug3ubh6sts48" path="res://moves/landswrath.tres" id="10_cqsr6"]
+[ext_resource type="Resource" uid="uid://bayxmvwv2fd4" path="res://moves/outrage.tres" id="11_jvwjm"]
+[ext_resource type="Resource" uid="uid://cgas6utodtn1u" path="res://moves/safeguard.tres" id="12_0u2kh"]
+[ext_resource type="Resource" uid="uid://de2fmqf41xmuq" path="res://moves/sandstorm.tres" id="13_wwjqy"]
+[ext_resource type="Resource" uid="uid://jtjm8p8j1ema" path="res://moves/thousandarrows.tres" id="14_gqfix"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="15_wsfer"]
+
+[resource]
+script = ExtResource("15_wsfer")
+species_name = "Zygarde-10%"
+species_id = 718
+types = Array[String](["dragon", "ground"])
+base_stats = {
+"atk": 100.0,
+"def": 71.0,
+"hp": 54.0,
+"spa": 61.0,
+"spd": 85.0,
+"spe": 115.0
+}
+moves = Array[ExtResource("1_ifjk7")]([ExtResource("2_a3qkc"), ExtResource("3_k3jly"), ExtResource("4_ydiaw"), ExtResource("5_xdpq2"), ExtResource("6_7ayno"), ExtResource("7_aqbab"), ExtResource("8_sw050"), ExtResource("9_ilssj"), ExtResource("10_cqsr6"), ExtResource("11_jvwjm"), ExtResource("12_0u2kh"), ExtResource("13_wwjqy"), ExtResource("14_gqfix")])
+abilities = {
+"0": "Aura Break",
+"S": "Power Construct"
+}
+height = 1.2
+weight = 33.5
+color = "Black"

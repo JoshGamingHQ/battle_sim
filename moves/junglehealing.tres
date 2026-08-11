@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://21s8hstukbhq"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_kgdfe"]
+
+[resource]
+script = ExtResource("1_kgdfe")
+move_id = "junglehealing"
+move_name = "Jungle Healing"
+num = 816
+type = "grass"
+accuracy = -1
+pp = 10
+category = "status"
+target = "allies"
+flags = {
+"allyanim": 1.0,
+"bypasssub": 1.0,
+"heal": 1.0
+}

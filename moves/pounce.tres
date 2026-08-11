@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://8iamd0ftk4rb"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_bbekl"]
+
+[resource]
+script = ExtResource("1_bbekl")
+move_id = "pounce"
+move_name = "Pounce"
+num = 884
+type = "bug"
+power = 50
+accuracy = 100
+pp = 20
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"boosts": {
+"spe": -1.0
+},
+"chance": 100.0
+}

@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cr768ob2ngsmd"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_p8745"]
+
+[resource]
+script = ExtResource("1_p8745")
+move_id = "fakeout"
+move_name = "Fake Out"
+num = 252
+type = "normal"
+power = 40
+accuracy = 100
+pp = 10
+category = "physical"
+priority = 3
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 100.0,
+"volatileStatus": "flinch"
+}

@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://btm7ygxcovrn2"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_6tyls"]
+
+[resource]
+script = ExtResource("1_6tyls")
+move_id = "trick"
+move_name = "Trick"
+num = 271
+type = "psychic"
+accuracy = 100
+pp = 10
+category = "status"
+target = "normal"
+flags = {
+"allyanim": 1.0,
+"failcopycat": 1.0,
+"mirror": 1.0,
+"noassist": 1.0,
+"protect": 1.0
+}

@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://pf6nd6dyjg2m"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_r8xph"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_xawe4"]
+
+[resource]
+script = ExtResource("2_xawe4")
+species_name = "Palkia-Origin"
+species_id = 484
+types = Array[String](["water", "dragon"])
+base_stats = {
+"atk": 100.0,
+"def": 100.0,
+"hp": 90.0,
+"spa": 150.0,
+"spd": 120.0,
+"spe": 120.0
+}
+abilities = {
+"0": "Pressure",
+"H": "Telepathy"
+}
+height = 6.3
+weight = 660.0
+color = "Purple"

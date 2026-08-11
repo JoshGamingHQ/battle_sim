@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://b75jduieqso8s"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_i57ny"]
+
+[resource]
+script = ExtResource("1_i57ny")
+move_id = "howl"
+move_name = "Howl"
+num = 336
+type = "normal"
+accuracy = -1
+pp = 40
+category = "status"
+target = "allies"
+flags = {
+"metronome": 1.0,
+"snatch": 1.0,
+"sound": 1.0
+}
+boosts = {
+"atk": 1.0
+}

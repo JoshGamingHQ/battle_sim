@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dt611qplmjhjd"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_otnft"]
+
+[resource]
+script = ExtResource("1_otnft")
+move_id = "triplekick"
+move_name = "Triple Kick"
+num = 167
+type = "fighting"
+power = 10
+accuracy = 90
+pp = 10
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

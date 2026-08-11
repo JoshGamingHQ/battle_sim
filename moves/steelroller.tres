@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bptqxa7hvb1cu"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_5vv21"]
+
+[resource]
+script = ExtResource("1_5vv21")
+move_id = "steelroller"
+move_name = "Steel Roller"
+num = 798
+type = "steel"
+power = 130
+accuracy = 100
+pp = 5
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

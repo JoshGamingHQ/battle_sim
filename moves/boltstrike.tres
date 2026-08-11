@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://h7pl00jhtkcm"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_sk3oy"]
+
+[resource]
+script = ExtResource("1_sk3oy")
+move_id = "boltstrike"
+move_name = "Bolt Strike"
+num = 550
+type = "electric"
+power = 130
+accuracy = 85
+pp = 5
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 20.0,
+"status": "par"
+}

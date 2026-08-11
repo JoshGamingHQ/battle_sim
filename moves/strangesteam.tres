@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dbgr360yec4xs"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_2lusx"]
+
+[resource]
+script = ExtResource("1_2lusx")
+move_id = "strangesteam"
+move_name = "Strange Steam"
+num = 790
+type = "fairy"
+power = 90
+accuracy = 95
+pp = 10
+category = "special"
+target = "normal"
+flags = {
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 20.0,
+"volatileStatus": "confusion"
+}

@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://bhvfiidutx040"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_d6vnu"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_ifhny"]
+
+[resource]
+script = ExtResource("2_ifhny")
+species_name = "Keldeo-Resolute"
+species_id = 647
+types = Array[String](["water", "fighting"])
+base_stats = {
+"atk": 72.0,
+"def": 90.0,
+"hp": 91.0,
+"spa": 129.0,
+"spd": 90.0,
+"spe": 108.0
+}
+abilities = {
+"0": "Justified"
+}
+height = 1.4
+weight = 48.5
+color = "Yellow"

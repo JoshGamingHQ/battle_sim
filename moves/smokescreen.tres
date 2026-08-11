@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bngjhrf7upxe5"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_26oxt"]
+
+[resource]
+script = ExtResource("1_26oxt")
+move_id = "smokescreen"
+move_name = "Smokescreen"
+num = 108
+type = "normal"
+accuracy = 100
+pp = 20
+category = "status"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"reflectable": 1.0
+}
+boosts = {
+"accuracy": -1.0
+}

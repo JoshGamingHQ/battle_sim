@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://b6yqcaqqxi577"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_wmb15"]
+
+[resource]
+script = ExtResource("1_wmb15")
+move_id = "tarshot"
+move_name = "Tar Shot"
+num = 749
+type = "rock"
+accuracy = 100
+pp = 15
+category = "status"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"reflectable": 1.0
+}
+boosts = {
+"spe": -1.0
+}

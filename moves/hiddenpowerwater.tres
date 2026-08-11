@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://d3g7snhpi1mlb"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_gjmr3"]
+
+[resource]
+script = ExtResource("1_gjmr3")
+move_id = "hiddenpowerwater"
+move_name = "Hidden Power Water"
+num = 237
+type = "water"
+power = 60
+accuracy = 100
+pp = 15
+category = "special"
+target = "normal"
+flags = {
+"mirror": 1.0,
+"protect": 1.0
+}

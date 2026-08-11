@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dsawhagdf8s2e"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_83rdh"]
+
+[resource]
+script = ExtResource("1_83rdh")
+move_id = "grassyglide"
+move_name = "Grassy Glide"
+num = 803
+type = "grass"
+power = 55
+accuracy = 100
+pp = 20
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

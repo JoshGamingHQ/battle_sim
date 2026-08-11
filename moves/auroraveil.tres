@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://conh5qy1mkat3"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_fff5k"]
+
+[resource]
+script = ExtResource("1_fff5k")
+move_id = "auroraveil"
+move_name = "Aurora Veil"
+num = 694
+type = "ice"
+accuracy = -1
+pp = 20
+category = "status"
+target = "allySide"
+flags = {
+"metronome": 1.0,
+"snatch": 1.0
+}

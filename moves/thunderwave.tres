@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bgwo38yygtkpx"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_7aiow"]
+
+[resource]
+script = ExtResource("1_7aiow")
+move_id = "thunderwave"
+move_name = "Thunder Wave"
+num = 86
+type = "electric"
+accuracy = 90
+pp = 20
+category = "status"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"reflectable": 1.0
+}
+status = "par"

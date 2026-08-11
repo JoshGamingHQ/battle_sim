@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dwv41dovwt8s"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_6yjl3"]
+
+[resource]
+script = ExtResource("1_6yjl3")
+move_id = "blazingtorque"
+move_name = "Blazing Torque"
+num = 896
+type = "fire"
+power = 80
+accuracy = 100
+pp = 10
+category = "physical"
+target = "normal"
+flags = {
+"failcopycat": 1.0,
+"failencore": 1.0,
+"failinstruct": 1.0,
+"failmefirst": 1.0,
+"failmimic": 1.0,
+"noassist": 1.0,
+"nosketch": 1.0,
+"nosleeptalk": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 30.0,
+"status": "brn"
+}

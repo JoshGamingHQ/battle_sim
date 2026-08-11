@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://djdfijecjv87x"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_wekmw"]
+
+[resource]
+script = ExtResource("1_wekmw")
+move_id = "curse"
+move_name = "Curse"
+num = 174
+type = "ghost"
+accuracy = -1
+pp = 10
+category = "status"
+target = "normal"
+flags = {
+"bypasssub": 1.0,
+"metronome": 1.0
+}

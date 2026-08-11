@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dkecq44i2wpy7"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_icswj"]
+
+[resource]
+script = ExtResource("1_icswj")
+move_id = "takeheart"
+move_name = "Take Heart"
+num = 850
+type = "psychic"
+accuracy = -1
+pp = 15
+category = "status"
+target = "self"
+flags = {
+"metronome": 1.0,
+"snatch": 1.0
+}

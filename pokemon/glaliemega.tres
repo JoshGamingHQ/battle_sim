@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://cpw0sbqq0ybph"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_xyhwe"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_c0y7h"]
+
+[resource]
+script = ExtResource("2_c0y7h")
+species_name = "Glalie-Mega"
+species_id = 362
+types = Array[String](["ice"])
+base_stats = {
+"atk": 120.0,
+"def": 80.0,
+"hp": 80.0,
+"spa": 120.0,
+"spd": 80.0,
+"spe": 100.0
+}
+abilities = {
+"0": "Refrigerate"
+}
+height = 2.1
+weight = 350.2
+color = "Gray"

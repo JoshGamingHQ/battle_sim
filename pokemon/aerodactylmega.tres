@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://dyg8f7k6ilwit"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_8ylfx"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_nnv68"]
+
+[resource]
+script = ExtResource("2_nnv68")
+species_name = "Aerodactyl-Mega"
+species_id = 142
+types = Array[String](["rock", "flying"])
+base_stats = {
+"atk": 135.0,
+"def": 85.0,
+"hp": 80.0,
+"spa": 70.0,
+"spd": 95.0,
+"spe": 150.0
+}
+abilities = {
+"0": "Tough Claws"
+}
+height = 2.1
+weight = 79.0
+color = "Purple"

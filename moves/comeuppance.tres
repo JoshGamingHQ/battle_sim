@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cd5dpvnvikfgj"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_vxd6v"]
+
+[resource]
+script = ExtResource("1_vxd6v")
+move_id = "comeuppance"
+move_name = "Comeuppance"
+num = 894
+type = "dark"
+accuracy = 100
+pp = 10
+category = "physical"
+target = "scripted"
+flags = {
+"contact": 1.0,
+"failmefirst": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

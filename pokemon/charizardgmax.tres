@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://dnqur262lgxt6"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_w5mok"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_sr0px"]
+
+[resource]
+script = ExtResource("2_sr0px")
+species_name = "Charizard-Gmax"
+species_id = 6
+types = Array[String](["fire", "flying"])
+base_stats = {
+"atk": 84.0,
+"def": 78.0,
+"hp": 78.0,
+"spa": 109.0,
+"spd": 85.0,
+"spe": 100.0
+}
+abilities = {
+"0": "Blaze",
+"H": "Solar Power"
+}
+height = 28.0
+color = "Red"

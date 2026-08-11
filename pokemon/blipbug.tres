@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://ghfysvctjtrs"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_fsgpc"]
+[ext_resource type="Resource" uid="uid://tc7dcrnex1q0" path="res://moves/infestation.tres" id="2_i584p"]
+[ext_resource type="Resource" uid="uid://n5kdss8t7xaa" path="res://moves/recover.tres" id="3_k8lhl"]
+[ext_resource type="Resource" uid="uid://dx5itiekm05o0" path="res://moves/stickyweb.tres" id="4_dpr73"]
+[ext_resource type="Resource" uid="uid://dmbjrtucacjy5" path="res://moves/strugglebug.tres" id="5_4lbng"]
+[ext_resource type="Resource" uid="uid://cgrhtbt750vi" path="res://moves/supersonic.tres" id="6_8yowg"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="7_leaf4"]
+
+[resource]
+script = ExtResource("7_leaf4")
+species_name = "Blipbug"
+species_id = 824
+types = Array[String](["bug"])
+base_stats = {
+"atk": 20.0,
+"def": 20.0,
+"hp": 25.0,
+"spa": 25.0,
+"spd": 45.0,
+"spe": 45.0
+}
+moves = Array[ExtResource("1_fsgpc")]([ExtResource("2_i584p"), ExtResource("3_k8lhl"), ExtResource("4_dpr73"), ExtResource("5_4lbng"), ExtResource("6_8yowg")])
+abilities = {
+"0": "Swarm",
+"1": "Compound Eyes",
+"H": "Telepathy"
+}
+height = 0.4
+weight = 8.0
+color = "Blue"
+evolutions = Array[String](["Dottler"])

@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://bvp0iijtq43xy"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_824si"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_4me2o"]
+
+[resource]
+script = ExtResource("2_4me2o")
+species_name = "Victreebel-Mega"
+species_id = 71
+types = Array[String](["grass", "poison"])
+base_stats = {
+"atk": 125.0,
+"def": 85.0,
+"hp": 80.0,
+"spa": 135.0,
+"spd": 95.0,
+"spe": 70.0
+}
+abilities = {
+"0": "Innards Out"
+}
+height = 4.5
+weight = 125.5
+color = "Green"

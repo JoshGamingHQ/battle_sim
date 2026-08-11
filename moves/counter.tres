@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dy1gpoihpenxe"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_3x00a"]
+
+[resource]
+script = ExtResource("1_3x00a")
+move_id = "counter"
+move_name = "Counter"
+num = 68
+type = "fighting"
+accuracy = 100
+pp = 20
+category = "physical"
+priority = -5
+target = "scripted"
+flags = {
+"contact": 1.0,
+"failcopycat": 1.0,
+"failmefirst": 1.0,
+"noassist": 1.0,
+"protect": 1.0
+}

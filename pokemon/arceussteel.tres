@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://bv5mouqea0ah1"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_glgi2"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_gdp8c"]
+
+[resource]
+script = ExtResource("2_gdp8c")
+species_name = "Arceus-Steel"
+species_id = 493
+types = Array[String](["steel"])
+base_stats = {
+"atk": 120.0,
+"def": 120.0,
+"hp": 120.0,
+"spa": 120.0,
+"spd": 120.0,
+"spe": 120.0
+}
+abilities = {
+"0": "Multitype"
+}
+height = 3.2
+weight = 320.0
+color = "White"

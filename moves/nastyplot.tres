@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://byngkcucfkob3"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_1n1kg"]
+
+[resource]
+script = ExtResource("1_1n1kg")
+move_id = "nastyplot"
+move_name = "Nasty Plot"
+num = 417
+type = "dark"
+accuracy = -1
+pp = 20
+category = "status"
+target = "self"
+flags = {
+"metronome": 1.0,
+"snatch": 1.0
+}
+boosts = {
+"spa": 2.0
+}

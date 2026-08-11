@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://c51puaxkmi0l3"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_qf8o4"]
+
+[resource]
+script = ExtResource("1_qf8o4")
+move_id = "defendorder"
+move_name = "Defend Order"
+num = 455
+type = "bug"
+accuracy = -1
+pp = 10
+category = "status"
+target = "self"
+flags = {
+"metronome": 1.0,
+"snatch": 1.0
+}
+boosts = {
+"def": 1.0,
+"spd": 1.0
+}

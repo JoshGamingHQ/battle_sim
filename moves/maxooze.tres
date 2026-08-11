@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://b5dfrv3ontrr5"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_o71jd"]
+
+[resource]
+script = ExtResource("1_o71jd")
+move_id = "maxooze"
+move_name = "Max Ooze"
+num = 764
+type = "poison"
+power = 10
+accuracy = -1
+pp = 10
+category = "physical"
+target = "adjacentFoe"

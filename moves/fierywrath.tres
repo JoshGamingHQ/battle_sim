@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://h0sl8maomohq"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ena33"]
+
+[resource]
+script = ExtResource("1_ena33")
+move_id = "fierywrath"
+move_name = "Fiery Wrath"
+num = 822
+type = "dark"
+power = 90
+accuracy = 100
+pp = 10
+category = "special"
+target = "allAdjacentFoes"
+flags = {
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 20.0,
+"volatileStatus": "flinch"
+}

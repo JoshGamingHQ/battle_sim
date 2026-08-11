@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://8pct0r0oo1yw"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_y28d1"]
+
+[resource]
+script = ExtResource("1_y28d1")
+move_id = "teleport"
+move_name = "Teleport"
+num = 100
+type = "psychic"
+accuracy = -1
+pp = 20
+category = "status"
+priority = -6
+target = "self"
+flags = {
+"metronome": 1.0
+}

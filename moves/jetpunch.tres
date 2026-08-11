@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://d38oebv6jsrt4"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_snbmy"]
+
+[resource]
+script = ExtResource("1_snbmy")
+move_id = "jetpunch"
+move_name = "Jet Punch"
+num = 857
+type = "water"
+power = 60
+accuracy = 100
+pp = 15
+category = "physical"
+priority = 1
+target = "normal"
+flags = {
+"contact": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"punch": 1.0
+}

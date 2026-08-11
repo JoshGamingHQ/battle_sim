@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://3u7y5y1e2jd3"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_wp2hp"]
+[ext_resource type="Resource" uid="uid://ytc472m6mcv7" path="res://moves/behemothbash.tres" id="2_8o7gs"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="3_gvm1k"]
+
+[resource]
+script = ExtResource("3_gvm1k")
+species_name = "Zamazenta-Crowned"
+species_id = 889
+types = Array[String](["fighting", "steel"])
+base_stats = {
+"atk": 120.0,
+"def": 140.0,
+"hp": 92.0,
+"spa": 80.0,
+"spd": 140.0,
+"spe": 128.0
+}
+moves = Array[ExtResource("1_wp2hp")]([ExtResource("2_8o7gs")])
+abilities = {
+"0": "Dauntless Shield"
+}
+height = 2.9
+weight = 785.0
+color = "Red"

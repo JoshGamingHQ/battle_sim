@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://dsxc01cqg15lu"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_u0x2t"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_sa1pt"]
+
+[resource]
+script = ExtResource("2_sa1pt")
+species_name = "Appletun-Gmax"
+species_id = 842
+types = Array[String](["grass", "dragon"])
+base_stats = {
+"atk": 85.0,
+"def": 80.0,
+"hp": 110.0,
+"spa": 100.0,
+"spd": 80.0,
+"spe": 30.0
+}
+abilities = {
+"0": "Ripen",
+"1": "Gluttony",
+"H": "Thick Fat"
+}
+height = 24.0
+color = "Green"

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://ds3le6dwwbuym"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_4ri4r"]
+
+[resource]
+script = ExtResource("1_4ri4r")
+move_id = "helpinghand"
+move_name = "Helping Hand"
+num = 270
+type = "normal"
+accuracy = -1
+pp = 20
+category = "status"
+priority = 5
+target = "adjacentAlly"
+flags = {
+"bypasssub": 1.0,
+"failcopycat": 1.0,
+"noassist": 1.0
+}

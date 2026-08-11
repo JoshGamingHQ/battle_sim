@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://8lal0fo7tf2y"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_hqdy3"]
+
+[resource]
+script = ExtResource("1_hqdy3")
+move_id = "iceshard"
+move_name = "Ice Shard"
+num = 420
+type = "ice"
+power = 40
+accuracy = 100
+pp = 30
+category = "physical"
+priority = 1
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

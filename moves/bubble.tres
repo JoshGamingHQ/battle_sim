@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://c1vcfkl4jei0t"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_d7eyo"]
+
+[resource]
+script = ExtResource("1_d7eyo")
+move_id = "bubble"
+move_name = "Bubble"
+num = 145
+type = "water"
+power = 40
+accuracy = 100
+pp = 30
+category = "special"
+target = "allAdjacentFoes"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"boosts": {
+"spe": -1.0
+},
+"chance": 10.0
+}

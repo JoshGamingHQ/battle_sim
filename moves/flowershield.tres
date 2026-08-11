@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cthb45j2qafw4"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_xum44"]
+
+[resource]
+script = ExtResource("1_xum44")
+move_id = "flowershield"
+move_name = "Flower Shield"
+num = 579
+type = "fairy"
+accuracy = -1
+pp = 10
+category = "status"
+target = "all"
+flags = {
+"distance": 1.0,
+"metronome": 1.0
+}

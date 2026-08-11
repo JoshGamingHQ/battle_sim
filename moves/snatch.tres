@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://b8dydvte8if7y"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ump1p"]
+
+[resource]
+script = ExtResource("1_ump1p")
+move_id = "snatch"
+move_name = "Snatch"
+num = 289
+type = "dark"
+accuracy = -1
+pp = 10
+category = "status"
+priority = 4
+target = "self"
+flags = {
+"bypasssub": 1.0,
+"failcopycat": 1.0,
+"mustpressure": 1.0,
+"noassist": 1.0
+}

@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://bwvjmr2nh8nf6"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_gndri"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_wwfg5"]
+
+[resource]
+script = ExtResource("2_wwfg5")
+species_name = "Melmetal-Gmax"
+species_id = 809
+types = Array[String](["steel"])
+base_stats = {
+"atk": 143.0,
+"def": 143.0,
+"hp": 135.0,
+"spa": 80.0,
+"spd": 65.0,
+"spe": 34.0
+}
+abilities = {
+"0": "Iron Fist"
+}
+height = 25.0
+color = "Gray"

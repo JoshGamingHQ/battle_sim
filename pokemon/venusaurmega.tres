@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://0lm7elc6rrba"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_r7qh8"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_38qwx"]
+
+[resource]
+script = ExtResource("2_38qwx")
+species_name = "Venusaur-Mega"
+species_id = 3
+types = Array[String](["grass", "poison"])
+base_stats = {
+"atk": 100.0,
+"def": 123.0,
+"hp": 80.0,
+"spa": 122.0,
+"spd": 120.0,
+"spe": 80.0
+}
+abilities = {
+"0": "Thick Fat"
+}
+height = 2.4
+weight = 155.5
+color = "Green"

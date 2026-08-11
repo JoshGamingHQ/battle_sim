@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bb5miq678bml6"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_t6rq5"]
+
+[resource]
+script = ExtResource("1_t6rq5")
+move_id = "rest"
+move_name = "Rest"
+num = 156
+type = "psychic"
+accuracy = -1
+pp = 5
+category = "status"
+target = "self"
+flags = {
+"heal": 1.0,
+"metronome": 1.0,
+"snatch": 1.0
+}

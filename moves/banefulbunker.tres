@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://d8f7mh31g6mi"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_bm0sw"]
+
+[resource]
+script = ExtResource("1_bm0sw")
+move_id = "banefulbunker"
+move_name = "Baneful Bunker"
+num = 661
+type = "poison"
+accuracy = -1
+pp = 10
+category = "status"
+priority = 4
+target = "self"
+flags = {
+"failcopycat": 1.0,
+"noassist": 1.0
+}

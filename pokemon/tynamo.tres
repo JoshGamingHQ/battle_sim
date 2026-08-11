@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://cakvjuxd38ghq"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_voray"]
+[ext_resource type="Resource" uid="uid://bi7j7oxmlvhgo" path="res://moves/charge.tres" id="2_7rdbg"]
+[ext_resource type="Resource" uid="uid://b6wtp4kx5yalb" path="res://moves/chargebeam.tres" id="3_777fx"]
+[ext_resource type="Resource" uid="uid://dlfj1v3be8n6f" path="res://moves/knockoff.tres" id="4_i7kmy"]
+[ext_resource type="Resource" uid="uid://chrxnqth3aw7y" path="res://moves/magnetrise.tres" id="5_6p5te"]
+[ext_resource type="Resource" uid="uid://wkkbaum85dah" path="res://moves/spark.tres" id="6_rxnf4"]
+[ext_resource type="Resource" uid="uid://bxvr0l21tsqsc" path="res://moves/tackle.tres" id="7_jw1c7"]
+[ext_resource type="Resource" uid="uid://bgwo38yygtkpx" path="res://moves/thunderwave.tres" id="8_jcx1l"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="9_py83k"]
+
+[resource]
+script = ExtResource("9_py83k")
+species_name = "Tynamo"
+species_id = 602
+types = Array[String](["electric"])
+base_stats = {
+"atk": 55.0,
+"def": 40.0,
+"hp": 35.0,
+"spa": 45.0,
+"spd": 40.0,
+"spe": 60.0
+}
+moves = Array[ExtResource("1_voray")]([ExtResource("2_7rdbg"), ExtResource("3_777fx"), ExtResource("4_i7kmy"), ExtResource("5_6p5te"), ExtResource("6_rxnf4"), ExtResource("7_jw1c7"), ExtResource("8_jcx1l")])
+abilities = {
+"0": "Levitate"
+}
+height = 0.2
+weight = 0.3
+color = "White"
+evolutions = Array[String](["Eelektrik"])

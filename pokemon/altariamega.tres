@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://cg8850r3gcbx0"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_sbn7m"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_4ey8j"]
+
+[resource]
+script = ExtResource("2_4ey8j")
+species_name = "Altaria-Mega"
+species_id = 334
+types = Array[String](["dragon", "fairy"])
+base_stats = {
+"atk": 110.0,
+"def": 110.0,
+"hp": 75.0,
+"spa": 110.0,
+"spd": 105.0,
+"spe": 80.0
+}
+abilities = {
+"0": "Pixilate"
+}
+height = 1.5
+weight = 20.6
+color = "Blue"

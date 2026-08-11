@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://4f057avqxuh8"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_vv44u"]
+
+[resource]
+script = ExtResource("1_vv44u")
+move_id = "gmaxfoamburst"
+move_name = "G-Max Foam Burst"
+num = 1000
+type = "water"
+power = 10
+accuracy = -1
+pp = 5
+category = "physical"
+target = "adjacentFoe"

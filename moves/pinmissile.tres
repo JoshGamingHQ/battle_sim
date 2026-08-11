@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://6r0wvahsrkpk"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_0l8kb"]
+
+[resource]
+script = ExtResource("1_0l8kb")
+move_id = "pinmissile"
+move_name = "Pin Missile"
+num = 42
+type = "bug"
+power = 25
+accuracy = 95
+pp = 20
+category = "physical"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dm7yw3ylty876"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_g3e1f"]
+
+[resource]
+script = ExtResource("1_g3e1f")
+move_id = "firstimpression"
+move_name = "First Impression"
+num = 660
+type = "bug"
+power = 90
+accuracy = 100
+pp = 10
+category = "physical"
+priority = 2
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dwmm1ekvsdeok"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_kn204"]
+
+[resource]
+script = ExtResource("1_kn204")
+move_id = "brutalswing"
+move_name = "Brutal Swing"
+num = 693
+type = "dark"
+power = 60
+accuracy = 100
+pp = 20
+category = "physical"
+target = "allAdjacent"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

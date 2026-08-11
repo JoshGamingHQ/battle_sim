@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://drdquls5w6tlp"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_sgn2n"]
+
+[resource]
+script = ExtResource("1_sgn2n")
+move_id = "dragonascent"
+move_name = "Dragon Ascent"
+num = 620
+type = "flying"
+power = 120
+accuracy = 100
+pp = 5
+category = "physical"
+target = "any"
+flags = {
+"contact": 1.0,
+"distance": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

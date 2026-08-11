@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://sy1eifcvgbvj"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_gg1g3"]
+
+[resource]
+script = ExtResource("1_gg1g3")
+move_id = "lightofruin"
+move_name = "Light of Ruin"
+num = 617
+type = "fairy"
+power = 140
+accuracy = 90
+pp = 5
+category = "special"
+target = "normal"
+flags = {
+"mirror": 1.0,
+"protect": 1.0
+}

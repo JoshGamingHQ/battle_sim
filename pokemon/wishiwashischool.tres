@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://ckjvlgphgyy68"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_4iykh"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_iswri"]
+
+[resource]
+script = ExtResource("2_iswri")
+species_name = "Wishiwashi-School"
+species_id = 746
+types = Array[String](["water"])
+base_stats = {
+"atk": 140.0,
+"def": 130.0,
+"hp": 45.0,
+"spa": 140.0,
+"spd": 135.0,
+"spe": 30.0
+}
+abilities = {
+"0": "Schooling"
+}
+height = 8.2
+weight = 78.6
+color = "Blue"

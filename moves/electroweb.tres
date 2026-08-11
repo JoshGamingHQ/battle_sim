@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://c3spkon7qka3x"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_gs1ro"]
+
+[resource]
+script = ExtResource("1_gs1ro")
+move_id = "electroweb"
+move_name = "Electroweb"
+num = 527
+type = "electric"
+power = 55
+accuracy = 95
+pp = 15
+category = "special"
+target = "allAdjacentFoes"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"boosts": {
+"spe": -1.0
+},
+"chance": 100.0
+}

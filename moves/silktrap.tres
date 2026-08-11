@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://42igkdtgadn5"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_dt6pg"]
+
+[resource]
+script = ExtResource("1_dt6pg")
+move_id = "silktrap"
+move_name = "Silk Trap"
+num = 852
+type = "bug"
+accuracy = -1
+pp = 10
+category = "status"
+priority = 4
+target = "self"

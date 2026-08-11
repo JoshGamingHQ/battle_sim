@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://b3bow1hbw6n6q"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_y7sf5"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_damtf"]
+
+[resource]
+script = ExtResource("2_damtf")
+species_name = "Centiskorch-Gmax"
+species_id = 851
+types = Array[String](["fire", "bug"])
+base_stats = {
+"atk": 115.0,
+"def": 65.0,
+"hp": 100.0,
+"spa": 90.0,
+"spd": 90.0,
+"spe": 65.0
+}
+abilities = {
+"0": "Flash Fire",
+"1": "White Smoke",
+"H": "Flame Body"
+}
+height = 75.0
+color = "Red"

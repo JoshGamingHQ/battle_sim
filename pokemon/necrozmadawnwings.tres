@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://t7ebb72y40q6"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_lh2pa"]
+[ext_resource type="Resource" uid="uid://b37iyi4epqbo2" path="res://moves/moongeistbeam.tres" id="2_w52yk"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="3_fc8gj"]
+
+[resource]
+script = ExtResource("3_fc8gj")
+species_name = "Necrozma-Dawn-Wings"
+species_id = 800
+types = Array[String](["psychic", "ghost"])
+base_stats = {
+"atk": 113.0,
+"def": 109.0,
+"hp": 97.0,
+"spa": 157.0,
+"spd": 127.0,
+"spe": 77.0
+}
+moves = Array[ExtResource("1_lh2pa")]([ExtResource("2_w52yk")])
+abilities = {
+"0": "Prism Armor"
+}
+height = 4.2
+weight = 350.0
+color = "Blue"

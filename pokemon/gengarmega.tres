@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://dikt0by5234n5"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_jl3bb"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_0kkwb"]
+
+[resource]
+script = ExtResource("2_0kkwb")
+species_name = "Gengar-Mega"
+species_id = 94
+types = Array[String](["ghost", "poison"])
+base_stats = {
+"atk": 65.0,
+"def": 80.0,
+"hp": 60.0,
+"spa": 170.0,
+"spd": 95.0,
+"spe": 130.0
+}
+abilities = {
+"0": "Shadow Tag"
+}
+height = 1.4
+weight = 40.5
+color = "Purple"

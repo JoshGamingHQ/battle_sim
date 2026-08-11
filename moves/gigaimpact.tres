@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://b44q1874nkg16"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_nbjem"]
+
+[resource]
+script = ExtResource("1_nbjem")
+move_id = "gigaimpact"
+move_name = "Giga Impact"
+num = 416
+type = "normal"
+power = 150
+accuracy = 90
+pp = 5
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"recharge": 1.0
+}

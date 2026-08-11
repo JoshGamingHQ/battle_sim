@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cynl5bdq6ry0s"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_bt0ak"]
+
+[resource]
+script = ExtResource("1_bt0ak")
+move_id = "stealthrock"
+move_name = "Stealth Rock"
+num = 446
+type = "rock"
+accuracy = -1
+pp = 20
+category = "status"
+target = "foeSide"
+flags = {
+"metronome": 1.0,
+"mustpressure": 1.0,
+"reflectable": 1.0
+}

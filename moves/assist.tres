@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://8pc0idcxxb4y"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_wgd5t"]
+
+[resource]
+script = ExtResource("1_wgd5t")
+move_id = "assist"
+move_name = "Assist"
+num = 274
+type = "normal"
+accuracy = -1
+pp = 20
+category = "status"
+target = "self"
+flags = {
+"failcopycat": 1.0,
+"failencore": 1.0,
+"failinstruct": 1.0,
+"failmimic": 1.0,
+"noassist": 1.0,
+"nosleeptalk": 1.0
+}

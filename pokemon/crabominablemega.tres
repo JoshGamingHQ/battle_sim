@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://butqj2htxwqbp"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_pyqx5"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_tpr2v"]
+
+[resource]
+script = ExtResource("2_tpr2v")
+species_name = "Crabominable-Mega"
+species_id = 740
+types = Array[String](["fighting", "ice"])
+base_stats = {
+"atk": 157.0,
+"def": 122.0,
+"hp": 97.0,
+"spa": 62.0,
+"spd": 107.0,
+"spe": 33.0
+}
+abilities = {
+"0": "Iron Fist"
+}
+height = 2.6
+weight = 252.8
+color = "White"

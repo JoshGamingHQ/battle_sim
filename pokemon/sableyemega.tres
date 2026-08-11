@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://bw0i468k7weia"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_4d758"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_u0i3n"]
+
+[resource]
+script = ExtResource("2_u0i3n")
+species_name = "Sableye-Mega"
+species_id = 302
+types = Array[String](["dark", "ghost"])
+base_stats = {
+"atk": 85.0,
+"def": 125.0,
+"hp": 50.0,
+"spa": 85.0,
+"spd": 115.0,
+"spe": 20.0
+}
+abilities = {
+"0": "Magic Bounce"
+}
+height = 0.5
+weight = 161.0
+color = "Purple"

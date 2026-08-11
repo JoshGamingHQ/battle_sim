@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://ddu1v7v03ta82"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_qrhxt"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_0kup8"]
+
+[resource]
+script = ExtResource("2_0kup8")
+species_name = "Urshifu-Gmax"
+species_id = 892
+types = Array[String](["fighting", "dark"])
+base_stats = {
+"atk": 130.0,
+"def": 100.0,
+"hp": 100.0,
+"spa": 63.0,
+"spd": 60.0,
+"spe": 97.0
+}
+abilities = {
+"0": "Unseen Fist"
+}
+height = 29.0
+color = "Gray"

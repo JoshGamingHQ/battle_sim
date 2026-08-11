@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://dccowe1eafvnr"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_k34gu"]
+
+[resource]
+script = ExtResource("1_k34gu")
+move_id = "rapidspin"
+move_name = "Rapid Spin"
+num = 229
+type = "normal"
+power = 50
+accuracy = 100
+pp = 40
+category = "physical"
+target = "normal"
+flags = {
+"contact": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}
+secondary = {
+"chance": 100.0,
+"self": {
+"boosts": {
+"spe": 1.0
+}
+}
+}

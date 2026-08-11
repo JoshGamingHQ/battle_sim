@@ -1,0 +1,107 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://bch6htdpu4vpq"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_0feyy"]
+[ext_resource type="Resource" uid="uid://bpvoboomjyplq" path="res://moves/acrobatics.tres" id="2_41xpm"]
+[ext_resource type="Resource" uid="uid://dk2fhncy1vnde" path="res://moves/agility.tres" id="3_su2x8"]
+[ext_resource type="Resource" uid="uid://bavix2tvt2yow" path="res://moves/assurance.tres" id="4_msvnd"]
+[ext_resource type="Resource" uid="uid://wcerckpeu7xp" path="res://moves/aurasphere.tres" id="5_thk3m"]
+[ext_resource type="Resource" uid="uid://c3xyhwlwsfy5k" path="res://moves/blazekick.tres" id="6_jxban"]
+[ext_resource type="Resource" uid="uid://ds5ob7uy5wfh5" path="res://moves/bounce.tres" id="7_opj4m"]
+[ext_resource type="Resource" uid="uid://bwucip1xf6qet" path="res://moves/brickbreak.tres" id="8_2qmrm"]
+[ext_resource type="Resource" uid="uid://hmejufa28ae5" path="res://moves/bulkup.tres" id="9_jagbp"]
+[ext_resource type="Resource" uid="uid://dl1rne8wquyv2" path="res://moves/calmmind.tres" id="10_xalxr"]
+[ext_resource type="Resource" uid="uid://csmlyspxa8mik" path="res://moves/closecombat.tres" id="11_js4jq"]
+[ext_resource type="Resource" uid="uid://cndrthgurg3sy" path="res://moves/coaching.tres" id="12_1t5di"]
+[ext_resource type="Resource" uid="uid://b5qelylejgw0v" path="res://moves/confide.tres" id="13_ph7ve"]
+[ext_resource type="Resource" uid="uid://dhygv2n46apo" path="res://moves/copycat.tres" id="14_ctrfd"]
+[ext_resource type="Resource" uid="uid://dy1gpoihpenxe" path="res://moves/counter.tres" id="15_qskn6"]
+[ext_resource type="Resource" uid="uid://mr7n6gvwu6np" path="res://moves/doubleteam.tres" id="16_4xu12"]
+[ext_resource type="Resource" uid="uid://bxvegltlubhhe" path="res://moves/drainpunch.tres" id="17_3ndhv"]
+[ext_resource type="Resource" uid="uid://drj2t6qt7m5es" path="res://moves/echoedvoice.tres" id="18_wseue"]
+[ext_resource type="Resource" uid="uid://denu3qeqkhurh" path="res://moves/endeavor.tres" id="19_vqv4c"]
+[ext_resource type="Resource" uid="uid://dixsoo2ylaus6" path="res://moves/endure.tres" id="20_2xhi3"]
+[ext_resource type="Resource" uid="uid://beg0sk32xdo2y" path="res://moves/facade.tres" id="21_ds0uj"]
+[ext_resource type="Resource" uid="uid://pv50173fs5uh" path="res://moves/falseswipe.tres" id="22_4e4hv"]
+[ext_resource type="Resource" uid="uid://b2ybwylaw1aj3" path="res://moves/feint.tres" id="23_ndpar"]
+[ext_resource type="Resource" uid="uid://u0l1517dfgge" path="res://moves/firepunch.tres" id="24_civck"]
+[ext_resource type="Resource" uid="uid://bufvlqqs72h1k" path="res://moves/fling.tres" id="25_h1i73"]
+[ext_resource type="Resource" uid="uid://kg2karqtplj2" path="res://moves/focusblast.tres" id="26_guq1k"]
+[ext_resource type="Resource" uid="uid://bvwm81ddkqdkm" path="res://moves/focuspunch.tres" id="27_61c4p"]
+[ext_resource type="Resource" uid="uid://2wvs0vug7nlo" path="res://moves/forcepalm.tres" id="28_fj26b"]
+[ext_resource type="Resource" uid="uid://b1meb6b4815ti" path="res://moves/foulplay.tres" id="29_jkswm"]
+[ext_resource type="Resource" uid="uid://b44q1874nkg16" path="res://moves/gigaimpact.tres" id="30_sx353"]
+[ext_resource type="Resource" uid="uid://edc6ld7483oo" path="res://moves/grassknot.tres" id="31_i7xrr"]
+[ext_resource type="Resource" uid="uid://brdb0y64irl28" path="res://moves/hex.tres" id="32_sgejr"]
+[ext_resource type="Resource" uid="uid://dkypr30sepwgb" path="res://moves/hiddenpower.tres" id="33_0yq6r"]
+[ext_resource type="Resource" uid="uid://1v5hxd2ikt4s" path="res://moves/hyperbeam.tres" id="34_4ydkd"]
+[ext_resource type="Resource" uid="uid://dftwgf0l62yg8" path="res://moves/icepunch.tres" id="35_ejbic"]
+[ext_resource type="Resource" uid="uid://bjqm32x0o3kpe" path="res://moves/ironhead.tres" id="36_7g5vo"]
+[ext_resource type="Resource" uid="uid://d14bn4b6nxtdl" path="res://moves/jumpkick.tres" id="37_ar1jq"]
+[ext_resource type="Resource" uid="uid://dlfj1v3be8n6f" path="res://moves/knockoff.tres" id="38_xxh8k"]
+[ext_resource type="Resource" uid="uid://dnoogk10lvys7" path="res://moves/laserfocus.tres" id="39_xlgtx"]
+[ext_resource type="Resource" uid="uid://jkqoyy6wxwov" path="res://moves/lastresort.tres" id="40_2vgeq"]
+[ext_resource type="Resource" uid="uid://b0dmijv2vals1" path="res://moves/lowkick.tres" id="41_cgsw3"]
+[ext_resource type="Resource" uid="uid://caj21yncnoov5" path="res://moves/lowsweep.tres" id="42_lo6h1"]
+[ext_resource type="Resource" uid="uid://d0ktn6mfopb7n" path="res://moves/megakick.tres" id="43_f6bty"]
+[ext_resource type="Resource" uid="uid://b04kmng16dmdh" path="res://moves/megapunch.tres" id="44_lavgd"]
+[ext_resource type="Resource" uid="uid://bayxmvwv2fd4" path="res://moves/outrage.tres" id="45_4pbyv"]
+[ext_resource type="Resource" uid="uid://cew6q6q50rjv5" path="res://moves/payback.tres" id="46_jyfj3"]
+[ext_resource type="Resource" uid="uid://dihd2sgvk0o37" path="res://moves/phantomforce.tres" id="47_sgeco"]
+[ext_resource type="Resource" uid="uid://cb5u3em7bcb2t" path="res://moves/poisonjab.tres" id="48_hrup8"]
+[ext_resource type="Resource" uid="uid://dyebavfh8fyn4" path="res://moves/poltergeist.tres" id="49_ei14t"]
+[ext_resource type="Resource" uid="uid://cqgprgodgioss" path="res://moves/protect.tres" id="50_2x12j"]
+[ext_resource type="Resource" uid="uid://1sny3h1x4ow7" path="res://moves/psychup.tres" id="51_s65cw"]
+[ext_resource type="Resource" uid="uid://dht1mwuew1e6x" path="res://moves/pursuit.tres" id="52_k3eb8"]
+[ext_resource type="Resource" uid="uid://bb5miq678bml6" path="res://moves/rest.tres" id="53_hjnot"]
+[ext_resource type="Resource" uid="uid://klo6uuvvded6" path="res://moves/revenge.tres" id="54_rltj2"]
+[ext_resource type="Resource" uid="uid://cccel31mge1bj" path="res://moves/reversal.tres" id="55_4fkt7"]
+[ext_resource type="Resource" uid="uid://bicgb4delvvga" path="res://moves/rockslide.tres" id="56_soael"]
+[ext_resource type="Resource" uid="uid://b8sqvm8ycrhht" path="res://moves/rocktomb.tres" id="57_o72rp"]
+[ext_resource type="Resource" uid="uid://dnf0t2xdm7po4" path="res://moves/roleplay.tres" id="58_1tvan"]
+[ext_resource type="Resource" uid="uid://d1kmdbro6g41w" path="res://moves/rollingkick.tres" id="59_bknw5"]
+[ext_resource type="Resource" uid="uid://clo5n36yutt3y" path="res://moves/round.tres" id="60_j8hfk"]
+[ext_resource type="Resource" uid="uid://jignpej7jqa5" path="res://moves/shadowball.tres" id="61_2cuxn"]
+[ext_resource type="Resource" uid="uid://dkjfw8b36ewgq" path="res://moves/shadowclaw.tres" id="62_ewej3"]
+[ext_resource type="Resource" uid="uid://gcxqpg4bjr7h" path="res://moves/shadowpunch.tres" id="63_vuo0o"]
+[ext_resource type="Resource" uid="uid://dw8kixk5qlvdb" path="res://moves/shadowsneak.tres" id="64_adctd"]
+[ext_resource type="Resource" uid="uid://d3om5qq6wie7m" path="res://moves/skittersmack.tres" id="65_uf78d"]
+[ext_resource type="Resource" uid="uid://dm0v1ccg3yuy3" path="res://moves/sleeptalk.tres" id="66_vydru"]
+[ext_resource type="Resource" uid="uid://ntxuyn6j56cp" path="res://moves/smackdown.tres" id="67_arp1r"]
+[ext_resource type="Resource" uid="uid://b8dydvte8if7y" path="res://moves/snatch.tres" id="68_3m4re"]
+[ext_resource type="Resource" uid="uid://dlqeb5mptbr5w" path="res://moves/snore.tres" id="69_yensm"]
+[ext_resource type="Resource" uid="uid://d2fpahsll3f0w" path="res://moves/spectralthief.tres" id="70_tgtls"]
+[ext_resource type="Resource" uid="uid://bogojutb2lnbn" path="res://moves/stoneedge.tres" id="71_dmrmb"]
+[ext_resource type="Resource" uid="uid://bgooxmy526mdf" path="res://moves/substitute.tres" id="72_2dw5k"]
+[ext_resource type="Resource" uid="uid://bieexo7wtmtk2" path="res://moves/suckerpunch.tres" id="73_qex5m"]
+[ext_resource type="Resource" uid="uid://fmn18dnjax72" path="res://moves/superpower.tres" id="74_ai880"]
+[ext_resource type="Resource" uid="uid://3tljd25wd7fn" path="res://moves/swagger.tres" id="75_hhlt7"]
+[ext_resource type="Resource" uid="uid://blxkqtlq076np" path="res://moves/swift.tres" id="76_rr22c"]
+[ext_resource type="Resource" uid="uid://rk7tcbbxbb3o" path="res://moves/thief.tres" id="77_sxoyi"]
+[ext_resource type="Resource" uid="uid://sr4imcyqju3g" path="res://moves/throatchop.tres" id="78_vvjgj"]
+[ext_resource type="Resource" uid="uid://dlgbmwmsn8euc" path="res://moves/thunderpunch.tres" id="79_2jm22"]
+[ext_resource type="Resource" uid="uid://bvtivkgmdb6yq" path="res://moves/toxic.tres" id="80_knm76"]
+[ext_resource type="Resource" uid="uid://ctojhb3b344lb" path="res://moves/willowisp.tres" id="81_id8i7"]
+[ext_resource type="Resource" uid="uid://m0aeuc7py1mo" path="res://moves/workup.tres" id="82_udqao"]
+[ext_resource type="Resource" uid="uid://cu8yujxqxsbs5" path="res://moves/zenheadbutt.tres" id="83_vwm8d"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="84_prx8o"]
+
+[resource]
+script = ExtResource("84_prx8o")
+species_name = "Marshadow"
+species_id = 802
+types = Array[String](["fighting", "ghost"])
+base_stats = {
+"atk": 125.0,
+"def": 80.0,
+"hp": 90.0,
+"spa": 90.0,
+"spd": 90.0,
+"spe": 125.0
+}
+moves = Array[ExtResource("1_0feyy")]([ExtResource("2_41xpm"), ExtResource("3_su2x8"), ExtResource("4_msvnd"), ExtResource("5_thk3m"), ExtResource("6_jxban"), ExtResource("7_opj4m"), ExtResource("8_2qmrm"), ExtResource("9_jagbp"), ExtResource("10_xalxr"), ExtResource("11_js4jq"), ExtResource("12_1t5di"), ExtResource("13_ph7ve"), ExtResource("14_ctrfd"), ExtResource("15_qskn6"), ExtResource("16_4xu12"), ExtResource("17_3ndhv"), ExtResource("18_wseue"), ExtResource("19_vqv4c"), ExtResource("20_2xhi3"), ExtResource("21_ds0uj"), ExtResource("22_4e4hv"), ExtResource("23_ndpar"), ExtResource("24_civck"), ExtResource("25_h1i73"), ExtResource("26_guq1k"), ExtResource("27_61c4p"), ExtResource("28_fj26b"), ExtResource("29_jkswm"), ExtResource("30_sx353"), ExtResource("31_i7xrr"), ExtResource("32_sgejr"), ExtResource("33_0yq6r"), ExtResource("34_4ydkd"), ExtResource("35_ejbic"), ExtResource("36_7g5vo"), ExtResource("37_ar1jq"), ExtResource("38_xxh8k"), ExtResource("39_xlgtx"), ExtResource("40_2vgeq"), ExtResource("41_cgsw3"), ExtResource("42_lo6h1"), ExtResource("43_f6bty"), ExtResource("44_lavgd"), ExtResource("45_4pbyv"), ExtResource("46_jyfj3"), ExtResource("47_sgeco"), ExtResource("48_hrup8"), ExtResource("49_ei14t"), ExtResource("50_2x12j"), ExtResource("51_s65cw"), ExtResource("52_k3eb8"), ExtResource("53_hjnot"), ExtResource("54_rltj2"), ExtResource("55_4fkt7"), ExtResource("56_soael"), ExtResource("57_o72rp"), ExtResource("58_1tvan"), ExtResource("59_bknw5"), ExtResource("60_j8hfk"), ExtResource("61_2cuxn"), ExtResource("62_ewej3"), ExtResource("63_vuo0o"), ExtResource("64_adctd"), ExtResource("65_uf78d"), ExtResource("66_vydru"), ExtResource("67_arp1r"), ExtResource("68_3m4re"), ExtResource("69_yensm"), ExtResource("70_tgtls"), ExtResource("71_dmrmb"), ExtResource("72_2dw5k"), ExtResource("73_qex5m"), ExtResource("74_ai880"), ExtResource("75_hhlt7"), ExtResource("76_rr22c"), ExtResource("77_sxoyi"), ExtResource("78_vvjgj"), ExtResource("79_2jm22"), ExtResource("80_knm76"), ExtResource("81_id8i7"), ExtResource("82_udqao"), ExtResource("83_vwm8d")])
+abilities = {
+"0": "Technician"
+}
+height = 0.7
+weight = 22.2
+color = "Gray"

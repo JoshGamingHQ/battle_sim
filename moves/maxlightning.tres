@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cjtr08prynos0"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_snlrf"]
+
+[resource]
+script = ExtResource("1_snlrf")
+move_id = "maxlightning"
+move_name = "Max Lightning"
+num = 759
+type = "electric"
+power = 10
+accuracy = -1
+pp = 10
+category = "physical"
+target = "adjacentFoe"

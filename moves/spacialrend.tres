@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://duab2vxg47xdc"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_373sx"]
+
+[resource]
+script = ExtResource("1_373sx")
+move_id = "spacialrend"
+move_name = "Spacial Rend"
+num = 460
+type = "dragon"
+power = 100
+accuracy = 95
+pp = 5
+category = "special"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

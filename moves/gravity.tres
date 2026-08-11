@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bh73gt7ngagn1"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_frb72"]
+
+[resource]
+script = ExtResource("1_frb72")
+move_id = "gravity"
+move_name = "Gravity"
+num = 356
+type = "psychic"
+accuracy = -1
+pp = 5
+category = "status"
+target = "all"
+flags = {
+"metronome": 1.0,
+"nonsky": 1.0
+}

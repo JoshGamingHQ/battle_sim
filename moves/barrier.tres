@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://bk4n3iydhcl6w"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_i7ego"]
+
+[resource]
+script = ExtResource("1_i7ego")
+move_id = "barrier"
+move_name = "Barrier"
+num = 112
+type = "psychic"
+accuracy = -1
+pp = 20
+category = "status"
+target = "self"
+flags = {
+"metronome": 1.0,
+"snatch": 1.0
+}
+boosts = {
+"def": 2.0
+}

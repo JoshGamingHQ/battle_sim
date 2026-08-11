@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://cfgxvjti7rnca"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ew86i"]
+
+[resource]
+script = ExtResource("1_ew86i")
+move_id = "babydolleyes"
+move_name = "Baby-Doll Eyes"
+num = 608
+type = "fairy"
+accuracy = 100
+pp = 30
+category = "status"
+priority = 1
+target = "normal"
+flags = {
+"allyanim": 1.0,
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0,
+"reflectable": 1.0
+}
+boosts = {
+"atk": -1.0
+}

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Move" format=3 uid="uid://83ytmtsac7j4"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_fd68g"]
+
+[resource]
+script = ExtResource("1_fd68g")
+move_id = "payday"
+move_name = "Pay Day"
+num = 6
+type = "normal"
+power = 40
+accuracy = 100
+pp = 20
+category = "physical"
+target = "normal"
+flags = {
+"metronome": 1.0,
+"mirror": 1.0,
+"protect": 1.0
+}

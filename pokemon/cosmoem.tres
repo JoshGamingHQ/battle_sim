@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://b8ru4pfyxfjmj"]
+
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_dnmv3"]
+[ext_resource type="Resource" uid="uid://decebkpijvpl5" path="res://moves/cosmicpower.tres" id="2_cp243"]
+[ext_resource type="Resource" uid="uid://8pct0r0oo1yw" path="res://moves/teleport.tres" id="3_eiut1"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="4_htvly"]
+
+[resource]
+script = ExtResource("4_htvly")
+species_name = "Cosmoem"
+species_id = 790
+types = Array[String](["psychic"])
+base_stats = {
+"atk": 29.0,
+"def": 131.0,
+"hp": 43.0,
+"spa": 29.0,
+"spd": 131.0,
+"spe": 37.0
+}
+moves = Array[ExtResource("1_dnmv3")]([ExtResource("2_cp243"), ExtResource("3_eiut1")])
+abilities = {
+"0": "Sturdy"
+}
+height = 0.1
+weight = 999.9
+color = "Blue"
+evolutions = Array[String](["Solgaleo", "Lunala"])
+prevo = "Cosmog"
