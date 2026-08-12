@@ -28,6 +28,7 @@ func calculate_stat(stat: String) -> int:
 	var base = base_stats[stat]
 	var iv = 31
 	var ev = 0
+	var nature_mult = 1 # Eventually I'll add nature alignment
 	
 	# Individual IVs
 	# var hp_iv = 0
@@ -46,6 +47,8 @@ func calculate_stat(stat: String) -> int:
 	# var spe_ev = 0
 	
 	if stat == "hp":
+		@warning_ignore("integer_division")
 		return int(floor((2 * base + iv + (floor(ev / 4))) * level) / 100) + level + 10
 	else:
-		return int(((2 * base + iv + ev / 4) * level) / 100) + 5 # Need to clean this up to match hp
+		@warning_ignore("integer_division")
+		return int(floor(((floor(((2 * base + iv + (floor(ev / 4))) / 100))) + 5) * nature_mult))

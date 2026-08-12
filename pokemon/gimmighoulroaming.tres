@@ -1,10 +1,27 @@
 [gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://dtxyo54p3mwy2"]
 
-[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_hxpdi"]
-[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_82u34"]
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_nm1wj"]
+[ext_resource type="Resource" uid="uid://sd3qd8pjne8b" path="res://moves/astonish.tres" id="2_cf2ot"]
+[ext_resource type="Resource" uid="uid://bnjwr7400c6b6" path="res://moves/confuseray.tres" id="3_agtw6"]
+[ext_resource type="Resource" uid="uid://dixsoo2ylaus6" path="res://moves/endure.tres" id="4_5i60q"]
+[ext_resource type="Resource" uid="uid://brdb0y64irl28" path="res://moves/hex.tres" id="5_f6haa"]
+[ext_resource type="Resource" uid="uid://115i6lc6147u" path="res://moves/lightscreen.tres" id="6_3axqo"]
+[ext_resource type="Resource" uid="uid://byngkcucfkob3" path="res://moves/nastyplot.tres" id="7_jkykd"]
+[ext_resource type="Resource" uid="uid://c0rpn3oqp1vao" path="res://moves/nightshade.tres" id="8_wwbe8"]
+[ext_resource type="Resource" uid="uid://c5uqi7x463a4c" path="res://moves/powergem.tres" id="9_j3mg6"]
+[ext_resource type="Resource" uid="uid://cqgprgodgioss" path="res://moves/protect.tres" id="10_ldp6g"]
+[ext_resource type="Resource" uid="uid://cmdt7vcm6323f" path="res://moves/reflect.tres" id="11_nvnfo"]
+[ext_resource type="Resource" uid="uid://bb5miq678bml6" path="res://moves/rest.tres" id="12_vyjcb"]
+[ext_resource type="Resource" uid="uid://jignpej7jqa5" path="res://moves/shadowball.tres" id="13_2avyg"]
+[ext_resource type="Resource" uid="uid://dm0v1ccg3yuy3" path="res://moves/sleeptalk.tres" id="14_ifdt6"]
+[ext_resource type="Resource" uid="uid://bgooxmy526mdf" path="res://moves/substitute.tres" id="15_erua4"]
+[ext_resource type="Resource" uid="uid://bxvr0l21tsqsc" path="res://moves/tackle.tres" id="16_eoao0"]
+[ext_resource type="Resource" uid="uid://cdstkuv0wdvei" path="res://moves/takedown.tres" id="17_j3nuh"]
+[ext_resource type="Resource" uid="uid://rk7tcbbxbb3o" path="res://moves/thief.tres" id="18_dyosx"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="19_bix8l"]
 
 [resource]
-script = ExtResource("2_82u34")
+script = ExtResource("19_bix8l")
 species_name = "Gimmighoul-Roaming"
 species_id = 999
 types = Array[String](["ghost"])
@@ -16,6 +33,7 @@ base_stats = {
 "spd": 45.0,
 "spe": 80.0
 }
+moves = Array[ExtResource("1_nm1wj")]([ExtResource("2_cf2ot"), ExtResource("3_agtw6"), ExtResource("4_5i60q"), ExtResource("5_f6haa"), ExtResource("6_3axqo"), ExtResource("7_jkykd"), ExtResource("8_wwbe8"), ExtResource("9_j3mg6"), ExtResource("10_ldp6g"), ExtResource("11_nvnfo"), ExtResource("12_vyjcb"), ExtResource("13_2avyg"), ExtResource("14_ifdt6"), ExtResource("15_erua4"), ExtResource("16_eoao0"), ExtResource("17_j3nuh"), ExtResource("18_dyosx")])
 abilities = {
 "0": "Run Away"
 }

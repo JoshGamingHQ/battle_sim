@@ -32,12 +32,14 @@ func _run():
 		pkmon.prevo = entry.get("prevo", "")
 		
 		var learnset_key = species_id
-		if not learnset_data.has(species_id) and entry.has("baseSpecies"):
-			learnset_key = entry["baseSpecies"].to_lower()
+		var has_own_learnset = learnset_data.has(species_id) and learnset_data[species_id].get("learnset", {}).size() > 0
 		
+		if not has_own_learnset and entry.has("baseSpecies"):
+			learnset_key = entry["baseSpecies"].to_lower()
+
 		var move_list: Array[Move] = []
-		if learnset_data.has(species_id):
-			var learnset = learnset_data[species_id].get("learnset", {})
+		if learnset_data.has(learnset_key):
+			var learnset = learnset_data[learnset_key].get("learnset", {})
 			for move_id in learnset.keys():
 				if move_id in EXCLUDED_MOVES:
 					continue

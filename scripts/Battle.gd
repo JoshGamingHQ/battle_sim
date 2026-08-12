@@ -3,26 +3,53 @@ class_name Battle
 
 signal damage_dealt(target: Pokemon, amount: int)
 signal pokemon_fainted(pokemon: Pokemon)
+signal fainted_need_to_switch(team: String)
 signal status_applied(pokemon: Pokemon, status: String)
+signal battle_over(winner: String)
 
 var team_a: Array[Pokemon]
 var team_b: Array[Pokemon]
 var active_a: Pokemon
 var active_b: Pokemon
+var _battle_ended: bool = false
 
 func execute_turn(action_a: Dictionary, action_b: Dictionary):
 	var order = _get_turn_order(action_a, action_b)
 	for action in order:
+		if _battle_ended:
+			break
+		if action.user.current_hp <= 0:
+			continue
 		_resolve_action(action)
+		
+func execute_switch(team_label: String, new_active: Pokemon):
+	if team_label == "a":
+		active_a = new_active
+	else:
+		active_b = new_active
 
 func _resolve_action(action: Dictionary):
 	if action.type == "move":
+		if action.target.current_hp <= 0:
+			return
 		var dmg = _calculate_damage(action.user, action.target, action.move)
 		action.target.current_hp -= dmg
 		damage_dealt.emit(action.target, dmg)
 		if action.target.current_hp <= 0:
 			pokemon_fainted.emit(action.target)
+			_handle_faint(action.target)
 			
+func _handle_faint(fainted: Pokemon):
+	var team = team_a if fainted in team_a else team_b
+	var team_label = "a" if team == team_a else "b"
+	
+	var has_remaining = team.any(func(p): return p.current_hp > 0)
+	if not has_remaining:
+		_battle_ended = true
+		battle_over.emit("b" if team_label == "a" else "a")
+	else:
+		fainted_need_to_switch.emit(team_label)
+	
 func _calculate_damage(attacker: Pokemon, defender: Pokemon, move: Move) -> int:
 	if move.power == 0:
 		return 0
@@ -64,3 +91,6 @@ func _get_turn_order(a: Dictionary, b: Dictionary) -> Array:
 	if speed_a == speed_b:
 		return [a, b] if randi() % 2 == 0 else [b, a]
 	return [a, b] if speed_a > speed_b else [b, a]
+
+func is_over() -> bool:
+	return _battle_ended

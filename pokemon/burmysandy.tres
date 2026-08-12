@@ -1,9 +1,17 @@
 [gd_resource type="Resource" script_class="Pokemon" format=3 uid="uid://cw2empdragd1q"]
 
-[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_ogeca"]
-[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="2_pc2yj"]
+[ext_resource type="Script" uid="uid://dn1cfuk08ts2t" path="res://scripts/Move.gd" id="1_yrgi8"]
+[ext_resource type="Resource" uid="uid://cq6lu5bcpf50i" path="res://moves/bugbite.tres" id="2_nqq22"]
+[ext_resource type="Resource" uid="uid://c3spkon7qka3x" path="res://moves/electroweb.tres" id="3_r8jc3"]
+[ext_resource type="Resource" uid="uid://dkypr30sepwgb" path="res://moves/hiddenpower.tres" id="4_kapea"]
+[ext_resource type="Resource" uid="uid://cqgprgodgioss" path="res://moves/protect.tres" id="5_omowl"]
+[ext_resource type="Resource" uid="uid://dlqeb5mptbr5w" path="res://moves/snore.tres" id="6_20cw2"]
+[ext_resource type="Resource" uid="uid://ce0ic1pk4kia6" path="res://moves/stringshot.tres" id="7_q5vam"]
+[ext_resource type="Resource" uid="uid://bxvr0l21tsqsc" path="res://moves/tackle.tres" id="8_l2o8o"]
+[ext_resource type="Script" uid="uid://sqyqjrw8k8f3" path="res://scripts/Pokemon.gd" id="9_845bj"]
 
 [resource]
-script = ExtResource("2_pc2yj")
+script = ExtResource("9_845bj")
 species_name = "Burmy-Sandy"
+moves = Array[ExtResource("1_yrgi8")]([ExtResource("2_nqq22"), ExtResource("3_r8jc3"), ExtResource("4_kapea"), ExtResource("5_omowl"), ExtResource("6_20cw2"), ExtResource("7_q5vam"), ExtResource("8_l2o8o")])
 color = "Brown"
