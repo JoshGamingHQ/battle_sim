@@ -11,12 +11,13 @@ config_version=5
 [application]
 
 config/name="Pokemon Test"
-run/main_scene="uid://dl0hp0dun4c0m"
+run/main_scene="uid://dkjpxuujrc7ap"
 config/features=PackedStringArray("4.7")
 config/icon="res://icon.svg"
 
 [autoload]
 
+WipText="*uid://c85sd4fqdtcrw"
 TypeChart="*uid://rjorvcvjohr7"
 
 [display]
@@ -26,3 +27,7 @@ window/size/viewport_height=720
 window/size/resizable=false
 window/size/borderless=true
 window/stretch/mode="canvas_items"
+
+[internationalization]
+
+locale/translations=PackedStringArray("res://assets/text/boot_w_intro.en.translation")

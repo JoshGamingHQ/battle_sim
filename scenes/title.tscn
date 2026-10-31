@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://c5qu5h8i3cmf4"]
+
+[ext_resource type="Texture2D" uid="uid://cvs20vbj45dp0" path="res://assets/art/title.png" id="1_4ignj"]
+[ext_resource type="Script" uid="uid://bfpe5x6ra3q50" path="res://scripts/gamepad_text_handler.gd" id="1_wosw1"]
+
+[node name="Control" type="Control" unique_id=578624325 node_paths=PackedStringArray("text_strings")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_wosw1")
+text_strings = [NodePath("press_start")]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1620234076]
+texture = ExtResource("1_4ignj")
+centered = false
+
+[node name="press_start" type="RichTextLabel" parent="." unique_id=475055302]
+custom_minimum_size = Vector2(1280, 0)
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+bbcode_enabled = true
+text = "press_start_pc"
