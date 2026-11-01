@@ -21,12 +21,27 @@ modulate = Color(1, 1, 1, 0)
 layout_mode = 0
 offset_right = 1277.0
 offset_bottom = 719.0
+bbcode_enabled = true
 text = "1995-2026		     Pokemon
 1995-2026		Game Freak
 1995-2026          Nintendo
 1995-2026         Creatures
 
-This is NOT an official Pokemon title! Please support the official releases."
+"
+fit_content = true
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("1_6ypks")
+
+[node name="CopyrightText2" type="RichTextLabel" parent="." unique_id=960419216]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 0
+offset_top = 120.0
+offset_right = 1277.0
+offset_bottom = 839.0
+bbcode_enabled = true
+text = "no_pirate_psa"
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1

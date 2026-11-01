@@ -11,6 +11,9 @@ func _fade_out():
 	var tween = self.create_tween()
 	await tween.tween_property(self, "modulate:a", 0, 0.2).finished
 	
+func _change_scene() -> void:
+	if name == "CopyrightText":
+		get_tree().change_scene_to_file("res://scenes/title.tscn")
 
 func _ready():
 	await wait(1)
@@ -18,4 +21,4 @@ func _ready():
 	await wait(2.5)
 	await _fade_out()
 	await wait(0.5)
-	get_tree().change_scene_to_file("res://scenes/title.tscn")
+	_change_scene()
