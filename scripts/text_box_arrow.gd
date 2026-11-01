@@ -1,7 +1,7 @@
 extends Sprite2D
 
 @export var property: String = ""
-@export var value1: Variant = 0
+@export var value1: Variant = 0 # Yeah these should probably be ints but whatever, it works
 @export var value2: Variant = 0
 @export var time: float = 0.0
 
